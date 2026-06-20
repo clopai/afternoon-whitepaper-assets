@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="640" viewBox="0 0 1680 640" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><linearGradient id="gDIAG_검진율격차_v1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1EF074"/><stop offset="1" stop-color="#1ECAFA"/></linearGradient><filter id="sDIAG_검진율격차_v1" x="-10%" y="-10%" width="120%" height="135%"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0A2540" flood-opacity="0.10"/></filter></defs>
+<rect width="1680" height="640" fill="#FFFFFF"/>
+<line x1="300" y1="540" x2="1420" y2="540" stroke="#E6E9EF" stroke-width="2"/>
+<rect x="360" y="351.2" width="240" height="188.8" rx="10" fill="#9AA3B2" stroke="#9AA3B2" stroke-width="0"/>
+<text x="480.0" y="333.2" font-size="30" font-weight="800" fill="#9AA3B2" text-anchor="middle">29.5%</text>
+<text x="480.0" y="578" font-size="22" font-weight="700" fill="#1A2230" text-anchor="middle">전체</text>
+<rect x="760" y="390.88" width="240" height="149.12" rx="10" fill="#EF4444" stroke="#EF4444" stroke-width="0"/>
+<text x="880.0" y="372.88" font-size="30" font-weight="800" fill="#EF4444" text-anchor="middle">23.3%</text>
+<text x="880.0" y="578" font-size="22" font-weight="700" fill="#1A2230" text-anchor="middle">1차 의원</text>
+<rect x="1160" y="138.07999999999998" width="240" height="401.92" rx="10" fill="#00CE90" stroke="#00CE90" stroke-width="0"/>
+<text x="1280.0" y="120.07999999999998" font-size="30" font-weight="800" fill="#00CE90" text-anchor="middle">62.8%</text>
+<text x="1280.0" y="578" font-size="22" font-weight="700" fill="#1A2230" text-anchor="middle">3차 병원</text>
+<text x="840" y="150" font-size="24" font-weight="800" fill="#1A2230" text-anchor="middle">당뇨병 환자 눈검진율</text>
+<text x="840" y="628" font-size="20" font-weight="700" fill="#EF4444" text-anchor="middle">환자가 가장 많은 1차에서 검진율 최저 (≈ 3차의 1/3)</text>
+</svg>

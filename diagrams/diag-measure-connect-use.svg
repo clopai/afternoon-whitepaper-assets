@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="640" viewBox="0 0 1680 640" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><linearGradient id="gDIAG_측정연결활용_v1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1EF074"/><stop offset="1" stop-color="#1ECAFA"/></linearGradient><filter id="sDIAG_측정연결활용_v1" x="-10%" y="-10%" width="120%" height="135%"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0A2540" flood-opacity="0.10"/></filter></defs>
+<rect width="1680" height="640" fill="#FFFFFF"/>
+<rect x="60" y="200" width="440" height="260" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sDIAG_측정연결활용_v1)"/>
+<text x="280.0" y="290" font-size="34" font-weight="800" fill="#1A2230" text-anchor="middle">측정 · 검사</text>
+<text x="280.0" y="350" font-size="20" font-weight="500" fill="#4A5568" text-anchor="middle">검사·영상은</text><text x="280.0" y="384" font-size="20" font-weight="500" fill="#4A5568" text-anchor="middle">이미 디지털화</text>
+<rect x="620" y="200" width="440" height="260" rx="16" fill="url(#gDIAG_측정연결활용_v1)" stroke="#00CE90" stroke-width="0" filter="url(#sDIAG_측정연결활용_v1)"/>
+<text x="840.0" y="290" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle">연결</text>
+<text x="840.0" y="350" font-size="20" font-weight="500" fill="#FFFFFF" text-anchor="middle">결과 회신·공유</text><text x="840.0" y="384" font-size="20" font-weight="500" fill="#FFFFFF" text-anchor="middle">← 지금 풀 문제</text>
+<rect x="1180" y="200" width="440" height="260" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sDIAG_측정연결활용_v1)"/>
+<text x="1400.0" y="290" font-size="34" font-weight="800" fill="#1A2230" text-anchor="middle">활용</text>
+<text x="1400.0" y="350" font-size="20" font-weight="500" fill="#4A5568" text-anchor="middle">종단 관리·연구</text><text x="1400.0" y="384" font-size="20" font-weight="500" fill="#4A5568" text-anchor="middle">·약물 안전</text>
+<path d="M518,330.0 L592,330.0" stroke="#00CE90" stroke-width="9" stroke-linecap="round"/><path d="M586,320.0 L602,330.0 L586,340.0" fill="none" stroke="#00CE90" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1078,330.0 L1152,330.0" stroke="#00CE90" stroke-width="9" stroke-linecap="round"/><path d="M1146,320.0 L1162,330.0 L1146,340.0" fill="none" stroke="#00CE90" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="840.0" y="560" font-size="22" font-weight="800" fill="#00CE90" text-anchor="middle">디지털 헬스케어의 다음 단계 = 연결</text>
+</svg>

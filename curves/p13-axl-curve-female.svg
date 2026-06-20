@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" class="axl-svg" viewBox="0 0 560 380" width="100%" height="auto" preserveAspectRatio="xMidYMid meet" role="img" aria-label="AfterNOON pediatric axial length percentile reference — F" data-chart="F" data-x-min="72" data-x-max="180" data-y-min="21" data-y-max="26" data-plot-left="72" data-plot-right="532" data-plot-top="56" data-plot-bottom="312">
+
+  <style><![CDATA[
+    .axl-svg text { font-family:'IBM Plex Mono',ui-monospace,monospace; fill:#5A6A74; }
+    .axl-svg .axis-label { font-family:Pretendard,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-weight:500; fill:#2A3942; font-size:11px; letter-spacing:-0.01em; }
+    .axl-svg .axis-en { font-family:'IBM Plex Mono',ui-monospace,monospace; fill:#8A98A0; font-size:9.5px; }
+    .axl-svg .tick { font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px; fill:#5A6A74; }
+    .axl-svg .pct-band { fill:#5DE3B2; fill-opacity:0.045; }
+    .axl-svg .p-curve { fill:none; stroke-linecap:round; stroke-linejoin:round; }
+    .axl-svg .p-curve.p3, .axl-svg .p-curve.p97 { stroke:#C9D2D8; stroke-width:1.2; stroke-dasharray:1 3; }
+    .axl-svg .p-curve.p10, .axl-svg .p-curve.p75 { stroke:#98A4AD; stroke-width:1.4; }
+    .axl-svg .p-curve.p50 { stroke:#1FD181; stroke-width:2.4; }
+    .axl-svg .p-label { font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px; fill:#5A6A74; }
+    .axl-svg .p-label.p50 { fill:#1FD181; font-weight:600; }
+    /* patient points (injected) */
+    .axl-svg .pt { stroke:#FFFFFF; stroke-width:2; }
+    .axl-svg .pt.od { fill:#0FB6D6; }
+    .axl-svg .pt.os { fill:#1FD181; }
+    .axl-svg .pt-line { stroke-width:1.4; fill:none; }
+    .axl-svg .pt-line.od { stroke:#0FB6D6; stroke-opacity:0.5; }
+    .axl-svg .pt-line.os { stroke:#1FD181; stroke-opacity:0.5; }
+    .axl-svg .pt-label { font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px; font-weight:600; }
+    .axl-svg .pt-label.od { fill:#0FB6D6; }
+    .axl-svg .pt-label.os { fill:#1FD181; }
+  ]]></style>
+
+  <rect x="72" y="56" width="460" height="256" fill="#FBFCFC" stroke="#EEF2F4" stroke-width="1" rx="6"/>
+  <path class="pct-band" d="M 72 272.06 C 80.52 269.59, 106.07 261.82, 123.11 257.22 C 140.15 252.61, 157.19 248.34, 174.22 244.42 C 191.26 240.49, 208.30 236.99, 225.33 233.66 C 242.37 230.34, 259.41 227.26, 276.44 224.45 C 293.48 221.63, 310.52 219.16, 327.56 216.77 C 344.59 214.38, 361.63 212.16, 378.67 210.11 C 395.70 208.06, 412.74 206.19, 429.78 204.48 C 446.81 202.77, 463.85 201.24, 480.89 199.87 C 497.93 198.51, 523.48 196.89, 532 196.29 L 532 138.43 L 480.89 140.99 L 429.78 144.58 L 378.67 149.18 L 327.56 154.82 L 276.44 161.98 L 225.33 171.20 L 174.22 182.46 L 123.11 196.29 L 72 213.70 Z"/>
+  <g class="grid grid-y">
+    <line x1="72" x2="532" y1="312" y2="312" stroke="#E5EBEE" stroke-width="1"/>
+    <text class="tick" x="64" y="315" text-anchor="end">21</text>
+    <line x1="72" x2="532" y1="286.40" y2="286.40" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="72" x2="532" y1="260.80" y2="260.80" stroke="#E5EBEE" stroke-width="1"/>
+    <text class="tick" x="64" y="263.80" text-anchor="end">22</text>
+    <line x1="72" x2="532" y1="235.20" y2="235.20" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="72" x2="532" y1="209.60" y2="209.60" stroke="#E5EBEE" stroke-width="1"/>
+    <text class="tick" x="64" y="212.60" text-anchor="end">23</text>
+    <line x1="72" x2="532" y1="184" y2="184" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="72" x2="532" y1="158.40" y2="158.40" stroke="#E5EBEE" stroke-width="1"/>
+    <text class="tick" x="64" y="161.40" text-anchor="end">24</text>
+    <line x1="72" x2="532" y1="132.80" y2="132.80" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="72" x2="532" y1="107.20" y2="107.20" stroke="#E5EBEE" stroke-width="1"/>
+    <text class="tick" x="64" y="110.20" text-anchor="end">25</text>
+    <line x1="72" x2="532" y1="81.60" y2="81.60" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="72" x2="532" y1="56" y2="56" stroke="#E5EBEE" stroke-width="1"/>
+    <text class="tick" x="64" y="59" text-anchor="end">26</text>
+  </g>
+  <g class="grid grid-x">
+    <line x1="72" x2="72" y1="56" y2="312" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="72" x2="72" y1="312" y2="317" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="72" y="330" text-anchor="middle">72</text>
+    <line x1="123.11" x2="123.11" y1="56" y2="312" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="123.11" x2="123.11" y1="312" y2="317" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="123.11" y="330" text-anchor="middle">84</text>
+    <line x1="174.22" x2="174.22" y1="56" y2="312" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="174.22" x2="174.22" y1="312" y2="317" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="174.22" y="330" text-anchor="middle">96</text>
+    <line x1="225.33" x2="225.33" y1="56" y2="312" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="225.33" x2="225.33" y1="312" y2="317" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="225.33" y="330" text-anchor="middle">108</text>
+    <line x1="276.44" x2="276.44" y1="56" y2="312" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="276.44" x2="276.44" y1="312" y2="317" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="276.44" y="330" text-anchor="middle">120</text>
+    <line x1="327.56" x2="327.56" y1="56" y2="312" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="327.56" x2="327.56" y1="312" y2="317" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="327.56" y="330" text-anchor="middle">132</text>
+    <line x1="378.67" x2="378.67" y1="56" y2="312" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="378.67" x2="378.67" y1="312" y2="317" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="378.67" y="330" text-anchor="middle">144</text>
+    <line x1="429.78" x2="429.78" y1="56" y2="312" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="429.78" x2="429.78" y1="312" y2="317" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="429.78" y="330" text-anchor="middle">156</text>
+    <line x1="480.89" x2="480.89" y1="56" y2="312" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="480.89" x2="480.89" y1="312" y2="317" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="480.89" y="330" text-anchor="middle">168</text>
+    <line x1="532" x2="532" y1="56" y2="312" stroke="#F2F5F6" stroke-width="1"/>
+    <line x1="532" x2="532" y1="312" y2="317" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="532" y="330" text-anchor="middle">180</text>
+  </g>
+  <g class="grid grid-x-top">
+    <line x1="72" x2="72" y1="51" y2="56" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="72" y="46" text-anchor="middle">6</text>
+    <line x1="123.11" x2="123.11" y1="51" y2="56" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="123.11" y="46" text-anchor="middle">7</text>
+    <line x1="174.22" x2="174.22" y1="51" y2="56" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="174.22" y="46" text-anchor="middle">8</text>
+    <line x1="225.33" x2="225.33" y1="51" y2="56" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="225.33" y="46" text-anchor="middle">9</text>
+    <line x1="276.44" x2="276.44" y1="51" y2="56" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="276.44" y="46" text-anchor="middle">10</text>
+    <line x1="327.56" x2="327.56" y1="51" y2="56" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="327.56" y="46" text-anchor="middle">11</text>
+    <line x1="378.67" x2="378.67" y1="51" y2="56" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="378.67" y="46" text-anchor="middle">12</text>
+    <line x1="429.78" x2="429.78" y1="51" y2="56" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="429.78" y="46" text-anchor="middle">13</text>
+    <line x1="480.89" x2="480.89" y1="51" y2="56" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="480.89" y="46" text-anchor="middle">14</text>
+    <line x1="532" x2="532" y1="51" y2="56" stroke="#5A6A74" stroke-width="1"/>
+    <text class="tick" x="532" y="46" text-anchor="middle">15</text>
+  </g>
+  <line x1="72" x2="532" y1="312" y2="312" stroke="#5A6A74" stroke-width="1"/>
+  <line x1="72" x2="72" y1="56" y2="312" stroke="#5A6A74" stroke-width="1"/>
+  <line x1="72" x2="532" y1="56" y2="56" stroke="#DDE5E9" stroke-width="1"/>
+  <g class="p-curves">
+    <path class="p-curve p3" d="M 72 296.64 C 80.52 294.25, 106.07 286.74, 123.11 282.30 C 140.15 277.87, 157.19 273.86, 174.22 270.02 C 191.26 266.18, 208.30 262.59, 225.33 259.26 C 242.37 255.94, 259.41 252.86, 276.44 250.05 C 293.48 247.23, 310.52 244.76, 327.56 242.37 C 344.59 239.98, 361.63 237.76, 378.67 235.71 C 395.70 233.66, 412.74 231.79, 429.78 230.08 C 446.81 228.37, 463.85 226.84, 480.89 225.47 C 497.93 224.11, 523.48 222.49, 532 221.89"/>
+    <text class="p-label p3" x="538" y="224.89">P3</text>
+    <path class="p-curve p10" d="M 72 272.06 C 80.52 269.59, 106.07 261.82, 123.11 257.22 C 140.15 252.61, 157.19 248.34, 174.22 244.42 C 191.26 240.49, 208.30 236.99, 225.33 233.66 C 242.37 230.34, 259.41 227.26, 276.44 224.45 C 293.48 221.63, 310.52 219.16, 327.56 216.77 C 344.59 214.38, 361.63 212.16, 378.67 210.11 C 395.70 208.06, 412.74 206.19, 429.78 204.48 C 446.81 202.77, 463.85 201.24, 480.89 199.87 C 497.93 198.51, 523.48 196.89, 532 196.29"/>
+    <text class="p-label p10" x="538" y="199.29">P10</text>
+    <path class="p-curve p50" d="M 72 237.76 C 80.52 234.94, 106.07 225.98, 123.11 220.86 C 140.15 215.74, 157.19 211.22, 174.22 207.04 C 191.26 202.86, 208.30 199.19, 225.33 195.78 C 242.37 192.36, 259.41 189.29, 276.44 186.56 C 293.48 183.83, 310.52 181.61, 327.56 179.39 C 344.59 177.17, 361.63 175.13, 378.67 173.25 C 395.70 171.37, 412.74 169.66, 429.78 168.13 C 446.81 166.59, 463.85 165.23, 480.89 164.03 C 497.93 162.84, 523.48 161.47, 532 160.96"/>
+    <text class="p-label p50" x="538" y="163.96">P50</text>
+    <path class="p-curve p75" d="M 72 213.70 C 80.52 210.79, 106.07 201.49, 123.11 196.29 C 140.15 191.08, 157.19 186.65, 174.22 182.46 C 191.26 178.28, 208.30 174.61, 225.33 171.20 C 242.37 167.79, 259.41 164.71, 276.44 161.98 C 293.48 159.25, 310.52 156.95, 327.56 154.82 C 344.59 152.68, 361.63 150.89, 378.67 149.18 C 395.70 147.48, 412.74 145.94, 429.78 144.58 C 446.81 143.21, 463.85 142.02, 480.89 140.99 C 497.93 139.97, 523.48 138.86, 532 138.43"/>
+    <text class="p-label p75" x="538" y="141.43">P75</text>
+    <path class="p-curve p97" d="M 72 176.32 C 80.52 172.99, 106.07 162.24, 123.11 156.35 C 140.15 150.46, 157.19 145.51, 174.22 140.99 C 191.26 136.47, 208.30 132.71, 225.33 129.22 C 242.37 125.72, 259.41 122.73, 276.44 120 C 293.48 117.27, 310.52 114.88, 327.56 112.83 C 344.59 110.78, 361.63 109.25, 378.67 107.71 C 395.70 106.18, 412.74 104.81, 429.78 103.62 C 446.81 102.42, 463.85 101.40, 480.89 100.54 C 497.93 99.69, 523.48 98.84, 532 98.50"/>
+    <text class="p-label p97" x="538" y="101.50">P97</text>
+  </g>
+  <g class="axis-labels">
+    <text class="axis-label" x="302.0" y="358" text-anchor="middle">월령 (months)</text>
+    <text class="axis-en" x="302.0" y="372" text-anchor="middle">Age in months</text>
+    <text class="axis-label" x="302.0" y="22" text-anchor="middle">만 나이 (years)</text>
+    <text class="axis-en" x="302.0" y="36" text-anchor="middle">Age in years</text>
+    <text class="axis-label" x="0" y="0" text-anchor="middle" transform="translate(20 184) rotate(-90)">안축장 (mm)</text>
+    <text class="axis-en" x="0" y="0" text-anchor="middle" transform="translate(34 184) rotate(-90)">Axial Length</text>
+  </g>
+  <g id="patient-points"></g>
+</svg>

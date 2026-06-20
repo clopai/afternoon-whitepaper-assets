@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="640" viewBox="0 0 1680 640" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><linearGradient id="gDIAG_라인업_v1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1EF074"/><stop offset="1" stop-color="#1ECAFA"/></linearGradient><filter id="sDIAG_라인업_v1" x="-10%" y="-10%" width="120%" height="135%"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0A2540" flood-opacity="0.10"/></filter></defs>
+<rect width="1680" height="640" fill="#FFFFFF"/>
+<rect x="60" y="230" width="330" height="200" rx="18" fill="url(#gDIAG_라인업_v1)" stroke="none" stroke-width="0" filter="url(#sDIAG_라인업_v1)"/>
+<text x="225" y="300" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">당뇨망막병증</text>
+<text x="225" y="340" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle">출발점</text>
+<text x="225" y="372" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">무산동 광각 검사</text>
+<path d="M400,330 L460,330" stroke="#00CE90" stroke-width="9" stroke-linecap="round"/><path d="M454,320 L470,330 L454,340" fill="none" stroke="#00CE90" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="490" y="230" width="280" height="200" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sDIAG_라인업_v1)"/>
+<rect x="490" y="230" width="280" height="7" rx="3" fill="#0EA5C4" stroke="none" stroke-width="0"/>
+<text x="630.0" y="300" font-size="22" font-weight="800" fill="#1A2230" text-anchor="middle">갑상선눈병증</text>
+<text x="630.0" y="340" font-size="17" font-weight="500" fill="#4A5568" text-anchor="middle">TED 모니터링</text>
+<rect x="788" y="230" width="280" height="200" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sDIAG_라인업_v1)"/>
+<rect x="788" y="230" width="280" height="7" rx="3" fill="#0EA5C4" stroke="none" stroke-width="0"/>
+<text x="928.0" y="300" font-size="22" font-weight="800" fill="#1A2230" text-anchor="middle">약제 눈독성</text>
+<text x="928.0" y="340" font-size="17" font-weight="500" fill="#4A5568" text-anchor="middle">HCQ·에탐부톨 등</text>
+<rect x="1086" y="230" width="280" height="200" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sDIAG_라인업_v1)"/>
+<rect x="1086" y="230" width="280" height="7" rx="3" fill="#0EA5C4" stroke="none" stroke-width="0"/>
+<text x="1226.0" y="300" font-size="22" font-weight="800" fill="#1A2230" text-anchor="middle">소아 근시</text>
+<text x="1226.0" y="340" font-size="17" font-weight="500" fill="#4A5568" text-anchor="middle">안축장 종단</text>
+<rect x="1384" y="230" width="280" height="200" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sDIAG_라인업_v1)"/>
+<rect x="1384" y="230" width="280" height="7" rx="3" fill="#0EA5C4" stroke="none" stroke-width="0"/>
+<text x="1524.0" y="300" font-size="22" font-weight="800" fill="#1A2230" text-anchor="middle">노안·건성안</text>
+<text x="1524.0" y="340" font-size="17" font-weight="500" fill="#4A5568" text-anchor="middle">PROM 설문</text>
+<text x="840.0" y="150" font-size="24" font-weight="800" fill="#1A2230" text-anchor="middle">같은 원리(정기 검사 + 표준 회신)의 확장</text>
+<text x="840.0" y="500" font-size="18" font-weight="600" fill="#4A5568" text-anchor="middle">제공 검사 9종 (2026-06-14)</text>
+</svg>

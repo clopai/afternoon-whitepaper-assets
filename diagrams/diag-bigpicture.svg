@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="640" viewBox="0 0 1680 640" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><linearGradient id="gDIAG_큰그림_v1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1EF074"/><stop offset="1" stop-color="#1ECAFA"/></linearGradient><filter id="sDIAG_큰그림_v1" x="-10%" y="-10%" width="120%" height="135%"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0A2540" flood-opacity="0.10"/></filter></defs>
+<rect width="1680" height="640" fill="#FFFFFF"/>
+<rect x="40" y="210" width="296" height="180" rx="16" fill="#F7FBFA" stroke="#00CE90" stroke-width="2" filter="url(#sDIAG_큰그림_v1)"/>
+<text x="188.0" y="280" font-size="26" font-weight="800" fill="#1A2230" text-anchor="middle">환자</text>
+<text x="188.0" y="322" font-size="17" font-weight="500" fill="#4A5568" text-anchor="middle">눈검사 받음</text>
+<path d="M341,300.0 L351,300.0" stroke="#0EA5C4" stroke-width="8" stroke-linecap="round"/><path d="M345,290.0 L361,300.0 L345,310.0" fill="none" stroke="#0EA5C4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="366" y="210" width="296" height="180" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sDIAG_큰그림_v1)"/>
+<text x="514.0" y="280" font-size="26" font-weight="800" fill="#1A2230" text-anchor="middle">동네 안과</text>
+<text x="514.0" y="322" font-size="17" font-weight="500" fill="#4A5568" text-anchor="middle">검사·결과 생산</text>
+<path d="M667,300.0 L677,300.0" stroke="#0EA5C4" stroke-width="8" stroke-linecap="round"/><path d="M671,290.0 L687,300.0 L671,310.0" fill="none" stroke="#0EA5C4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="692" y="210" width="296" height="180" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sDIAG_큰그림_v1)"/>
+<text x="840.0" y="280" font-size="26" font-weight="800" fill="#1A2230" text-anchor="middle">의뢰 내과</text>
+<text x="840.0" y="322" font-size="17" font-weight="500" fill="#4A5568" text-anchor="middle">Connect로 확인</text>
+<path d="M993,300.0 L1003,300.0" stroke="#0EA5C4" stroke-width="8" stroke-linecap="round"/><path d="M997,290.0 L1013,300.0 L997,310.0" fill="none" stroke="#0EA5C4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1018" y="210" width="296" height="180" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sDIAG_큰그림_v1)"/>
+<text x="1166.0" y="280" font-size="26" font-weight="800" fill="#1A2230" text-anchor="middle">데이터</text>
+<text x="1166.0" y="322" font-size="17" font-weight="500" fill="#4A5568" text-anchor="middle">표준화·누적</text>
+<path d="M1319,300.0 L1329,300.0" stroke="#0EA5C4" stroke-width="8" stroke-linecap="round"/><path d="M1323,290.0 L1339,300.0 L1323,310.0" fill="none" stroke="#0EA5C4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1344" y="210" width="296" height="180" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sDIAG_큰그림_v1)"/>
+<text x="1492.0" y="280" font-size="26" font-weight="800" fill="#1A2230" text-anchor="middle">연구·안전</text>
+<text x="1492.0" y="322" font-size="17" font-weight="500" fill="#4A5568" text-anchor="middle">RWE·RMP·DCT</text>
+<path d="M1492.0,198 C1492.0,120 188.0,120 188.0,198" fill="none" stroke="#00CE90" stroke-width="6" stroke-dasharray="2 10" stroke-linecap="round"/>
+<text x="840.0" y="110" font-size="18" font-weight="700" fill="#00CE90" text-anchor="middle">환류: 쌓인 데이터가 다음 환자 진료로</text>
+<rect x="460.0" y="470" width="760" height="90" rx="18" fill="url(#gDIAG_큰그림_v1)" stroke="none" stroke-width="0"/>
+<text x="840.0" y="512" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">막을 수 있는 실명 최소화</text>
+<text x="840.0" y="544" font-size="17" font-weight="600" fill="#FFFFFF" text-anchor="middle">Eliminate All Preventable Blindness</text>
+</svg>
