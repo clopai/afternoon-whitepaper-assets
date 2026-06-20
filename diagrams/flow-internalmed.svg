@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="660" viewBox="0 0 1680 660" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
+<defs><linearGradient id="hg_FLOW_내과중심_v1_svg" x1="0" y1="0" x2="1" y2="0.35"><stop offset="0" stop-color="#8B1DFF"/><stop offset="1" stop-color="#5E13C7"/></linearGradient><filter id="sh_FLOW_내과중심_v1_svg" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0A2540" flood-opacity="0.10"/></filter></defs>
+<rect x="0" y="0" width="1680" height="660" fill="#FFFFFF"/>
+<rect x="24" y="24" width="1632" height="96" rx="18" fill="url(#hg_FLOW_내과중심_v1_svg)"/>
+<text x="56" y="70" font-size="30" font-weight="800" fill="#FFFFFF">내과 의사 중심 — 서비스 흐름</text>
+<text x="56" y="100" font-size="15" font-weight="500" fill="#FFFFFF" opacity="0.92">Referring Physician · Connect page로 닫힌 고리 완성</text>
+<rect x="1380" y="50" width="150" height="44" rx="22" fill="#FFFFFF" opacity="0.18"/>
+<text x="1455" y="78" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">내과 PHYSICIAN</text>
+<g transform="translate(1554,46) scale(1.35)"><circle cx="15" cy="16" r="11" fill="none" stroke="#FFFFFF" stroke-width="5.5"/><circle cx="41" cy="16" r="11" fill="none" stroke="#FFFFFF" stroke-width="5.5"/><path transform="translate(41,16)" d="M0,-7 L1.6,-1.6 L7,0 L1.6,1.6 L0,7 L-1.6,1.6 L-7,0 L-1.6,-1.6 Z" fill="#FFFFFF"/><path d="M49,30 q6,3 9,-2" fill="none" stroke="#3AFF71" stroke-width="5.5" stroke-linecap="round"/></g>
+<rect x="20.0" y="168" width="250" height="300" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sh_FLOW_내과중심_v1_svg)"/>
+<rect x="20.0" y="168" width="250" height="7" rx="3.5" fill="#8B1DFF"/>
+<circle cx="145.0" cy="220" r="22" fill="#8B1DFF"/>
+<text x="145.0" y="228" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="145.0" y="272" font-size="19" font-weight="800" fill="#1A2230" text-anchor="middle">환자 식별</text>
+<text x="145.0" y="308" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">당뇨 환자의</text>
+<text x="145.0" y="332" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">안저검사</text>
+<text x="145.0" y="356" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">필요성 인지</text>
+<path d="M277.0,306 L292.0,320 L277.0,334" fill="none" stroke="#8B1DFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="298.0" y="168" width="250" height="300" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sh_FLOW_내과중심_v1_svg)"/>
+<rect x="298.0" y="168" width="250" height="7" rx="3.5" fill="#8B1DFF"/>
+<circle cx="423.0" cy="220" r="22" fill="#8B1DFF"/>
+<text x="423.0" y="228" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="423.0" y="272" font-size="19" font-weight="800" fill="#1A2230" text-anchor="middle">검진 안내·회송</text>
+<text x="423.0" y="308" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">애프터눈으로 안내</text>
+<text x="423.0" y="332" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">키오스크·카톡</text>
+<text x="423.0" y="356" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">직접 등록</text>
+<path d="M555.0,306 L570.0,320 L555.0,334" fill="none" stroke="#8B1DFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="576.0" y="168" width="250" height="300" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sh_FLOW_내과중심_v1_svg)"/>
+<rect x="576.0" y="168" width="250" height="7" rx="3.5" fill="#8B1DFF"/>
+<circle cx="701.0" cy="220" r="22" fill="#8B1DFF"/>
+<text x="701.0" y="228" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="701.0" y="272" font-size="19" font-weight="800" fill="#1A2230" text-anchor="middle">검사 (지역 안과)</text>
+<text x="701.0" y="308" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">환자가 동네 안과서</text>
+<text x="701.0" y="332" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">무산동 광각</text>
+<text x="701.0" y="356" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">검사 수행</text>
+<path d="M833.0,306 L848.0,320 L833.0,334" fill="none" stroke="#8B1DFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="854.0" y="168" width="250" height="300" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sh_FLOW_내과중심_v1_svg)"/>
+<rect x="854.0" y="168" width="250" height="7" rx="3.5" fill="#8B1DFF"/>
+<circle cx="979.0" cy="220" r="22" fill="#8B1DFF"/>
+<text x="979.0" y="228" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="979.0" y="272" font-size="19" font-weight="800" fill="#1A2230" text-anchor="middle">결과 확인</text>
+<text x="979.0" y="308" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">Connect page 대시보드</text>
+<text x="979.0" y="332" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">검사 여부 +</text>
+<text x="979.0" y="356" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">좌우안 DR 등급</text>
+<path d="M1111.0,306 L1126.0,320 L1111.0,334" fill="none" stroke="#8B1DFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1132.0" y="168" width="250" height="300" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sh_FLOW_내과중심_v1_svg)"/>
+<rect x="1132.0" y="168" width="250" height="7" rx="3.5" fill="#8B1DFF"/>
+<circle cx="1257.0" cy="220" r="22" fill="#8B1DFF"/>
+<text x="1257.0" y="228" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="1257.0" y="272" font-size="19" font-weight="800" fill="#1A2230" text-anchor="middle">임상 반영</text>
+<text x="1257.0" y="308" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">동반 안질환 인지</text>
+<text x="1257.0" y="332" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">치료·관리 반영</text>
+<text x="1257.0" y="356" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">놓칠 위험 ↓</text>
+<path d="M1389.0,306 L1404.0,320 L1389.0,334" fill="none" stroke="#8B1DFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1410.0" y="168" width="250" height="300" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#sh_FLOW_내과중심_v1_svg)"/>
+<rect x="1410.0" y="168" width="250" height="7" rx="3.5" fill="#8B1DFF"/>
+<circle cx="1535.0" cy="220" r="22" fill="#8B1DFF"/>
+<text x="1535.0" y="228" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">6</text>
+<text x="1535.0" y="272" font-size="19" font-weight="800" fill="#1A2230" text-anchor="middle">제도·지표 개선</text>
+<text x="1535.0" y="308" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">적정성평가</text>
+<text x="1535.0" y="332" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">안저검사 시행률</text>
+<text x="1535.0" y="356" font-size="14.5" font-weight="500" fill="#4A5568" text-anchor="middle">회송료 등 연계</text>
+<line x1="40" y1="538" x2="1640" y2="538" stroke="#E6E9EF" stroke-width="1.5"/>
+<g transform="translate(44,552) scale(0.8)"><circle cx="15" cy="16" r="11" fill="none" stroke="#8B1DFF" stroke-width="5.5"/><circle cx="41" cy="16" r="11" fill="none" stroke="#8B1DFF" stroke-width="5.5"/><path transform="translate(41,16)" d="M0,-7 L1.6,-1.6 L7,0 L1.6,1.6 L0,7 L-1.6,1.6 L-7,0 L-1.6,-1.6 Z" fill="#8B1DFF"/><path d="M49,30 q6,3 9,-2" fill="none" stroke="#8B1DFF" stroke-width="5.5" stroke-linecap="round"/></g>
+<text x="120" y="566" font-size="17" font-weight="800" fill="#1A2230">내과가 얻는 것</text>
+<text x="120" y="590" font-size="14" font-weight="500" fill="#6B7280">보낸 환자의 검사·결과 확인 · 정보 단절 해소</text>
+<text x="1636" y="566" font-size="16" font-weight="800" fill="#8B1DFF" text-anchor="end">애프터눈 · AfterNOON</text>
+<text x="1636" y="590" font-size="12.5" font-weight="500" fill="#9AA3B2" text-anchor="end">Eliminate All Preventable Blindness</text>
+</svg>

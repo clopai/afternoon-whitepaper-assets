@@ -1,0 +1,302 @@
+[
+  {
+    "original": "P04_모바일결과지_당뇨_REAL_데모.png",
+    "slug": "screens/p04-mobile-result-dm.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/p04-mobile-result-dm.png",
+    "desc": "모바일 디지털 당뇨 눈검사 결과지(데모)"
+  },
+  {
+    "original": "P05_종이결과지_당뇨_REAL_데모.png",
+    "slug": "screens/p05-paper-result-dm.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/p05-paper-result-dm.png",
+    "desc": "A4 종이 당뇨 눈검사 결과지(데모)"
+  },
+  {
+    "original": "P06_진료실앞QR_모바일결과지_포천p28_DEMO.png",
+    "slug": "screens/p06-qr-mobile-result.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/p06-qr-mobile-result.png",
+    "desc": "진료실 앞 QR→모바일 결과지(데모)"
+  },
+  {
+    "original": "P01_키오스크예약_포천p19_DEMO.png",
+    "slug": "screens/p01-kiosk-booking.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/p01-kiosk-booking.png",
+    "desc": "키오스크 예약 단계(데모)"
+  },
+  {
+    "original": "P04_05_결과지_알림톡모바일종이_포천p22_DEMO.png",
+    "slug": "screens/p04-05-result-alimtalk.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/p04-05-result-alimtalk.png",
+    "desc": "결과 알림톡+모바일/종이 결과지(데모)"
+  },
+  {
+    "original": "P10_드림렌즈결과지_REAL_데모.png",
+    "slug": "screens/p10-dreamlens-result.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/p10-dreamlens-result.png",
+    "desc": "드림렌즈(근시) 결과지·안축장 곡선(데모)"
+  },
+  {
+    "original": "P11_소청시력결과지_REAL_데모.png",
+    "slug": "screens/p11-pediatric-vision-result.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/p11-pediatric-vision-result.png",
+    "desc": "소아·청소년 시력검사 결과지(데모)"
+  },
+  {
+    "original": "P14_안축장_결과지_단건_REAL_데모.png",
+    "slug": "screens/p14-axl-result-single.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/p14-axl-result-single.png",
+    "desc": "안축장 결과지 A4·단일 측정점(데모)"
+  },
+  {
+    "original": "P14_안축장_결과지_다건_REAL_데모.png",
+    "slug": "screens/p14-axl-result-multi.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/p14-axl-result-multi.png",
+    "desc": "안축장 결과지 A4·종단 시계열(데모)"
+  },
+  {
+    "original": "P15_안축장_인앱_단건_REAL_데모.png",
+    "slug": "screens/p15-axl-inapp-single.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/p15-axl-inapp-single.png",
+    "desc": "안축장 인앱 결과지·단건(데모)"
+  },
+  {
+    "original": "P15_안축장_인앱_다건_REAL_데모.png",
+    "slug": "screens/p15-axl-inapp-multi.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/p15-axl-inapp-multi.png",
+    "desc": "안축장 인앱·여러 의원/장비 누적(데모)"
+  },
+  {
+    "original": "D02_안과결과입력화면_REAL_데모.png",
+    "slug": "screens/d02-eye-result-entry.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/d02-eye-result-entry.png",
+    "desc": "안과 내원관리포털 결과 입력 화면(데모)"
+  },
+  {
+    "original": "D04_Connect대시보드_REAL_부분마스킹.png",
+    "slug": "screens/d04-connect-dashboard.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/d04-connect-dashboard.png",
+    "desc": "내과 Connect page 대시보드(데모/마스킹)"
+  },
+  {
+    "original": "screens/IN_결과조회_소청시력_2x.png",
+    "slug": "screens/screen-result-pediatric-vision.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/screen-result-pediatric-vision.png",
+    "desc": "인앱 결과조회 소청 시력(데모)"
+  },
+  {
+    "original": "screens/SURVEY_설문제출완료_2x.png",
+    "slug": "screens/screen-survey-complete.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/screen-survey-complete.png",
+    "desc": "설문 제출 완료 화면"
+  },
+  {
+    "original": "screens/SURVEY_VFQ문항_근거리작업_2x.png",
+    "slug": "screens/screen-survey-vfq-near.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/screens/screen-survey-vfq-near.png",
+    "desc": "VFQ 시기능 설문 문항(근거리작업)"
+  },
+  {
+    "original": "M01_환자포스터_당뇨망막병증.png",
+    "slug": "marketing/m01-poster-dr.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/marketing/m01-poster-dr.png",
+    "desc": "환자 포스터: 당뇨망막병증"
+  },
+  {
+    "original": "M02_진료실앞QR_결과확인포스터.png",
+    "slug": "marketing/m02-poster-qr-result.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/marketing/m02-poster-qr-result.png",
+    "desc": "진료실 앞 결과확인 QR 포스터"
+  },
+  {
+    "original": "M03_통합리플렛_앞면.png",
+    "slug": "marketing/m03-leaflet-front.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/marketing/m03-leaflet-front.png",
+    "desc": "통합 리플렛 앞면"
+  },
+  {
+    "original": "M03_통합리플렛_뒷면.png",
+    "slug": "marketing/m03-leaflet-back.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/marketing/m03-leaflet-back.png",
+    "desc": "통합 리플렛 뒷면"
+  },
+  {
+    "original": "brand/BRAND_로고_가로형_컬러.png",
+    "slug": "brand/brand-logo-h-color.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/brand/brand-logo-h-color.png",
+    "desc": "가로형 로고(컬러)"
+  },
+  {
+    "original": "brand/BRAND_로고_가로형_화이트.png",
+    "slug": "brand/brand-logo-h-white.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/brand/brand-logo-h-white.png",
+    "desc": "가로형 로고(화이트)"
+  },
+  {
+    "original": "brand/BRAND_로고_세로형_화이트.png",
+    "slug": "brand/brand-logo-v-white.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/brand/brand-logo-v-white.png",
+    "desc": "세로형 로고(화이트)"
+  },
+  {
+    "original": "brand/BRAND_워드마크_애프터눈TRIAL.png",
+    "slug": "brand/brand-wordmark-trial.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/brand/brand-wordmark-trial.png",
+    "desc": "애프터눈 TRIAL 워드마크"
+  },
+  {
+    "original": "brand/BRAND_앱아이콘_그라디언트.png",
+    "slug": "brand/brand-appicon-gradient.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/brand/brand-appicon-gradient.png",
+    "desc": "앱 아이콘(그라디언트)"
+  },
+  {
+    "original": "brand/BRAND_앱아이콘_화이트.png",
+    "slug": "brand/brand-appicon-white.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/brand/brand-appicon-white.png",
+    "desc": "앱 아이콘(화이트)"
+  },
+  {
+    "original": "brand/BRAND_앱아이콘_Doctors_병원용.png",
+    "slug": "brand/brand-appicon-doctors.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/brand/brand-appicon-doctors.png",
+    "desc": "앱 아이콘(병원용 Doctors)"
+  },
+  {
+    "original": "brand/svg/BRAND_심볼_눈마크_컬러.svg",
+    "slug": "brand/svg/brand-symbol-eye-color.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/brand/svg/brand-symbol-eye-color.svg",
+    "desc": "눈마크 심볼(컬러, 벡터)"
+  },
+  {
+    "original": "brand/svg/BRAND_심볼_눈마크_화이트.svg",
+    "slug": "brand/svg/brand-symbol-eye-white.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/brand/svg/brand-symbol-eye-white.svg",
+    "desc": "눈마크 심볼(화이트, 벡터)"
+  },
+  {
+    "original": "brand/svg/BRAND_워드마크_애프터눈_블랙.svg",
+    "slug": "brand/svg/brand-wordmark-black.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/brand/svg/brand-wordmark-black.svg",
+    "desc": "워드마크 블랙(벡터)"
+  },
+  {
+    "original": "brand/svg/BRAND_워드마크_애프터눈_화이트.svg",
+    "slug": "brand/svg/brand-wordmark-white.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/brand/svg/brand-wordmark-white.svg",
+    "desc": "워드마크 화이트(벡터)"
+  },
+  {
+    "original": "diagrams/FLOW_환자중심_v1.png",
+    "slug": "diagrams/flow-patient.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-patient.png",
+    "desc": "흐름도: 환자 중심"
+  },
+  {
+    "original": "diagrams/FLOW_내과중심_v1.png",
+    "slug": "diagrams/flow-internalmed.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-internalmed.png",
+    "desc": "흐름도: 내과 의사 중심"
+  },
+  {
+    "original": "diagrams/FLOW_안과중심_v1.png",
+    "slug": "diagrams/flow-ophthalmology.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-ophthalmology.png",
+    "desc": "흐름도: 안과 의료진 중심"
+  },
+  {
+    "original": "diagrams/DIAG_연결계층_v1.png",
+    "slug": "diagrams/diag-connection-layer.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer.png",
+    "desc": "개념도: 연결 계층(닫힌 고리)"
+  },
+  {
+    "original": "diagrams/DIAG_큰그림_v1.png",
+    "slug": "diagrams/diag-bigpicture.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-bigpicture.png",
+    "desc": "개념도: 큰 그림"
+  },
+  {
+    "original": "diagrams/DIAG_측정연결활용_v1.png",
+    "slug": "diagrams/diag-measure-connect-use.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-measure-connect-use.png",
+    "desc": "개념도: 측정·연결·활용"
+  },
+  {
+    "original": "diagrams/DIAG_검진율격차_v1.png",
+    "slug": "diagrams/diag-screening-gap.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.png",
+    "desc": "개념도: 검진율 격차"
+  },
+  {
+    "original": "diagrams/DIAG_라인업_v1.png",
+    "slug": "diagrams/diag-lineup.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup.png",
+    "desc": "개념도: 검사 라인업"
+  },
+  {
+    "original": "diagrams/FLOW_환자중심_v1.svg",
+    "slug": "diagrams/flow-patient.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-patient.svg",
+    "desc": "흐름도: 환자 중심(벡터)"
+  },
+  {
+    "original": "diagrams/FLOW_내과중심_v1.svg",
+    "slug": "diagrams/flow-internalmed.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-internalmed.svg",
+    "desc": "흐름도: 내과(벡터)"
+  },
+  {
+    "original": "diagrams/FLOW_안과중심_v1.svg",
+    "slug": "diagrams/flow-ophthalmology.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-ophthalmology.svg",
+    "desc": "흐름도: 안과(벡터)"
+  },
+  {
+    "original": "diagrams/DIAG_연결계층_v1.svg",
+    "slug": "diagrams/diag-connection-layer.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer.svg",
+    "desc": "개념도: 연결 계층(벡터)"
+  },
+  {
+    "original": "diagrams/DIAG_큰그림_v1.svg",
+    "slug": "diagrams/diag-bigpicture.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-bigpicture.svg",
+    "desc": "개념도: 큰 그림(벡터)"
+  },
+  {
+    "original": "diagrams/DIAG_측정연결활용_v1.svg",
+    "slug": "diagrams/diag-measure-connect-use.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-measure-connect-use.svg",
+    "desc": "개념도: 측정·연결·활용(벡터)"
+  },
+  {
+    "original": "diagrams/DIAG_검진율격차_v1.svg",
+    "slug": "diagrams/diag-screening-gap.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.svg",
+    "desc": "개념도: 검진율 격차(벡터)"
+  },
+  {
+    "original": "diagrams/DIAG_라인업_v1.svg",
+    "slug": "diagrams/diag-lineup.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup.svg",
+    "desc": "개념도: 라인업(벡터)"
+  },
+  {
+    "original": "P13_안축장곡선_남_v1.0.svg",
+    "slug": "curves/p13-axl-curve-male.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/curves/p13-axl-curve-male.svg",
+    "desc": "안축장 백분위 곡선(남)"
+  },
+  {
+    "original": "P13_안축장곡선_여_v1.0.svg",
+    "slug": "curves/p13-axl-curve-female.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/curves/p13-axl-curve-female.svg",
+    "desc": "안축장 백분위 곡선(여)"
+  },
+  {
+    "original": "P13_안축장_v1.2vs1.0_비교.png",
+    "slug": "curves/p13-axl-v12-vs-v10.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/curves/p13-axl-v12-vs-v10.png",
+    "desc": "안축장 곡선 v1.2 vs v1.0 비교"
+  }
+]
