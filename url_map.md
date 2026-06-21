@@ -37,6 +37,7 @@ diagrams/DIAG_큰그림_v1.png	https://raw.githubusercontent.com/snubhretina/aft
 diagrams/DIAG_측정연결활용_v1.png	https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-measure-connect-use.png
 diagrams/DIAG_검진율격차_v1.png	https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.png
 diagrams/DIAG_라인업_v1.png	https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup.png
+diagrams/DIAG_리서치데이터플로우_v1.png	https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/research-data-flow.png
 diagrams/FLOW_환자중심_v1.svg	https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-patient.svg
 diagrams/FLOW_내과중심_v1.svg	https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-internalmed.svg
 diagrams/FLOW_안과중심_v1.svg	https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-ophthalmology.svg
