@@ -44,6 +44,8 @@ Notion 등 외부 임베드용 공개 이미지 호스팅. 원본 관리는 afte
 | `diagrams/diag-screening-gap.png` | 개념도: 검진율 격차 | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.png |
 | `diagrams/diag-lineup.png` | 개념도: 검사 라인업 | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup.png |
 | `diagrams/research-data-flow.png` | 리서치 데이터플로우(원내망 EDC→비식별 통계자료 전송) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/research-data-flow.png |
+| `diagrams/research-ecosystem.png` | 리서치 생태계(CRC·CRO·Pharma·스폰서 EDC·애프터눈 리서치 허브·전국 안과·환자) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/research-ecosystem.png |
+| `diagrams/omop-cdm-federated.png` | OMOP-CDM 분산연구(전국 안과 원내 EMR→CDM → Analysis Methods) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/omop-cdm-federated.png |
 | `diagrams/flow-patient.svg` | 흐름도: 환자 중심(벡터) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-patient.svg |
 | `diagrams/flow-internalmed.svg` | 흐름도: 내과(벡터) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-internalmed.svg |
 | `diagrams/flow-ophthalmology.svg` | 흐름도: 안과(벡터) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-ophthalmology.svg |
