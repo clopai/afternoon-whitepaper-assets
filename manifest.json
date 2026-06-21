@@ -234,6 +234,12 @@
     "desc": "개념도: 검사 라인업"
   },
   {
+    "original": "diagrams/DIAG_리서치데이터플로우_v1.png",
+    "slug": "diagrams/research-data-flow.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/research-data-flow.png",
+    "desc": "리서치 데이터플로우(원내망 EDC→비식별 통계자료 전송)"
+  },
+  {
     "original": "diagrams/FLOW_환자중심_v1.svg",
     "slug": "diagrams/flow-patient.svg",
     "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-patient.svg",
