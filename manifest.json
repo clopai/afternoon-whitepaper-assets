@@ -240,6 +240,18 @@
     "desc": "리서치 데이터플로우(원내망 EDC→비식별 통계자료 전송)"
   },
   {
+    "original": "diagrams/DIAG_리서치생태계_v1.png",
+    "slug": "diagrams/research-ecosystem.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/research-ecosystem.png",
+    "desc": "리서치 생태계(CRC·CRO·Pharma·스폰서 EDC·애프터눈 리서치 허브·전국 안과·환자)"
+  },
+  {
+    "original": "diagrams/DIAG_OMOPCDM분산연구_v1.png",
+    "slug": "diagrams/omop-cdm-federated.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/omop-cdm-federated.png",
+    "desc": "OMOP-CDM 분산연구(전국 안과 원내 EMR→CDM → Analysis Methods)"
+  },
+  {
     "original": "diagrams/FLOW_환자중심_v1.svg",
     "slug": "diagrams/flow-patient.svg",
     "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-patient.svg",
