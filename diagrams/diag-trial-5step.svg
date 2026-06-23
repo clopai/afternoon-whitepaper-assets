@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="600" viewBox="0 0 1680 600" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="gtrial5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1EF074"/>
+      <stop offset="1" stop-color="#1ECAFA"/>
+    </linearGradient>
+    <filter id="strial5" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0A2540" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1680" height="600" fill="#FFFFFF"/>
+
+  <rect x="24" y="24" width="1632" height="96" rx="18" fill="url(#gtrial5)"/>
+  <text x="56" y="70" font-size="30" font-weight="800" fill="#FFFFFF">임상시험을, 동네 안과에서?!</text>
+  <text x="56" y="100" font-size="15" font-weight="500" fill="#FFFFFF" opacity="0.92">일상 진료 범위 검사 + 애프터눈 운영 인프라</text>
+  <rect x="1340" y="50" width="230" height="44" rx="22" fill="#FFFFFF" opacity="0.18"/>
+  <text x="1455" y="78" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">5단계 운영 흐름</text>
+
+  <g aria-label="범례">
+    <text x="56" y="152" font-size="16" font-weight="800" fill="#1A2230">주관 주체 색상</text>
+    <rect x="184" y="138" width="18" height="18" rx="5" fill="#8B1DFF"/>
+    <text x="212" y="153" font-size="15" font-weight="500" fill="#4A5568">임상시험측</text>
+    <rect x="324" y="138" width="18" height="18" rx="5" fill="#0EA5C4"/>
+    <text x="352" y="153" font-size="15" font-weight="500" fill="#4A5568">안과의원</text>
+    <rect x="458" y="138" width="18" height="18" rx="5" fill="#00CE90"/>
+    <text x="486" y="153" font-size="15" font-weight="500" fill="#4A5568">환자</text>
+    <text x="1352" y="153" font-size="14" font-weight="500" fill="#94A3B8">카드 상단 색띠는 단계별 주관 주체를 표시</text>
+  </g>
+
+  <g aria-label="임상시험 운영 워크플로우 5단계">
+    <g filter="url(#strial5)">
+      <rect x="48" y="184" width="280" height="178" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5"/>
+      <path d="M64 184H312Q328 184 328 200V201H48V200Q48 184 64 184Z" fill="#8B1DFF"/>
+      <circle cx="88" cy="238" r="25" fill="#8B1DFF"/>
+      <text x="88" y="247" font-size="25" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+      <text x="132" y="238" font-size="31" font-weight="800" fill="#1A2230">요청</text>
+      <text x="88" y="297" font-size="19" font-weight="500" fill="#4A5568">검사 의뢰 생성·예약·동의</text>
+      <rect x="88" y="320" width="104" height="26" rx="13" fill="#F4EAFF" stroke="#8B1DFF" stroke-width="1"/>
+      <text x="140" y="338" font-size="13" font-weight="800" fill="#8B1DFF" text-anchor="middle">임상시험측</text>
+    </g>
+
+    <path d="M340 273H363" fill="none" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M368 273L356 264V282Z" fill="#94A3B8"/>
+
+    <g filter="url(#strial5)">
+      <rect x="374" y="184" width="280" height="178" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5"/>
+      <path d="M390 184H638Q654 184 654 200V201H374V200Q374 184 390 184Z" fill="#8B1DFF"/>
+      <circle cx="414" cy="238" r="25" fill="#8B1DFF"/>
+      <text x="414" y="247" font-size="25" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+      <text x="458" y="238" font-size="31" font-weight="800" fill="#1A2230">선택</text>
+      <text x="414" y="297" font-size="19" font-weight="500" fill="#4A5568">안과의원 지정·담당자 알림</text>
+      <rect x="414" y="320" width="104" height="26" rx="13" fill="#F4EAFF" stroke="#8B1DFF" stroke-width="1"/>
+      <text x="466" y="338" font-size="13" font-weight="800" fill="#8B1DFF" text-anchor="middle">임상시험측</text>
+    </g>
+
+    <path d="M666 273H689" fill="none" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M694 273L682 264V282Z" fill="#94A3B8"/>
+
+    <g filter="url(#strial5)">
+      <rect x="700" y="184" width="280" height="178" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5"/>
+      <path d="M716 184H823V201H700V200Q700 184 716 184Z" fill="#00CE90"/>
+      <rect x="823" y="184" width="157" height="17" fill="#0EA5C4"/>
+      <path d="M980 184V201H980V184Z" fill="#0EA5C4"/>
+      <circle cx="740" cy="238" r="25" fill="#00CE90"/>
+      <text x="740" y="247" font-size="25" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+      <text x="784" y="238" font-size="31" font-weight="800" fill="#1A2230">검사</text>
+      <text x="740" y="297" font-size="19" font-weight="500" fill="#4A5568">환자 방문·광각안저 등 수행</text>
+      <rect x="740" y="320" width="68" height="26" rx="13" fill="#E8FFF8" stroke="#00CE90" stroke-width="1"/>
+      <text x="774" y="338" font-size="13" font-weight="800" fill="#00A977" text-anchor="middle">환자</text>
+      <rect x="820" y="320" width="82" height="26" rx="13" fill="#E9FAFD" stroke="#0EA5C4" stroke-width="1"/>
+      <text x="861" y="338" font-size="13" font-weight="800" fill="#0EA5C4" text-anchor="middle">안과의원</text>
+    </g>
+
+    <path d="M992 273H1015" fill="none" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1020 273L1008 264V282Z" fill="#94A3B8"/>
+
+    <g filter="url(#strial5)">
+      <rect x="1026" y="184" width="280" height="178" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5"/>
+      <path d="M1042 184H1290Q1306 184 1306 200V201H1026V200Q1026 184 1042 184Z" fill="#0EA5C4"/>
+      <circle cx="1066" cy="238" r="25" fill="#0EA5C4"/>
+      <text x="1066" y="247" font-size="25" font-weight="800" fill="#FFFFFF" text-anchor="middle">4</text>
+      <text x="1110" y="238" font-size="31" font-weight="800" fill="#1A2230">결과</text>
+      <text x="1066" y="297" font-size="19" font-weight="500" fill="#4A5568">표준 결과지 입력·회신</text>
+      <rect x="1066" y="320" width="82" height="26" rx="13" fill="#E9FAFD" stroke="#0EA5C4" stroke-width="1"/>
+      <text x="1107" y="338" font-size="13" font-weight="800" fill="#0EA5C4" text-anchor="middle">안과의원</text>
+    </g>
+
+    <path d="M1318 273H1341" fill="none" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1346 273L1334 264V282Z" fill="#94A3B8"/>
+
+    <g filter="url(#strial5)">
+      <rect x="1352" y="184" width="280" height="178" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5"/>
+      <path d="M1368 184H1491V201H1352V200Q1352 184 1368 184Z" fill="#0EA5C4"/>
+      <rect x="1491" y="184" width="141" height="17" fill="#00CE90"/>
+      <circle cx="1392" cy="238" r="25" fill="#0EA5C4"/>
+      <text x="1392" y="247" font-size="25" font-weight="800" fill="#FFFFFF" text-anchor="middle">5</text>
+      <text x="1436" y="238" font-size="31" font-weight="800" fill="#1A2230">다음 안내</text>
+      <text x="1392" y="297" font-size="19" font-weight="500" fill="#4A5568">차기 검사·추적 안내</text>
+      <rect x="1392" y="320" width="82" height="26" rx="13" fill="#E9FAFD" stroke="#0EA5C4" stroke-width="1"/>
+      <text x="1433" y="338" font-size="13" font-weight="800" fill="#0EA5C4" text-anchor="middle">안과의원</text>
+      <rect x="1486" y="320" width="68" height="26" rx="13" fill="#E8FFF8" stroke="#00CE90" stroke-width="1"/>
+      <text x="1520" y="338" font-size="13" font-weight="800" fill="#00A977" text-anchor="middle">환자</text>
+    </g>
+  </g>
+
+  <g aria-label="역할 분담">
+    <rect x="48" y="402" width="468" height="100" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5" filter="url(#strial5)"/>
+    <path d="M64 402H500Q516 402 516 418V419H48V418Q48 402 64 402Z" fill="#00CE90"/>
+    <text x="78" y="441" font-size="23" font-weight="800" fill="#1A2230">애프터눈 = 운영 인프라 제공</text>
+    <text x="78" y="474" font-size="16" font-weight="500" fill="#4A5568">예약·알림·결과 회신·운영 프로세스 지원</text>
+
+    <rect x="548" y="402" width="584" height="100" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#strial5)"/>
+    <path d="M564 402H1116Q1132 402 1132 418V419H548V418Q548 402 564 402Z" fill="#0EA5C4"/>
+    <text x="578" y="441" font-size="22" font-weight="800" fill="#1A2230">동네 안과 = 일상 진료 범위 검사 (연구자 등재·GCP 불요)</text>
+    <text x="578" y="474" font-size="16" font-weight="500" fill="#4A5568">광각안저 등 진료 현장에서 가능한 검사 수행</text>
+
+    <rect x="1164" y="402" width="468" height="100" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#strial5)"/>
+    <path d="M1180 402H1616Q1632 402 1632 418V419H1164V418Q1164 402 1180 402Z" fill="#8B1DFF"/>
+    <text x="1194" y="441" font-size="23" font-weight="800" fill="#1A2230">임상시험측 = 의뢰·EDC</text>
+    <text x="1194" y="474" font-size="16" font-weight="500" fill="#4A5568">검사 의뢰 생성 및 데이터 관리 체계 운영</text>
+  </g>
+
+  <g aria-label="운영 원칙">
+    <line x1="48" y1="538" x2="1632" y2="538" stroke="#E6E9EF" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 10"/>
+    <text x="840" y="568" font-size="14" font-weight="500" fill="#94A3B8" text-anchor="middle">근거: 식약처 「지역 의료기관 임상시험 참여 확대방안」(2024-04-12). 글로벌 제약사 트랙 reference case 논의·검토 단계 — 계약·운영 단정 아님.</text>
+  </g>
+</svg>

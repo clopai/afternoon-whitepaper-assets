@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="640" viewBox="0 0 1680 640" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="g_applink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1EF074"/>
+      <stop offset="1" stop-color="#1ECAFA"/>
+    </linearGradient>
+    <filter id="s_applink" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0A2540" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrowSolid_applink" markerWidth="18" markerHeight="18" refX="15" refY="9" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L16 9 L2 16 Z" fill="#00CE90"/>
+    </marker>
+    <marker id="arrowSoft_applink" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1680" height="640" fill="#FFFFFF"/>
+
+  <rect x="24" y="24" width="1632" height="92" rx="18" fill="url(#g_applink)"/>
+  <text x="56" y="70" font-size="30" font-weight="800" fill="#FFFFFF">당뇨관리 앱과 함께</text>
+  <text x="56" y="100" font-size="15" font-weight="500" fill="#FFFFFF" opacity="0.92">환자 동선 위에 ‘눈검사 입구’를 넓힙니다</text>
+  <rect x="1398" y="48" width="210" height="44" rx="22" fill="#FFFFFF" opacity="0.18"/>
+  <text x="1503" y="77" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">KAKAO PASTA 연동</text>
+
+  <text x="75" y="158" font-size="16" font-weight="800" fill="#4A5568">당뇨 관리 시작점</text>
+  <rect x="70" y="188" width="430" height="184" rx="16" fill="#FFFFFF" stroke="#FFEB00" stroke-width="5" filter="url(#s_applink)"/>
+  <path d="M86 188 H484 A16 16 0 0 1 500 204 V215 H70 V204 A16 16 0 0 1 86 188 Z" fill="#FFEB00"/>
+  <rect x="100" y="238" width="150" height="32" rx="16" fill="#00CE90"/>
+  <text x="175" y="260" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">연동 진행 중</text>
+  <text x="100" y="309" font-size="27" font-weight="800" fill="#1A2230">카카오헬스케어 PASTA</text>
+  <text x="100" y="342" font-size="18" font-weight="500" fill="#4A5568">CGM 기반 AI 혈당관리앱</text>
+
+  <path d="M520 280 C565 280 590 280 635 280" fill="none" stroke="#00CE90" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowSolid_applink)"/>
+  <rect x="526" y="218" width="200" height="44" rx="22" fill="url(#g_applink)" filter="url(#s_applink)"/>
+  <text x="626" y="247" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">앱 → 눈검사 인입</text>
+  <text x="530" y="328" font-size="15" font-weight="500" fill="#94A3B8">환자 동선 위에 눈검사 입구 확대</text>
+
+  <rect x="660" y="170" width="430" height="224" rx="16" fill="url(#g_applink)" filter="url(#s_applink)"/>
+  <rect x="690" y="202" width="112" height="34" rx="17" fill="#FFFFFF" opacity="0.20"/>
+  <text x="746" y="225" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle">HUB</text>
+  <text x="875" y="286" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle">애프터눈 afterNOON</text>
+  <text x="875" y="329" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle" opacity="0.95">당뇨병 눈검사 인입·표준 회신 허브</text>
+
+  <path d="M1112 282 C1162 282 1196 282 1244 282" fill="none" stroke="#00CE90" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowSolid_applink)"/>
+  <text x="1178" y="246" font-size="15" font-weight="800" fill="#00CE90" text-anchor="middle">검사 의뢰</text>
+
+  <text x="1270" y="158" font-size="16" font-weight="800" fill="#4A5568">지역 검사 거점</text>
+  <rect x="1270" y="202" width="300" height="162" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#s_applink)"/>
+  <rect x="1270" y="202" width="300" height="7" rx="3.5" fill="#0EA5C4"/>
+  <text x="1420" y="272" font-size="30" font-weight="800" fill="#1A2230" text-anchor="middle">동네 안과</text>
+  <text x="1420" y="313" font-size="18" font-weight="500" fill="#4A5568" text-anchor="middle">검사 → 표준 결과지 회신</text>
+
+  <text x="1206" y="419" font-size="16" font-weight="800" fill="#94A3B8">향후 연결 (디지털헬스케어 생태계)</text>
+  <rect x="1176" y="450" width="226" height="46" rx="23" fill="#F7FBFA" stroke="#CBD5E0" stroke-width="1.5" stroke-dasharray="2 10"/>
+  <text x="1289" y="480" font-size="17" font-weight="700" fill="#94A3B8" text-anchor="middle">아이쿱 닥터바이스</text>
+  <rect x="1430" y="450" width="226" height="46" rx="23" fill="#F7FBFA" stroke="#CBD5E0" stroke-width="1.5" stroke-dasharray="2 10"/>
+  <text x="1543" y="480" font-size="17" font-weight="700" fill="#94A3B8" text-anchor="middle">Health2Sync 슈가지니</text>
+  <path d="M1176 473 C1128 468 1104 438 1048 389" fill="none" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 10" marker-end="url(#arrowSoft_applink)" opacity="0.55"/>
+  <path d="M1430 473 C1310 470 1174 438 1060 392" fill="none" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 10" marker-end="url(#arrowSoft_applink)" opacity="0.55"/>
+
+  <rect x="184" y="535" width="1312" height="52" rx="26" fill="url(#g_applink)" filter="url(#s_applink)"/>
+  <text x="840" y="569" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">디지털헬스케어 시대, 지역 안과가 환자 눈검사의 거점이 됩니다</text>
+  <text x="840" y="617" font-size="13" font-weight="500" fill="#94A3B8" text-anchor="middle">각 앱·브랜드명은 해당사 상표이며, 연동 상태는 진행/검토 단계입니다.</text>
+</svg>

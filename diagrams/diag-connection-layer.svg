@@ -1,93 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 860" width="2000" height="860" role="img" aria-labelledby="title desc" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
-  <title id="title">애프터눈 연결 계층 닫힌 고리 다이어그램</title>
-  <desc id="desc">의뢰 내과와 환자가 애프터눈을 통해 동네 안과에 검사 요청을 보내고, 안과의 표준 결과가 애프터눈을 거쳐 내과와 환자에게 회신되는 닫힌 고리 구조</desc>
-
-  <defs>
-    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1EF074"/>
-      <stop offset="100%" stop-color="#1ECAFA"/>
-    </linearGradient>
-
-    <filter id="centerShadow" x="-12%" y="-18%" width="124%" height="140%">
-      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0A2540" flood-opacity="0.10"/>
-    </filter>
-
-    <marker id="arrowRequest" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
-      <path d="M1 1 L11 6 L1 11 Z" fill="#4A5568"/>
-    </marker>
-
-    <marker id="arrowReturn" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
-      <path d="M1 1 L11 6 L1 11 Z" fill="#00CE90"/>
-    </marker>
-
-    <marker id="arrowPurple" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
-      <path d="M1 1 L11 6 L1 11 Z" fill="#8B1DFF"/>
-    </marker>
-
-    <marker id="arrowPatient" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
-      <path d="M1 1 L11 6 L1 11 Z" fill="#00CE90"/>
-    </marker>
-  </defs>
-
-  <rect x="0" y="0" width="2000" height="1060" fill="#FFFFFF"/>
-
-  <text x="1000" y="78" text-anchor="middle" fill="#1A2230" font-size="34" font-weight="800">검진 의뢰와 결과 회신을 닫힌 고리로 연결</text>
-  <text x="1000" y="118" text-anchor="middle" fill="#4A5568" font-size="20" font-weight="600">애프터눈은 의료행위를 하지 않고, 표준화된 요청과 결과 전달을 조율하는 연결 계층입니다</text>
-
-  <rect x="100" y="220" width="410" height="180" rx="20" fill="#F6ECFF" stroke="#8B1DFF" stroke-width="3"/>
-  <text x="305" y="290" text-anchor="middle" fill="#8B1DFF" font-size="36" font-weight="800">의뢰 내과</text>
-  <text x="305" y="335" text-anchor="middle" fill="#4A5568" font-size="22" font-weight="700">검진 의료 · 결과 확인</text>
-
-  <rect x="100" y="660" width="410" height="180" rx="20" fill="#ECFFF8" stroke="#00CE90" stroke-width="3"/>
-  <text x="305" y="730" text-anchor="middle" fill="#00A978" font-size="36" font-weight="800">환자</text>
-  <text x="305" y="775" text-anchor="middle" fill="#4A5568" font-size="22" font-weight="700">검사 · 결과 본인 확인</text>
-
-  <rect x="730" y="300" width="590" height="440" rx="24" fill="url(#brandGradient)" filter="url(#centerShadow)"/>
-  <text x="1025" y="378" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800">애프터눈</text>
-  <text x="1025" y="422" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="700">연결 계층 · 조율 · 표준화 · 전달</text>
-
-  <rect x="790" y="486" width="210" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.92"/>
-  <text x="895" y="516" text-anchor="middle" fill="#1A2230" font-size="19" font-weight="700">예약 접수</text>
-  <rect x="1050" y="486" width="210" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.92"/>
-  <text x="1155" y="516" text-anchor="middle" fill="#1A2230" font-size="19" font-weight="700">자동 회신</text>
-
-  <rect x="790" y="560" width="210" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.92"/>
-  <text x="895" y="590" text-anchor="middle" fill="#1A2230" font-size="19" font-weight="700">표준 검사입력 양식</text>
-  <rect x="1050" y="560" width="210" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.92"/>
-  <text x="1155" y="590" text-anchor="middle" fill="#1A2230" font-size="19" font-weight="700">결과지 생성</text>
-
-  <rect x="790" y="634" width="210" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.92"/>
-  <text x="895" y="664" text-anchor="middle" fill="#1A2230" font-size="19" font-weight="700">알림</text>
-  <rect x="1050" y="634" width="210" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.92"/>
-  <text x="1155" y="664" text-anchor="middle" fill="#1A2230" font-size="19" font-weight="700">종단 관리</text>
-  <text x="1025" y="712" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700">시계열로 검사와 결과 흐름을 이어 관리</text>
-
-  <rect x="1550" y="425" width="360" height="180" rx="20" fill="#EAFBFF" stroke="#0EA5C4" stroke-width="3"/>
-  <text x="1730" y="495" text-anchor="middle" fill="#0EA5C4" font-size="36" font-weight="800">동네 안과</text>
-  <text x="1730" y="540" text-anchor="middle" fill="#1A2230" font-size="24" font-weight="800">검사 · 판독 · 진료</text>
-
-  <path d="M510 282 C590 282 640 300 720 338" fill="none" stroke="#8B1DFF" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowPurple)"/>
-  <rect x="548" y="230" width="148" height="42" rx="21" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.4"/>
-  <text x="622" y="258" text-anchor="middle" fill="#1A2230" font-size="20" font-weight="800">검진 의뢰</text>
-
-  <path d="M730 410 C650 410 590 392 520 362" fill="none" stroke="#00CE90" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowReturn)"/>
-  <rect x="545" y="422" width="196" height="42" rx="21" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.4"/>
-  <text x="643" y="450" text-anchor="middle" fill="#1A2230" font-size="20" font-weight="800">표준 결과지 회신</text>
-
-  <path d="M510 748 C590 748 648 704 720 644" fill="none" stroke="#00CE90" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowPatient)"/>
-  <rect x="558" y="770" width="90" height="42" rx="21" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.4"/>
-  <text x="603" y="798" text-anchor="middle" fill="#1A2230" font-size="20" font-weight="800">예약</text>
-
-  <path d="M730 570 C650 588 596 626 520 704" fill="none" stroke="#00CE90" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowReturn)"/>
-  <rect x="552" y="600" width="278" height="42" rx="21" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.4"/>
-  <text x="691" y="628" text-anchor="middle" fill="#1A2230" font-size="20" font-weight="800">내 결과 확인 · 재검 알림</text>
-
-  <path d="M1320 424 C1390 424 1456 436 1540 462" fill="none" stroke="#4A5568" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowRequest)"/>
-  <rect x="1394" y="362" width="136" height="42" rx="21" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.4"/>
-  <text x="1462" y="390" text-anchor="middle" fill="#1A2230" font-size="20" font-weight="800">검사 요청</text>
-
-  <path d="M1550 560 C1470 612 1398 642 1330 652" fill="none" stroke="#00CE90" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowReturn)"/>
-  <rect x="1395" y="668" width="136" height="42" rx="21" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.4"/>
-  <text x="1463" y="696" text-anchor="middle" fill="#1A2230" font-size="20" font-weight="800">표준 결과</text>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="640" viewBox="0 0 1680 640" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><linearGradient id="gDIAG_연결계층_v1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1EF074"/><stop offset="1" stop-color="#1ECAFA"/></linearGradient><filter id="sDIAG_연결계층_v1" x="-10%" y="-10%" width="120%" height="135%"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0A2540" flood-opacity="0.10"/></filter></defs>
+<rect width="1680" height="640" fill="#FFFFFF"/>
+<rect x="60" y="150" width="360" height="150" rx="16" fill="#F3E8FF" stroke="#8B1DFF" stroke-width="1.5" filter="url(#sDIAG_연결계층_v1)"/>
+<text x="240" y="225" font-size="26" font-weight="800" fill="#8B1DFF" text-anchor="middle">의뢰 내과</text>
+<text x="240" y="262" font-size="17" font-weight="600" fill="#4A5568" text-anchor="middle">검진 의뢰·결과 확인</text>
+<rect x="60" y="360" width="360" height="150" rx="16" fill="#ECFDF5" stroke="#00CE90" stroke-width="1.5" filter="url(#sDIAG_연결계층_v1)"/>
+<text x="240" y="435" font-size="26" font-weight="800" fill="#00CE90" text-anchor="middle">환자</text>
+<text x="240" y="472" font-size="17" font-weight="600" fill="#4A5568" text-anchor="middle">검사·결과 본인 확인</text>
+<rect x="640" y="250" width="400" height="170" rx="20" fill="url(#gDIAG_연결계층_v1)" stroke="none" stroke-width="0" filter="url(#sDIAG_연결계층_v1)"/>
+<text x="840" y="330" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle">애프터눈</text>
+<text x="840" y="372" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">연결 계층 (조율·전달)</text>
+<rect x="1260" y="250" width="360" height="170" rx="16" fill="#ECFEFF" stroke="#0EA5C4" stroke-width="1.5" filter="url(#sDIAG_연결계층_v1)"/>
+<text x="1440" y="322" font-size="26" font-weight="800" fill="#0EA5C4" text-anchor="middle">동네 안과</text>
+<text x="1440" y="360" font-size="18" font-weight="600" fill="#4A5568" text-anchor="middle">검사·판독·진료</text>
+<text x="1440" y="388" font-size="16" font-weight="600" fill="#4A5568" text-anchor="middle">(권한·책임 그대로)</text>
+<path d="M420,225 L625,225" stroke="#8B1DFF" stroke-width="7" stroke-linecap="round"/><path d="M619,215 L635,225 L619,235" fill="none" stroke="#8B1DFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M420,435 L625,435" stroke="#00CE90" stroke-width="7" stroke-linecap="round"/><path d="M619,425 L635,435 L619,445" fill="none" stroke="#00CE90" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1045,335 L1245,335" stroke="#0EA5C4" stroke-width="7" stroke-linecap="round"/><path d="M1239,325 L1255,335 L1239,345" fill="none" stroke="#0EA5C4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="840.0" y="580" font-size="20" font-weight="700" fill="#1A2230" text-anchor="middle">검사·판독·진료 = 안과의 몫 / 애프터눈은 잇기만 (원격진료·대행 아님)</text>
 </svg>
