@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="760" viewBox="0 0 1680 760" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="glineup2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1EF074"/>
+      <stop offset="1" stop-color="#1ECAFA"/>
+    </linearGradient>
+    <filter id="slineup2" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0A2540" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  
+
+  <rect x="24" y="24" width="1632" height="96" rx="18" fill="url(#glineup2)"/>
+  <text x="56" y="70" font-size="30" font-weight="800" fill="#FFFFFF">당뇨병을 넘어, 눈을 위한 모든 것</text>
+  <text x="56" y="100" font-size="15" font-weight="500" fill="#FFFFFF" opacity="0.92">같은 원리(정기 검사 + 표준 회신)의 확장</text>
+  <rect x="1428" y="50" width="164" height="44" rx="22" fill="#FFFFFF" opacity="0.18"/>
+  <text x="1510" y="78" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">검사 9종</text>
+
+  <text x="64" y="164" font-size="18" font-weight="800" fill="#1A2230">출발점</text>
+  <rect x="64" y="190" width="320" height="204" rx="16" fill="url(#glineup2)" filter="url(#slineup2)"/>
+  <text x="224" y="276" font-size="30" font-weight="800" fill="#FFFFFF" text-anchor="middle">당뇨망막병증</text>
+  <text x="224" y="314" font-size="17" font-weight="600" fill="#FFFFFF" opacity="0.94" text-anchor="middle">출발점 · 무산동 광각 검사</text>
+  <rect x="112" y="338" width="224" height="34" rx="17" fill="#FFFFFF" opacity="0.18"/>
+  <text x="224" y="361" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">정기 검사 + 표준 회신</text>
+
+  <path d="M412 292 L500 292" fill="none" stroke="#00CE90" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M500 274 L532 292 L500 310 Z" fill="#00CE90"/>
+
+  <text x="536" y="164" font-size="18" font-weight="800" fill="#1A2230">확장 검사 카테고리 5군</text>
+  <text x="536" y="188" font-size="14" font-weight="500" fill="#4A5568">당뇨병눈검사의 운영 원리를 다른 안과 영역으로 확장</text>
+
+  <rect x="536" y="214" width="196" height="180" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#slineup2)"/>
+  <rect x="536" y="214" width="196" height="7" rx="3.5" fill="#0EA5C4"/>
+  <circle cx="568" cy="250" r="18" fill="#0EA5C4"/>
+  <text x="568" y="256" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="568" y="296" font-size="20" font-weight="800" fill="#1A2230">갑상선눈병증</text>
+  <text x="568" y="326" font-size="20" font-weight="800" fill="#1A2230">(TED)</text>
+  <text x="568" y="358" font-size="14" font-weight="500" fill="#4A5568">정기 추적 검사</text>
+
+  <rect x="752" y="214" width="196" height="180" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#slineup2)"/>
+  <rect x="752" y="214" width="196" height="7" rx="3.5" fill="#0EA5C4"/>
+  <circle cx="784" cy="250" r="18" fill="#0EA5C4"/>
+  <text x="784" y="256" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="784" y="294" font-size="19" font-weight="800" fill="#1A2230">약제 눈독성</text>
+  <text x="784" y="322" font-size="19" font-weight="800" fill="#1A2230">모니터링</text>
+  <text x="784" y="356" font-size="14" font-weight="500" fill="#4A5568">HCQ·에탐부톨 등</text>
+
+  <rect x="968" y="214" width="196" height="180" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#slineup2)"/>
+  <rect x="968" y="214" width="196" height="7" rx="3.5" fill="#0EA5C4"/>
+  <circle cx="1000" cy="250" r="18" fill="#0EA5C4"/>
+  <text x="1000" y="256" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="1000" y="296" font-size="20" font-weight="800" fill="#1A2230">소아 근시</text>
+  <text x="1000" y="330" font-size="13" font-weight="500" fill="#4A5568">안축장 종단·드림렌즈·</text>
+  <text x="1000" y="352" font-size="13" font-weight="500" fill="#4A5568">저농도 아트로핀</text>
+
+  <rect x="1184" y="214" width="196" height="180" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#slineup2)"/>
+  <rect x="1184" y="214" width="196" height="7" rx="3.5" fill="#0EA5C4"/>
+  <circle cx="1216" cy="250" r="18" fill="#0EA5C4"/>
+  <text x="1216" y="256" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="1216" y="296" font-size="20" font-weight="800" fill="#1A2230">노안·건성안</text>
+  <text x="1216" y="330" font-size="14" font-weight="500" fill="#4A5568">PROM 연계</text>
+
+  <rect x="1400" y="214" width="196" height="180" rx="16" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5" filter="url(#slineup2)"/>
+  <rect x="1400" y="214" width="196" height="7" rx="3.5" fill="#0EA5C4"/>
+  <circle cx="1432" cy="250" r="18" fill="#0EA5C4"/>
+  <text x="1432" y="256" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="1432" y="296" font-size="20" font-weight="800" fill="#1A2230">백내장·일반</text>
+  <text x="1432" y="324" font-size="20" font-weight="800" fill="#1A2230">안과검진</text>
+
+  <path d="M224 418 C224 470 418 498 650 498 C882 498 1162 498 1498 498" fill="none" stroke="#00CE90" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 10" opacity="0.7"/>
+  <path d="M1498 482 L1526 498 L1498 514 Z" fill="#00CE90" opacity="0.7"/>
+  <text x="1040" y="486" font-size="14" font-weight="700" fill="#00CE90" text-anchor="middle">표준 회신 구조를 동일하게 적용</text>
+
+  <rect x="64" y="538" width="1532" height="132" rx="16" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5"/>
+  <rect x="64" y="538" width="1532" height="7" rx="3.5" fill="#00CE90"/>
+  <text x="92" y="580" font-size="18" font-weight="800" fill="#1A2230">검사 카테고리 5군 = 제공 검사 9종 (2026-06-14)</text>
+
+  <rect x="92" y="604" width="156" height="42" rx="21" fill="url(#glineup2)"/>
+  <text x="170" y="631" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">당뇨병눈검사</text>
+
+  <rect x="264" y="604" width="116" height="42" rx="21" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5"/>
+  <text x="322" y="631" font-size="16" font-weight="800" fill="#1A2230" text-anchor="middle">일반예약</text>
+
+  <rect x="396" y="604" width="100" height="42" rx="21" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5"/>
+  <text x="446" y="631" font-size="16" font-weight="800" fill="#1A2230" text-anchor="middle">백내장</text>
+
+  <rect x="512" y="604" width="82" height="42" rx="21" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5"/>
+  <text x="553" y="631" font-size="16" font-weight="800" fill="#1A2230" text-anchor="middle">노안</text>
+
+  <rect x="610" y="604" width="156" height="42" rx="21" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5"/>
+  <text x="688" y="631" font-size="16" font-weight="800" fill="#1A2230" text-anchor="middle">소아청소년시력</text>
+
+  <rect x="782" y="604" width="180" height="42" rx="21" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5"/>
+  <text x="872" y="631" font-size="16" font-weight="800" fill="#1A2230" text-anchor="middle">약제독성모니터링</text>
+
+  <rect x="978" y="604" width="156" height="42" rx="21" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5"/>
+  <text x="1056" y="631" font-size="16" font-weight="800" fill="#1A2230" text-anchor="middle">갑상선눈병증</text>
+
+  <rect x="1150" y="604" width="116" height="42" rx="21" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5"/>
+  <text x="1208" y="631" font-size="16" font-weight="800" fill="#1A2230" text-anchor="middle">드림렌즈</text>
+
+  <rect x="1282" y="604" width="82" height="42" rx="21" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5"/>
+  <text x="1323" y="631" font-size="16" font-weight="800" fill="#1A2230" text-anchor="middle">RGP</text>
+
+  <text x="64" y="716" font-size="14" font-weight="500" fill="#94A3B8">인입: 2·3차 종합병원 · 공공의료원 · 1차의료기관 · 디지털헬스케어 서비스</text>
+</svg>

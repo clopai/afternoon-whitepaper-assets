@@ -204,10 +204,10 @@
     "desc": "흐름도: 안과 의료진 중심"
   },
   {
-    "original": "diagrams/DIAG_연결계층_v1.png",
+    "original": "DIAG_연결계층_v1.png",
     "slug": "diagrams/diag-connection-layer.png",
     "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer.png",
-    "desc": "개념도: 연결 계층(닫힌 고리)"
+    "desc": "연결계층 닫힌 고리(책임 문구 제거·정리본)"
   },
   {
     "original": "diagrams/DIAG_큰그림_v1.png",
@@ -270,10 +270,10 @@
     "desc": "흐름도: 안과(벡터)"
   },
   {
-    "original": "diagrams/DIAG_연결계층_v1.svg",
+    "original": "DIAG_연결계층_v1.svg",
     "slug": "diagrams/diag-connection-layer.svg",
     "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer.svg",
-    "desc": "개념도: 연결 계층(벡터)"
+    "desc": "연결계층 닫힌 고리(책임 문구 제거·정리본) (SVG)"
   },
   {
     "original": "diagrams/DIAG_큰그림_v1.svg",
@@ -316,5 +316,161 @@
     "slug": "curves/p13-axl-v12-vs-v10.png",
     "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/curves/p13-axl-v12-vs-v10.png",
     "desc": "안축장 곡선 v1.2 vs v1.0 비교"
+  },
+  {
+    "original": "FLOW_당뇨검진_듀얼_v1.png",
+    "slug": "diagrams/flow-dm-dual.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-dm-dual.png",
+    "desc": "흐름도: 환자⇄안과 듀얼 스윔레인(당뇨 눈검사)"
+  },
+  {
+    "original": "FLOW_당뇨검진_듀얼_v1.svg",
+    "slug": "diagrams/flow-dm-dual.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-dm-dual.svg",
+    "desc": "흐름도: 환자⇄안과 듀얼 스윔레인(당뇨 눈검사) (SVG)"
+  },
+  {
+    "original": "FLOW_당뇨검진_듀얼_v1_투명.png",
+    "slug": "diagrams/flow-dm-dual-transparent.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-dm-dual-transparent.png",
+    "desc": "흐름도: 환자⇄안과 듀얼 스윔레인(당뇨 눈검사) (투명배경)"
+  },
+  {
+    "original": "FLOW_당뇨검진_듀얼_v1_투명.svg",
+    "slug": "diagrams/flow-dm-dual-transparent.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-dm-dual-transparent.svg",
+    "desc": "흐름도: 환자⇄안과 듀얼 스윔레인(당뇨 눈검사) (투명·SVG)"
+  },
+  {
+    "original": "DIAG_연결계층_v1_투명.png",
+    "slug": "diagrams/diag-connection-layer-transparent.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer-transparent.png",
+    "desc": "연결계층 닫힌 고리(책임 문구 제거·정리본) (투명배경)"
+  },
+  {
+    "original": "DIAG_연결계층_v1_투명.svg",
+    "slug": "diagrams/diag-connection-layer-transparent.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer-transparent.svg",
+    "desc": "연결계층 닫힌 고리(책임 문구 제거·정리본) (투명·SVG)"
+  },
+  {
+    "original": "DIAG_라인업_v2.png",
+    "slug": "diagrams/diag-lineup-v2.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup-v2.png",
+    "desc": "검사 라인업 — 카테고리 5군 + 검사 9종 칩(v2)"
+  },
+  {
+    "original": "DIAG_라인업_v2.svg",
+    "slug": "diagrams/diag-lineup-v2.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup-v2.svg",
+    "desc": "검사 라인업 — 카테고리 5군 + 검사 9종 칩(v2) (SVG)"
+  },
+  {
+    "original": "DIAG_라인업_v2_투명.png",
+    "slug": "diagrams/diag-lineup-v2-transparent.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup-v2-transparent.png",
+    "desc": "검사 라인업 — 카테고리 5군 + 검사 9종 칩(v2) (투명배경)"
+  },
+  {
+    "original": "DIAG_라인업_v2_투명.svg",
+    "slug": "diagrams/diag-lineup-v2-transparent.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup-v2-transparent.svg",
+    "desc": "검사 라인업 — 카테고리 5군 + 검사 9종 칩(v2) (투명·SVG)"
+  },
+  {
+    "original": "DIAG_PROM시계열_v1.png",
+    "slug": "diagrams/diag-prom-timeseries.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-prom-timeseries.png",
+    "desc": "PROM 발송→대기실/자택 응답→시계열 수집"
+  },
+  {
+    "original": "DIAG_PROM시계열_v1.svg",
+    "slug": "diagrams/diag-prom-timeseries.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-prom-timeseries.svg",
+    "desc": "PROM 발송→대기실/자택 응답→시계열 수집 (SVG)"
+  },
+  {
+    "original": "DIAG_PROM시계열_v1_투명.png",
+    "slug": "diagrams/diag-prom-timeseries-transparent.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-prom-timeseries-transparent.png",
+    "desc": "PROM 발송→대기실/자택 응답→시계열 수집 (투명배경)"
+  },
+  {
+    "original": "DIAG_PROM시계열_v1_투명.svg",
+    "slug": "diagrams/diag-prom-timeseries-transparent.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-prom-timeseries-transparent.svg",
+    "desc": "PROM 발송→대기실/자택 응답→시계열 수집 (투명·SVG)"
+  },
+  {
+    "original": "DIAG_임상시험5단계_v1.png",
+    "slug": "diagrams/diag-trial-5step.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-trial-5step.png",
+    "desc": "임상시험 운영 5단계(익명화·역할분담)"
+  },
+  {
+    "original": "DIAG_임상시험5단계_v1.svg",
+    "slug": "diagrams/diag-trial-5step.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-trial-5step.svg",
+    "desc": "임상시험 운영 5단계(익명화·역할분담) (SVG)"
+  },
+  {
+    "original": "DIAG_임상시험5단계_v1_투명.png",
+    "slug": "diagrams/diag-trial-5step-transparent.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-trial-5step-transparent.png",
+    "desc": "임상시험 운영 5단계(익명화·역할분담) (투명배경)"
+  },
+  {
+    "original": "DIAG_임상시험5단계_v1_투명.svg",
+    "slug": "diagrams/diag-trial-5step-transparent.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-trial-5step-transparent.svg",
+    "desc": "임상시험 운영 5단계(익명화·역할분담) (투명·SVG)"
+  },
+  {
+    "original": "DIAG_상급지역상생_v1.png",
+    "slug": "diagrams/diag-synergy.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-synergy.png",
+    "desc": "상급⇄지역 안과 분업(refer-up/refer-back)"
+  },
+  {
+    "original": "DIAG_상급지역상생_v1.svg",
+    "slug": "diagrams/diag-synergy.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-synergy.svg",
+    "desc": "상급⇄지역 안과 분업(refer-up/refer-back) (SVG)"
+  },
+  {
+    "original": "DIAG_상급지역상생_v1_투명.png",
+    "slug": "diagrams/diag-synergy-transparent.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-synergy-transparent.png",
+    "desc": "상급⇄지역 안과 분업(refer-up/refer-back) (투명배경)"
+  },
+  {
+    "original": "DIAG_상급지역상생_v1_투명.svg",
+    "slug": "diagrams/diag-synergy-transparent.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-synergy-transparent.svg",
+    "desc": "상급⇄지역 안과 분업(refer-up/refer-back) (투명·SVG)"
+  },
+  {
+    "original": "DIAG_당뇨앱연동_v1.png",
+    "slug": "diagrams/diag-dm-app-link.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-dm-app-link.png",
+    "desc": "당뇨관리앱(카카오 PASTA) 연동 → 눈검사 인입"
+  },
+  {
+    "original": "DIAG_당뇨앱연동_v1.svg",
+    "slug": "diagrams/diag-dm-app-link.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-dm-app-link.svg",
+    "desc": "당뇨관리앱(카카오 PASTA) 연동 → 눈검사 인입 (SVG)"
+  },
+  {
+    "original": "DIAG_당뇨앱연동_v1_투명.png",
+    "slug": "diagrams/diag-dm-app-link-transparent.png",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-dm-app-link-transparent.png",
+    "desc": "당뇨관리앱(카카오 PASTA) 연동 → 눈검사 인입 (투명배경)"
+  },
+  {
+    "original": "DIAG_당뇨앱연동_v1_투명.svg",
+    "slug": "diagrams/diag-dm-app-link-transparent.svg",
+    "url": "https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-dm-app-link-transparent.svg",
+    "desc": "당뇨관리앱(카카오 PASTA) 연동 → 눈검사 인입 (투명·SVG)"
   }
 ]

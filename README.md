@@ -57,3 +57,38 @@ Notion 등 외부 임베드용 공개 이미지 호스팅. 원본 관리는 afte
 | `curves/p13-axl-curve-male.svg` | 안축장 백분위 곡선(남) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/curves/p13-axl-curve-male.svg |
 | `curves/p13-axl-curve-female.svg` | 안축장 백분위 곡선(여) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/curves/p13-axl-curve-female.svg |
 | `curves/p13-axl-v12-vs-v10.png` | 안축장 곡선 v1.2 vs v1.0 비교 | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/curves/p13-axl-v12-vs-v10.png |
+
+
+## 개원 안과의원 소개덱 도표 (2026-06-20 추가 · gpt-5.5)
+> 흰 배경 + `-transparent`(투명). 책임 문구 제거·정리본 반영. 원본: afternoon-platform/white-paper/assets/diagrams.
+
+| slug | 설명 | raw URL |
+|---|---|---|
+| `diagrams/flow-dm-dual.png` | 흐름도: 환자⇄안과 듀얼 스윔레인(당뇨 눈검사) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-dm-dual.png |
+| `diagrams/flow-dm-dual.svg` | 흐름도: 환자⇄안과 듀얼 스윔레인(당뇨 눈검사) (SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-dm-dual.svg |
+| `diagrams/flow-dm-dual-transparent.png` | 흐름도: 환자⇄안과 듀얼 스윔레인(당뇨 눈검사) (투명배경) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-dm-dual-transparent.png |
+| `diagrams/flow-dm-dual-transparent.svg` | 흐름도: 환자⇄안과 듀얼 스윔레인(당뇨 눈검사) (투명·SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/flow-dm-dual-transparent.svg |
+| `diagrams/diag-connection-layer.png` | 연결계층 닫힌 고리(책임 문구 제거·정리본) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer.png |
+| `diagrams/diag-connection-layer.svg` | 연결계층 닫힌 고리(책임 문구 제거·정리본) (SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer.svg |
+| `diagrams/diag-connection-layer-transparent.png` | 연결계층 닫힌 고리(책임 문구 제거·정리본) (투명배경) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer-transparent.png |
+| `diagrams/diag-connection-layer-transparent.svg` | 연결계층 닫힌 고리(책임 문구 제거·정리본) (투명·SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer-transparent.svg |
+| `diagrams/diag-lineup-v2.png` | 검사 라인업 — 카테고리 5군 + 검사 9종 칩(v2) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup-v2.png |
+| `diagrams/diag-lineup-v2.svg` | 검사 라인업 — 카테고리 5군 + 검사 9종 칩(v2) (SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup-v2.svg |
+| `diagrams/diag-lineup-v2-transparent.png` | 검사 라인업 — 카테고리 5군 + 검사 9종 칩(v2) (투명배경) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup-v2-transparent.png |
+| `diagrams/diag-lineup-v2-transparent.svg` | 검사 라인업 — 카테고리 5군 + 검사 9종 칩(v2) (투명·SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-lineup-v2-transparent.svg |
+| `diagrams/diag-prom-timeseries.png` | PROM 발송→대기실/자택 응답→시계열 수집 | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-prom-timeseries.png |
+| `diagrams/diag-prom-timeseries.svg` | PROM 발송→대기실/자택 응답→시계열 수집 (SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-prom-timeseries.svg |
+| `diagrams/diag-prom-timeseries-transparent.png` | PROM 발송→대기실/자택 응답→시계열 수집 (투명배경) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-prom-timeseries-transparent.png |
+| `diagrams/diag-prom-timeseries-transparent.svg` | PROM 발송→대기실/자택 응답→시계열 수집 (투명·SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-prom-timeseries-transparent.svg |
+| `diagrams/diag-trial-5step.png` | 임상시험 운영 5단계(익명화·역할분담) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-trial-5step.png |
+| `diagrams/diag-trial-5step.svg` | 임상시험 운영 5단계(익명화·역할분담) (SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-trial-5step.svg |
+| `diagrams/diag-trial-5step-transparent.png` | 임상시험 운영 5단계(익명화·역할분담) (투명배경) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-trial-5step-transparent.png |
+| `diagrams/diag-trial-5step-transparent.svg` | 임상시험 운영 5단계(익명화·역할분담) (투명·SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-trial-5step-transparent.svg |
+| `diagrams/diag-synergy.png` | 상급⇄지역 안과 분업(refer-up/refer-back) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-synergy.png |
+| `diagrams/diag-synergy.svg` | 상급⇄지역 안과 분업(refer-up/refer-back) (SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-synergy.svg |
+| `diagrams/diag-synergy-transparent.png` | 상급⇄지역 안과 분업(refer-up/refer-back) (투명배경) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-synergy-transparent.png |
+| `diagrams/diag-synergy-transparent.svg` | 상급⇄지역 안과 분업(refer-up/refer-back) (투명·SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-synergy-transparent.svg |
+| `diagrams/diag-dm-app-link.png` | 당뇨관리앱(카카오 PASTA) 연동 → 눈검사 인입 | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-dm-app-link.png |
+| `diagrams/diag-dm-app-link.svg` | 당뇨관리앱(카카오 PASTA) 연동 → 눈검사 인입 (SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-dm-app-link.svg |
+| `diagrams/diag-dm-app-link-transparent.png` | 당뇨관리앱(카카오 PASTA) 연동 → 눈검사 인입 (투명배경) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-dm-app-link-transparent.png |
+| `diagrams/diag-dm-app-link-transparent.svg` | 당뇨관리앱(카카오 PASTA) 연동 → 눈검사 인입 (투명·SVG) | https://raw.githubusercontent.com/snubhretina/afternoon-whitepaper-assets/main/diagrams/diag-dm-app-link-transparent.svg |

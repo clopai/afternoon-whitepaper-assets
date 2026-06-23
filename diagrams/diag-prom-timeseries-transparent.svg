@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="640" viewBox="0 0 1680 640" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="gpromts" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1EF074"/>
+      <stop offset="1" stop-color="#1ECAFA"/>
+    </linearGradient>
+    <filter id="spromts" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0A2540" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrowCyanpromts" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#1ECAFA"/>
+    </marker>
+    <marker id="arrowGreenpromts" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#00CE90"/>
+    </marker>
+    <marker id="arrowSoftpromts" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+
+  
+
+  <rect x="24" y="24" width="1632" height="96" rx="18" fill="url(#gpromts)"/>
+  <text x="56" y="70" font-size="30" font-weight="800" fill="#FFFFFF">PROM — 수치 너머의 환자 경험</text>
+  <text x="56" y="100" font-size="15" font-weight="500" fill="#FFFFFF" opacity="0.92">표준 설문 발송 + 응답을 시계열로 수집</text>
+  <rect x="1318" y="50" width="214" height="44" rx="22" fill="#FFFFFF" opacity="0.18"/>
+  <text x="1425" y="78" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">PROM TIME SERIES</text>
+
+  <rect x="48" y="142" width="240" height="44" rx="14" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5"/>
+  <circle cx="74" cy="164" r="8" fill="#1ECAFA"/>
+  <text x="94" y="170" font-size="16" font-weight="700" fill="#1A2230">경과관찰마다 반복되는 표준 PROM 흐름</text>
+
+  <line x1="210" y1="276" x2="1432" y2="276" stroke="#D7DEE8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1432 276 C1490 276 1522 276 1562 276" fill="none" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 10" marker-end="url(#arrowSoftpromts)"/>
+  <text x="1590" y="282" font-size="20" font-weight="800" fill="#4A5568" text-anchor="middle">… 계속</text>
+
+  <text x="396" y="242" font-size="14" font-weight="700" fill="#94A3B8" text-anchor="middle">4~6개월 간격</text>
+  <text x="704" y="242" font-size="14" font-weight="700" fill="#94A3B8" text-anchor="middle">4~6개월 간격</text>
+  <text x="1012" y="242" font-size="14" font-weight="700" fill="#94A3B8" text-anchor="middle">4~6개월 간격</text>
+  <path d="M292 238 H500" fill="none" stroke="#C8D1DD" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <path d="M600 238 H808" fill="none" stroke="#C8D1DD" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <path d="M908 238 H1116" fill="none" stroke="#C8D1DD" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 10"/>
+
+  <circle cx="242" cy="276" r="15" fill="#FFFFFF" stroke="#00CE90" stroke-width="5"/>
+  <circle cx="550" cy="276" r="15" fill="#FFFFFF" stroke="#00CE90" stroke-width="5"/>
+  <circle cx="858" cy="276" r="15" fill="#FFFFFF" stroke="#00CE90" stroke-width="5"/>
+  <circle cx="1166" cy="276" r="15" fill="#FFFFFF" stroke="#00CE90" stroke-width="5"/>
+
+  <g filter="url(#spromts)">
+    <rect x="132" y="196" width="220" height="236" rx="15" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5"/>
+    <rect x="132" y="196" width="220" height="7" rx="3.5" fill="#00CE90"/>
+    <text x="242" y="225" font-size="20" font-weight="800" fill="#1A2230" text-anchor="middle">0차 (첫 내원)</text>
+
+    <rect x="156" y="246" width="172" height="44" rx="12" fill="#F0FBFF" stroke="#BDEFFF" stroke-width="1.2"/>
+    <path d="M174 257 H205 Q213 257 213 265 V274 Q213 282 205 282 H190 L181 290 V282 H174 Q166 282 166 274 V265 Q166 257 174 257 Z" fill="#1ECAFA"/>
+    <text x="222" y="273" font-size="13" font-weight="800" fill="#1A2230">표준 PROM 발송</text>
+    <text x="222" y="286" font-size="10" font-weight="600" fill="#4A5568">알림톡</text>
+
+    <rect x="156" y="308" width="172" height="58" rx="12" fill="#F1FBFD" stroke="#BDE9F1" stroke-width="1.2"/>
+    <circle cx="184" cy="326" r="12" fill="#0EA5C4"/>
+    <path d="M178 326 H190 M184 320 V332" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="209" y="324" font-size="13" font-weight="800" fill="#1A2230">응답</text>
+    <rect x="172" y="338" width="68" height="18" rx="9" fill="#0EA5C4" opacity="0.13"/>
+    <text x="206" y="352" font-size="11" font-weight="700" fill="#0EA5C4" text-anchor="middle">🏥 대기실</text>
+    <rect x="244" y="338" width="68" height="18" rx="9" fill="#0EA5C4" opacity="0.13"/>
+    <text x="278" y="351" font-size="9" font-weight="700" fill="#0EA5C4" text-anchor="middle">🏠 자택 작성</text>
+
+    <rect x="156" y="384" width="172" height="32" rx="12" fill="#F1FEF8" stroke="#B7F4DD" stroke-width="1.2"/>
+    <circle cx="176" cy="400" r="4.5" fill="#00CE90"/>
+    <circle cx="190" cy="400" r="4.5" fill="#00CE90" opacity="0.85"/>
+    <circle cx="204" cy="400" r="4.5" fill="#00CE90" opacity="0.7"/>
+    <text x="224" y="405" font-size="12" font-weight="800" fill="#1A2230">응답 수집·누적</text>
+  </g>
+
+  <g filter="url(#spromts)">
+    <rect x="440" y="196" width="220" height="236" rx="15" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5"/>
+    <rect x="440" y="196" width="220" height="7" rx="3.5" fill="#0EA5C4"/>
+    <text x="550" y="225" font-size="20" font-weight="800" fill="#1A2230" text-anchor="middle">1차 FU</text>
+
+    <rect x="464" y="246" width="172" height="44" rx="12" fill="#F0FBFF" stroke="#BDEFFF" stroke-width="1.2"/>
+    <path d="M482 257 H513 Q521 257 521 265 V274 Q521 282 513 282 H498 L489 290 V282 H482 Q474 282 474 274 V265 Q474 257 482 257 Z" fill="#1ECAFA"/>
+    <text x="530" y="273" font-size="13" font-weight="800" fill="#1A2230">표준 PROM 발송</text>
+    <text x="530" y="286" font-size="10" font-weight="600" fill="#4A5568">알림톡</text>
+
+    <rect x="464" y="308" width="172" height="58" rx="12" fill="#F1FBFD" stroke="#BDE9F1" stroke-width="1.2"/>
+    <circle cx="492" cy="326" r="12" fill="#0EA5C4"/>
+    <path d="M486 326 H498 M492 320 V332" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="517" y="324" font-size="13" font-weight="800" fill="#1A2230">응답</text>
+    <rect x="480" y="338" width="68" height="18" rx="9" fill="#0EA5C4" opacity="0.13"/>
+    <text x="514" y="352" font-size="11" font-weight="700" fill="#0EA5C4" text-anchor="middle">🏥 대기실</text>
+    <rect x="552" y="338" width="68" height="18" rx="9" fill="#0EA5C4" opacity="0.13"/>
+    <text x="586" y="351" font-size="9" font-weight="700" fill="#0EA5C4" text-anchor="middle">🏠 자택 작성</text>
+
+    <rect x="464" y="384" width="172" height="32" rx="12" fill="#F1FEF8" stroke="#B7F4DD" stroke-width="1.2"/>
+    <circle cx="484" cy="400" r="4.5" fill="#00CE90"/>
+    <circle cx="498" cy="400" r="4.5" fill="#00CE90" opacity="0.9"/>
+    <circle cx="512" cy="400" r="4.5" fill="#00CE90" opacity="0.82"/>
+    <circle cx="526" cy="400" r="4.5" fill="#00CE90" opacity="0.74"/>
+    <circle cx="540" cy="400" r="4.5" fill="#00CE90" opacity="0.66"/>
+    <text x="558" y="405" font-size="12" font-weight="800" fill="#1A2230">응답 수집·누적</text>
+  </g>
+
+  <g filter="url(#spromts)">
+    <rect x="748" y="196" width="220" height="236" rx="15" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5"/>
+    <rect x="748" y="196" width="220" height="7" rx="3.5" fill="#00CE90"/>
+    <text x="858" y="225" font-size="20" font-weight="800" fill="#1A2230" text-anchor="middle">2차 FU</text>
+
+    <rect x="772" y="246" width="172" height="44" rx="12" fill="#F0FBFF" stroke="#BDEFFF" stroke-width="1.2"/>
+    <path d="M790 257 H821 Q829 257 829 265 V274 Q829 282 821 282 H806 L797 290 V282 H790 Q782 282 782 274 V265 Q782 257 790 257 Z" fill="#1ECAFA"/>
+    <text x="838" y="273" font-size="13" font-weight="800" fill="#1A2230">표준 PROM 발송</text>
+    <text x="838" y="286" font-size="10" font-weight="600" fill="#4A5568">알림톡</text>
+
+    <rect x="772" y="308" width="172" height="58" rx="12" fill="#F1FBFD" stroke="#BDE9F1" stroke-width="1.2"/>
+    <circle cx="800" cy="326" r="12" fill="#0EA5C4"/>
+    <path d="M794 326 H806 M800 320 V332" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="825" y="324" font-size="13" font-weight="800" fill="#1A2230">응답</text>
+    <rect x="788" y="338" width="68" height="18" rx="9" fill="#0EA5C4" opacity="0.13"/>
+    <text x="822" y="352" font-size="11" font-weight="700" fill="#0EA5C4" text-anchor="middle">🏥 대기실</text>
+    <rect x="860" y="338" width="68" height="18" rx="9" fill="#0EA5C4" opacity="0.13"/>
+    <text x="894" y="351" font-size="9" font-weight="700" fill="#0EA5C4" text-anchor="middle">🏠 자택 작성</text>
+
+    <rect x="772" y="384" width="172" height="32" rx="12" fill="#F1FEF8" stroke="#B7F4DD" stroke-width="1.2"/>
+    <circle cx="792" cy="400" r="4.5" fill="#00CE90"/>
+    <circle cx="806" cy="400" r="4.5" fill="#00CE90" opacity="0.92"/>
+    <circle cx="820" cy="400" r="4.5" fill="#00CE90" opacity="0.86"/>
+    <circle cx="834" cy="400" r="4.5" fill="#00CE90" opacity="0.8"/>
+    <circle cx="848" cy="400" r="4.5" fill="#00CE90" opacity="0.74"/>
+    <circle cx="862" cy="400" r="4.5" fill="#00CE90" opacity="0.68"/>
+    <circle cx="876" cy="400" r="4.5" fill="#00CE90" opacity="0.62"/>
+    <text x="894" y="405" font-size="12" font-weight="800" fill="#1A2230">응답 수집·누적</text>
+  </g>
+
+  <g filter="url(#spromts)">
+    <rect x="1056" y="196" width="220" height="236" rx="15" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5"/>
+    <rect x="1056" y="196" width="220" height="7" rx="3.5" fill="#1ECAFA"/>
+    <text x="1166" y="225" font-size="20" font-weight="800" fill="#1A2230" text-anchor="middle">3차 FU</text>
+
+    <rect x="1080" y="246" width="172" height="44" rx="12" fill="#F0FBFF" stroke="#BDEFFF" stroke-width="1.2"/>
+    <path d="M1098 257 H1129 Q1137 257 1137 265 V274 Q1137 282 1129 282 H1114 L1105 290 V282 H1098 Q1090 282 1090 274 V265 Q1090 257 1098 257 Z" fill="#1ECAFA"/>
+    <text x="1146" y="273" font-size="13" font-weight="800" fill="#1A2230">표준 PROM 발송</text>
+    <text x="1146" y="286" font-size="10" font-weight="600" fill="#4A5568">알림톡</text>
+
+    <rect x="1080" y="308" width="172" height="58" rx="12" fill="#F1FBFD" stroke="#BDE9F1" stroke-width="1.2"/>
+    <circle cx="1108" cy="326" r="12" fill="#0EA5C4"/>
+    <path d="M1102 326 H1114 M1108 320 V332" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="1133" y="324" font-size="13" font-weight="800" fill="#1A2230">응답</text>
+    <rect x="1096" y="338" width="68" height="18" rx="9" fill="#0EA5C4" opacity="0.13"/>
+    <text x="1130" y="352" font-size="11" font-weight="700" fill="#0EA5C4" text-anchor="middle">🏥 대기실</text>
+    <rect x="1168" y="338" width="68" height="18" rx="9" fill="#0EA5C4" opacity="0.13"/>
+    <text x="1202" y="351" font-size="9" font-weight="700" fill="#0EA5C4" text-anchor="middle">🏠 자택 작성</text>
+
+    <rect x="1080" y="384" width="172" height="32" rx="12" fill="#F1FEF8" stroke="#B7F4DD" stroke-width="1.2"/>
+    <circle cx="1100" cy="400" r="4.5" fill="#00CE90"/>
+    <circle cx="1114" cy="400" r="4.5" fill="#00CE90" opacity="0.93"/>
+    <circle cx="1128" cy="400" r="4.5" fill="#00CE90" opacity="0.88"/>
+    <circle cx="1142" cy="400" r="4.5" fill="#00CE90" opacity="0.83"/>
+    <circle cx="1156" cy="400" r="4.5" fill="#00CE90" opacity="0.78"/>
+    <circle cx="1170" cy="400" r="4.5" fill="#00CE90" opacity="0.73"/>
+    <circle cx="1184" cy="400" r="4.5" fill="#00CE90" opacity="0.68"/>
+    <circle cx="1198" cy="400" r="4.5" fill="#00CE90" opacity="0.63"/>
+    <circle cx="1212" cy="400" r="4.5" fill="#00CE90" opacity="0.58"/>
+    <text x="1228" y="405" font-size="12" font-weight="800" fill="#1A2230">누적</text>
+  </g>
+
+  <path d="M1278 266 C1340 222 1396 224 1438 262" fill="none" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 10" opacity="0.75" marker-end="url(#arrowSoftpromts)"/>
+  <text x="1398" y="216" font-size="13" font-weight="700" fill="#94A3B8" text-anchor="middle">다음 경과관찰로 환류</text>
+
+  <g filter="url(#spromts)">
+    <rect x="1310" y="334" width="300" height="98" rx="15" fill="#F7FBFA" stroke="#E6E9EF" stroke-width="1.5"/>
+    <rect x="1310" y="334" width="300" height="7" rx="3.5" fill="#8B1DFF"/>
+    <text x="1332" y="363" font-size="16" font-weight="800" fill="#1A2230">사용 척도 예</text>
+    <text x="1332" y="391" font-size="14" font-weight="700" fill="#4A5568">VFQ-NEAR (노안 근거리 시력)</text>
+    <text x="1332" y="415" font-size="14" font-weight="700" fill="#4A5568">SPEED · OSDI (건성안)</text>
+  </g>
+
+  <rect x="156" y="462" width="1036" height="82" rx="15" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5"/>
+  <rect x="156" y="462" width="1036" height="7" rx="3.5" fill="#00CE90"/>
+  <text x="180" y="492" font-size="16" font-weight="800" fill="#1A2230">응답 누적 추세</text>
+  <text x="180" y="522" font-size="13" font-weight="500" fill="#4A5568">시간축 아래 도트와 막대가 오른쪽으로 갈수록 늘어나며, 단일 시점이 아닌 반복 경과관찰 데이터를 보여줍니다.</text>
+
+  <line x1="482" y1="522" x2="1120" y2="522" stroke="#D7DEE8" stroke-width="2" stroke-linecap="round"/>
+  <rect x="512" y="500" width="28" height="22" rx="5" fill="#00CE90" opacity="0.42"/>
+  <rect x="606" y="492" width="28" height="30" rx="5" fill="#00CE90" opacity="0.52"/>
+  <rect x="700" y="482" width="28" height="40" rx="5" fill="#00CE90" opacity="0.62"/>
+  <rect x="794" y="470" width="28" height="52" rx="5" fill="#00CE90" opacity="0.72"/>
+  <rect x="888" y="458" width="28" height="64" rx="5" fill="#00CE90" opacity="0.82"/>
+  <rect x="982" y="446" width="28" height="76" rx="5" fill="#00CE90" opacity="0.92"/>
+  <path d="M526 498 C620 488 700 480 808 466 S984 446 1100 430" fill="none" stroke="#00CE90" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowGreenpromts)"/>
+  <circle cx="526" cy="498" r="5" fill="#00CE90"/>
+  <circle cx="620" cy="488" r="5" fill="#00CE90"/>
+  <circle cx="714" cy="478" r="5" fill="#00CE90"/>
+  <circle cx="808" cy="466" r="5" fill="#00CE90"/>
+  <circle cx="902" cy="454" r="5" fill="#00CE90"/>
+  <circle cx="996" cy="442" r="5" fill="#00CE90"/>
+  <text x="1126" y="436" font-size="13" font-weight="800" fill="#00CE90">응답 수집·누적</text>
+
+  <rect x="1216" y="462" width="394" height="82" rx="15" fill="#FFFFFF" stroke="#E6E9EF" stroke-width="1.5"/>
+  <rect x="1216" y="462" width="394" height="7" rx="3.5" fill="#1ECAFA"/>
+  <text x="1240" y="492" font-size="16" font-weight="800" fill="#1A2230">라벨 범례</text>
+  <circle cx="1246" cy="519" r="6" fill="#1ECAFA"/>
+  <text x="1262" y="524" font-size="13" font-weight="700" fill="#4A5568">발송</text>
+  <circle cx="1320" cy="519" r="6" fill="#0EA5C4"/>
+  <text x="1336" y="524" font-size="13" font-weight="700" fill="#4A5568">응답</text>
+  <circle cx="1396" cy="519" r="6" fill="#00CE90"/>
+  <text x="1412" y="524" font-size="13" font-weight="700" fill="#4A5568">누적</text>
+  <line x1="1482" y1="519" x2="1534" y2="519" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <text x="1546" y="524" font-size="13" font-weight="700" fill="#4A5568">반복</text>
+
+  <rect x="220" y="570" width="1240" height="46" rx="23" fill="url(#gpromts)"/>
+  <text x="840" y="600" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle">검사 수치로 안 보이는 환자 경험을 시계열로 포착 → 경과 비교·진료 반영</text>
+</svg>
