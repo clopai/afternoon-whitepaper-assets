@@ -1,6 +1,6 @@
 ---
 name: AfterNOON Design System
-version: 0.3.1-draft
+version: 0.3.2-draft
 updated: 2026-09-24
 owner: CLOP Inc. (clop.ai)
 status: internal-draft
@@ -45,16 +45,16 @@ colors:
     focus-ring: "#009669" # 제안 — 비텍스트 3:1 충족(흰 배경 3.77:1). 구 제안 #00CE90은 2.05:1로 미달 (v0.3.1)
   # 보조 액센트 (confirmed_figma)
   accent:
-    violet: "#881DFF"    # Sub/881DFF (= 브랜드 보라, 다이어그램 강조)
+    violet: "#881DFF"    # Sub/881DFF — 제품 UI 전용. 인쇄·브랜드·시각화 보라는 brand_extended.violet #8B1DFF (2026-09-24 분리 확정)
   kiosk:
     blue-gray: "#BFCEE5" # Kiosk 전용 면색
-  # 브랜드/다이어그램 액센트 (마케팅·시각화) — green=로고 꼬리·스파클 정본(BI PDF p.8, 2026-09-24 오너 확정; 구 #1AE592는 Figma 브랜드 애셋·2023 PNG 값) · cyan-deep은 BI 외 가독용(to_confirm)
-  brand_extended: { green: "#3AFF71", cyan: "#1ECAFA", cyan-deep: "#0EA5C4", lime: "#D8FF00", pink: "#DC71FF", violet: "#881DFF" }
+  # 브랜드/다이어그램 액센트 (마케팅·시각화) — green=로고 꼬리·스파클 정본(BI PDF p.8, 2026-09-24 오너 확정; 구 #1AE592는 Figma 브랜드 애셋·2023 PNG 값) · cyan-deep은 BI 외 가독용(to_confirm) · violet=인쇄·브랜드·시각화용 BI 인쇄값(제품 UI는 accent.violet)
+  brand_extended: { green: "#3AFF71", cyan: "#1ECAFA", cyan-deep: "#0EA5C4", lime: "#D8FF00", pink: "#DC71FF", violet: "#8B1DFF" }
   # CLOP 마스터 (confirmed_ci) — 모회사·코퍼릿 전용
   clop_master: { violet: "#440099", yellow: "#FFC72C", ink: "#212121", violet-300: "#8848ED", violet-200: "#ADABFF", cool-gray-200: "#C6CBE0" }
 typography:
   family: "Pretendard"        # confirmed_figma: 제품 전 영역
-  display_en: "Montserrat"    # 디지털 관례(L2 핸드오프 전부 채택) — CLOP CI p.10 제목 서체는 Mundial(라이선스 미확인), Montserrat는 CI 본문 견본
+  display_en: "Montserrat"    # 오너 확정(2026-09-24): CI 영문 제목 서체 Mundial 대신 Montserrat — 디지털 서체는 Pretendard·Montserrat·Google Fonts에서 고른다(CI 국문 제목 서체 나눔스퀘어 네오는 기존 사용처 유지)
   serif: "Noto Serif"         # CLOP CI p.11 국문 본문 견본
   logo_wordmark: "rounded geometric sans (로고 전용, 본문 금지)"
   weights: { regular: 400, medium: 500, semibold: 600 }   # SemiBold=‘bold’ 토큰
@@ -151,9 +151,9 @@ radius:           # to_confirm — Figma에 radius 변수 없음. 관례 제안�
 | focus-ring | `#009669` | 제안 — 비텍스트 3:1 충족(3.77:1). 구 제안 `#00CE90`은 2.05:1 (v0.3.1) |
 
 ### 1.6 보조 액센트·기타 ✅FIG
-- **Violet `#881DFF`** (Sub) — 보조 강조. 브랜드 보라·다이어그램 강조와 동일 계열.
+- **Violet `#881DFF`** (Sub) — 제품 UI 보조 강조 전용. 인쇄·브랜드·시각화에는 BI 인쇄값 `#8B1DFF`를 쓴다(2026-09-24 분리 확정).
 - **Kiosk `#BFCEE5`** — 키오스크 전용 면색.
-- 다이어그램/마케팅 액센트: green `#3AFF71`(로고 꼬리·스파클 정본, 2026-09-24 — 구 `#1AE592`)·cyan `#1ECAFA`·cyan-deep `#0EA5C4`(⚠ BI 외, 흰 배경 가독용)·lime `#D8FF00`·pink `#DC71FF`·violet `#881DFF`.
+- 다이어그램/마케팅 액센트: green `#3AFF71`(로고 꼬리·스파클 정본, 2026-09-24 — 구 `#1AE592`)·cyan `#1ECAFA`·cyan-deep `#0EA5C4`(⚠ BI 외, 흰 배경 가독용)·lime `#D8FF00`·pink `#DC71FF`·violet `#8B1DFF`(BI 인쇄값, 시각화용).
 
 ### 1.7 CLOP 마스터 ✅CI (모회사·코퍼릿)
 Violet `#440099` · Yellow `#FFC72C` · Ink `#212121` · 틴트 `#8848ED`/`#ADABFF`/`#C6CBE0`. 제품 그린과 동등 비중 혼용 금지.
@@ -161,7 +161,7 @@ Violet `#440099` · Yellow `#FFC72C` · Ink `#212121` · 틴트 `#8848ED`/`#ADAB
 ---
 
 ## 2. 타이포그래피 ✅FIG (Pretendard)
-**제품 전 영역 = Pretendard.** weight: Regular 400 / Medium 500 / SemiBold 600(=‘bold’ 토큰). 영문 제목 Montserrat(디지털 관례 — CLOP CI p.10 제목 서체는 Mundial), 세리프 Noto Serif(CI p.11 국문 본문 견본). 로고 워드마크는 로고 전용.
+**제품 전 영역 = Pretendard.** weight: Regular 400 / Medium 500 / SemiBold 600(=‘bold’ 토큰). 영문 제목 Montserrat(2026-09-24 오너 확정 — CI 영문 제목 서체 Mundial 대신. 디지털 서체는 Pretendard·Montserrat·Google Fonts에서 고른다), 세리프 Noto Serif(CI p.11 국문 본문 견본). 로고 워드마크는 로고 전용.
 
 ### 2.1 인앱(환자) 스케일 — `weight / size / lineHeight / letterSpacing`
 | 토큰 | 값 |
@@ -251,3 +251,4 @@ Violet `#440099` · Yellow `#FFC72C` · Ink `#212121` · 틴트 `#8848ED`/`#ADAB
 | v0.2 | 2026-06-24 | Figma 설문 프레임 변수 실측(primary·gray·danger·guide·타입 4종). 그라데이션/솔리드 구분 명문화. |
 | v0.3 | 2026-06-24 | **Figma 5개 페이지 변수 33종 실측 병합**. Primary 4단계·Gray 10단계·Sub(error #FF3E3E·violet #881DFF)·Guide(info #0B50D0·navy #223A58)·Kiosk·**인앱/포털어드민 타입 스케일 전체**. 발견: 간격·radius·elevation은 Figma 미토큰화 → 관례화 필요. |
 | v0.3.1 | 2026-09-24 | **라벨 정정(값 불변)**: 각도 135°=Figma 브랜드 애셋 실측 디지털 관례(PDF 인쇄 −60°) · Montserrat=디지털 관례(CI 제목 서체 Mundial) · §8 보이스·§9 로고 금지 규칙=허브 채택 · lime 역할 기재 삭제. **값 결정**: 로고 꼬리·스파클 액센트 `#3AFF71`(brand_extended.green, 구 `#1AE592`) · focus-ring 제안 `#00CE90`→`#009669`. 애프터뷰 개발 중지 표기. 정본 위치 = `context-reference/design/tokens/`(디자인 허브 Q-03·Q-04, 오너 승인). **줄 번호 불변**(doctors 인용 보호) |
+| v0.3.2 | 2026-09-24 | **오너 결정 반영**: violet 분리 — 제품 UI `#881DFF`(accent.violet·Figma Sub 변수) / 인쇄·브랜드·시각화 `#8B1DFF`(brand_extended.violet, BI PDF 인쇄값). 서체 — CI 영문 제목 서체 Mundial 대신 Montserrat, 디지털 서체는 Pretendard·Montserrat·Google Fonts에서 고른다(나눔스퀘어 네오는 기존 사용처 유지). 줄 번호 불변 |
