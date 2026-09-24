@@ -1,20 +1,20 @@
 ---
 name: AfterNOON Design System
-version: 0.3-draft
-updated: 2026-06-24
+version: 0.3.1-draft
+updated: 2026-09-24
 owner: CLOP Inc. (clop.ai)
 status: internal-draft
 source_of_truth:
-  brand_ci: "Dropbox/[00] CLOP/[11] Branding/20250326_CI BI 정리"
+  brand_ci: "Dropbox/[00] CLOP/[11] Branding (허브 사본 context-reference/design/brand-assets · 판독 결과 DESIGN 01)"
   ui_tokens: "Figma Dev Mode variables (애프터눈 제품 파일). v0.3 = 인앱·포털·어드민·커넥트·설문 페이지 변수 33종 실측 (2026-06-24)"
 confidence_legend:
-  confirmed_ci: "CI/BI 정본·로고 실측"
+  confirmed_ci: "CI/BI PDF 인쇄값·로고 실측"
   confirmed_figma: "Figma 제품 변수 실측"
   to_confirm: "초안값/관례 제안 — Figma 미정의(추출 불가) 또는 추가 확인 필요"
 colors:
   # 브랜드 식별(마케팅·로고) — 그라데이션
-  brand_gradient: { from: "#1EF074", to: "#1ECAFA", angle: "135deg" }   # confirmed_ci
-  accent_lime: "#D8FF00"   # confirmed_ci: 콤마/하이라이트
+  brand_gradient: { from: "#1EF074", to: "#1ECAFA", angle: "135deg" }   # 색=BI PDF p.8 인쇄값 · 135deg=Figma 브랜드 애셋 fill 실측(디지털 관례). PDF 인쇄 각도는 −60°(Illustrator 표기). 각도는 자유 변수
+  accent_lime: "#D8FF00"   # BI PDF p.8 서브 컬러(역할 기재 없음) — 좁은 면적 포인트. 로고 꼬리·스파클 액센트는 brand_extended.green
   # 제품 UI 주색 (confirmed_figma: Primary/*)
   primary:
     base:   "#00CE90"   # 기본 액션·강조·success
@@ -42,20 +42,20 @@ colors:
     info:    "#0B50D0"   # Guide (링크·안내 블루)
     guide-navy: "#223A58" # Guide (짙은 안내 텍스트, 설문에서 관찰)
     warning: "#FFC72C"   # to_confirm (CLOP yellow 차용 제안 — Figma 미관찰)
-    focus-ring: "#00CE90" # 제안 (primary 기반)
+    focus-ring: "#009669" # 제안 — 비텍스트 3:1 충족(흰 배경 3.77:1). 구 제안 #00CE90은 2.05:1로 미달 (v0.3.1)
   # 보조 액센트 (confirmed_figma)
   accent:
     violet: "#881DFF"    # Sub/881DFF (= 브랜드 보라, 다이어그램 강조)
   kiosk:
     blue-gray: "#BFCEE5" # Kiosk 전용 면색
-  # 브랜드/다이어그램 액센트 (마케팅·시각화 — 일부 to_confirm)
-  brand_extended: { green: "#1AE592", cyan: "#1ECAFA", cyan-deep: "#0EA5C4", lime: "#D8FF00", pink: "#DC71FF", violet: "#881DFF" }
+  # 브랜드/다이어그램 액센트 (마케팅·시각화) — green=로고 꼬리·스파클 정본(BI PDF p.8, 2026-09-24 오너 확정; 구 #1AE592는 Figma 브랜드 애셋·2023 PNG 값) · cyan-deep은 BI 외 가독용(to_confirm)
+  brand_extended: { green: "#3AFF71", cyan: "#1ECAFA", cyan-deep: "#0EA5C4", lime: "#D8FF00", pink: "#DC71FF", violet: "#881DFF" }
   # CLOP 마스터 (confirmed_ci) — 모회사·코퍼릿 전용
   clop_master: { violet: "#440099", yellow: "#FFC72C", ink: "#212121", violet-300: "#8848ED", violet-200: "#ADABFF", cool-gray-200: "#C6CBE0" }
 typography:
   family: "Pretendard"        # confirmed_figma: 제품 전 영역
-  display_en: "Montserrat"    # confirmed_ci: 브랜드·영문 제목
-  serif: "Noto Serif"         # confirmed_ci
+  display_en: "Montserrat"    # 디지털 관례(L2 핸드오프 전부 채택) — CLOP CI p.10 제목 서체는 Mundial(라이선스 미확인), Montserrat는 CI 본문 견본
+  serif: "Noto Serif"         # CLOP CI p.11 국문 본문 견본
   logo_wordmark: "rounded geometric sans (로고 전용, 본문 금지)"
   weights: { regular: 400, medium: 500, semibold: 600 }   # SemiBold=‘bold’ 토큰
   # 인앱(환자) 스케일 — confirmed_figma  [size/weight/lineHeight/letterSpacing]
@@ -93,11 +93,11 @@ radius:           # to_confirm — Figma에 radius 변수 없음. 관례 제안�
 
 # AfterNOON Design System (`afternoon-design.md`)
 
-> 🔒 **CLOP 내부 전용 v0.3.** 애프터눈 서비스·리서치의 **브랜드·디자인 단일 원천(SSOT)**. Vercel `vercel.com/design.md`(Geist) 패턴.
+> 🔒 **CLOP 내부 전용 v0.3.1.** 애프터눈 서비스·리서치의 **브랜드·디자인 단일 원천(SSOT)**. Vercel `vercel.com/design.md`(Geist) 패턴. 정본 위치·층 구조·편차·접근성 판정은 디자인 허브 `context-reference/DESIGN.md`.
 >
 > **에이전트 사용법**: 인포그래픽·다이어그램·PPT·카드뉴스·웹/화면 제작 시 이 토큰을 그대로 인용한다. 값 추측 금지. 상단 YAML이 토큰 원본.
 >
-> **신뢰 라벨**: ✅CI = CI/BI 정본 · ✅FIG = Figma 제품 변수 실측 · ⚠ = 초안값/관례 제안.
+> **신뢰 라벨**: ✅CI = CI/BI PDF에 인쇄된 값 · ✅FIG = Figma 제품 변수 실측 · 허브 채택 = PDF에 없는 규칙을 허브가 채택 · ⚠ = 초안값/관례 제안.
 
 ---
 
@@ -113,7 +113,7 @@ radius:           # to_confirm — Figma에 radius 변수 없음. 관례 제안�
 ## 1. 컬러
 
 ### 1.1 브랜드 코어 — 그라데이션 ✅CI
-- `linear-gradient(135deg, #1EF074 0%, #1ECAFA 100%)` — 로고·히어로·표지·마케팅·데이터 시각화 주강조.
+- `linear-gradient(135deg, #1EF074 0%, #1ECAFA 100%)` — 로고·히어로·표지·마케팅·데이터 시각화 주강조. 135°는 Figma 브랜드 애셋 fill 실측 디지털 관례(BI PDF 인쇄 각도 −60°) — 두 정지점만, 각도만 자유.
 
 ### 1.2 제품 UI 주색 (Primary) ✅FIG
 | 토큰 | HEX | 용도 |
@@ -124,7 +124,7 @@ radius:           # to_confirm — Figma에 radius 변수 없음. 관례 제안�
 | primary-subtle | `#F3FFFB` | 선택 배경·연한 면 |
 
 ### 1.3 악센트 ✅CI
-- **Lime `#D8FF00`** — 콤마·포인트(좁은 면적).
+- **Lime `#D8FF00`** — BI 서브 컬러, 좁은 면적 포인트(PDF에 역할 기재 없음). **로고 꼬리·스파클 액센트 = `#3AFF71`**(BI PDF p.8 인쇄 서브 컬러·렌더 실측, 2026-09-24 오너 확정). 기존 로고 파일(2023 PNG 꼬리 `#1AE592`·화이트판 `#D8FF00`)은 그대로 쓰고 재채색하지 않는다.
 
 ### 1.4 중립(그레이) ✅FIG
 | HEX | 역할 |
@@ -148,12 +148,12 @@ radius:           # to_confirm — Figma에 radius 변수 없음. 관례 제안�
 | info | `#0B50D0` | ✅FIG (Guide, 링크·안내 블루) |
 | guide-navy | `#223A58` | ✅FIG (짙은 안내 텍스트) |
 | warning | `#FFC72C` | ⚠ (Figma 미관찰 — CLOP yellow 차용 제안) |
-| focus-ring | `#00CE90` | 제안 (primary 기반) |
+| focus-ring | `#009669` | 제안 — 비텍스트 3:1 충족(3.77:1). 구 제안 `#00CE90`은 2.05:1 (v0.3.1) |
 
 ### 1.6 보조 액센트·기타 ✅FIG
 - **Violet `#881DFF`** (Sub) — 보조 강조. 브랜드 보라·다이어그램 강조와 동일 계열.
 - **Kiosk `#BFCEE5`** — 키오스크 전용 면색.
-- 다이어그램/마케팅 액센트(일부 ⚠): green `#1AE592`·cyan `#1ECAFA`·cyan-deep `#0EA5C4`·lime `#D8FF00`·pink `#DC71FF`·violet `#881DFF`.
+- 다이어그램/마케팅 액센트: green `#3AFF71`(로고 꼬리·스파클 정본, 2026-09-24 — 구 `#1AE592`)·cyan `#1ECAFA`·cyan-deep `#0EA5C4`(⚠ BI 외, 흰 배경 가독용)·lime `#D8FF00`·pink `#DC71FF`·violet `#881DFF`.
 
 ### 1.7 CLOP 마스터 ✅CI (모회사·코퍼릿)
 Violet `#440099` · Yellow `#FFC72C` · Ink `#212121` · 틴트 `#8848ED`/`#ADABFF`/`#C6CBE0`. 제품 그린과 동등 비중 혼용 금지.
@@ -161,7 +161,7 @@ Violet `#440099` · Yellow `#FFC72C` · Ink `#212121` · 틴트 `#8848ED`/`#ADAB
 ---
 
 ## 2. 타이포그래피 ✅FIG (Pretendard)
-**제품 전 영역 = Pretendard.** weight: Regular 400 / Medium 500 / SemiBold 600(=‘bold’ 토큰). 영문 제목 Montserrat ✅CI, 세리프 Noto Serif ✅CI. 로고 워드마크는 로고 전용.
+**제품 전 영역 = Pretendard.** weight: Regular 400 / Medium 500 / SemiBold 600(=‘bold’ 토큰). 영문 제목 Montserrat(디지털 관례 — CLOP CI p.10 제목 서체는 Mundial), 세리프 Noto Serif(CI p.11 국문 본문 견본). 로고 워드마크는 로고 전용.
 
 ### 2.1 인앱(환자) 스케일 — `weight / size / lineHeight / letterSpacing`
 | 토큰 | 값 |
@@ -204,10 +204,10 @@ Violet `#440099` · Yellow `#FFC72C` · Ink `#212121` · 틴트 `#8848ED`/`#ADAB
 
 ## 7. 접근성 ✅ (의료·고령 사용자 — 강제 규칙)
 - 본문 대비 **4.5:1 이상**(WCAG AA). 보조 텍스트 `#757575`=흰 배경 4.6:1(충족), `#9E9E9E`는 3:1 미만이므로 **본문 금지·placeholder 한정**.
-- 모든 인터랙티브 요소 **`:focus-visible` 링**(`#00CE90`). 터치 타깃 **44×44pt** 이상.
+- 모든 인터랙티브 요소 **`:focus-visible` 링**(`#009669` — 비텍스트 3:1, v0.3.1). 터치 타깃 **44×44pt** 이상.
 - 색 단독 정보전달 금지(아이콘·라벨 병기). 동작 최소화 존중, 깜빡임 금지.
 
-## 8. 보이스 & 카피 ✅CI
+## 8. 보이스 & 카피 (허브 채택 — PDF 미기재)
 - 신뢰·전문·과장 금지. 근거수준(검증/추정/향후) 구분. 환자 대면은 쉽고 짧게.
 - 표기: **AfterNOON**(NOON 대문자) / **애프터눈**. "지역 안과"(=지역 1차의료기관 안과).
 - 적용처: 알림톡·에러·빈 상태·본인인증/간편가입 안내 등 마이크로카피.
@@ -217,13 +217,13 @@ Violet `#440099` · Yellow `#FFC72C` · Ink `#212121` · 틴트 `#8848ED`/`#ADAB
 |---|---|---|
 | 애프터눈 | 그라데이션(식별) + 그린 #00CE90(UI) | ∞ 눈 + ✦ + 콤마 |
 | 애프터눈 리서치 | 녹색 주도 | 동일 + "Research/리서치" |
-| 애프터뷰 | (BI 별도) | 동일 계열 |
+| 애프터뷰 | (BI 별도) — 광각안저사진 판독 CDSS, **개발 중지**(2026-09-24 오너 확인, 재개 계획 없음) | 원형 심볼 없이 워드마크 + 4각 스파클 |
 | CLOP(모회사) | 보라 #440099 + 옐로 #FFC72C | 보라 원형 마크 |
 
-로고 변형: 가로/세로/심볼 × 컬러/화이트/모노. 최소 여백·크기 준수, 그라데이션 변형·기울임·그림자 금지.
+로고 변형: 가로/세로/심볼 × 컬러/화이트/모노(PDF 인쇄). 최소 여백·크기 준수, 그라데이션 변형·기울임·그림자 금지 — 이 금지 규칙은 허브 채택(PDF 미기재. 여백은 CLOP CI p.3에만, 최소 크기는 4종 모두 없음 → DESIGN 01 §2).
 
 ## 10. 로고·심볼 자산 (raw URL) ✅
-베이스 `https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/` — `brand/brand-logo-h-color.png`·`-h-white.png`·`brand-logo-v-white.png`·`brand-appicon-gradient.png`·`brand/svg/brand-symbol-eye-color.svg`·`brand/svg/brand-wordmark-black.svg`. 전체: `url_map.md`/`manifest.json`.
+베이스 `https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/` — `brand/brand-logo-h-color.png`·`-h-white.png`·`brand-logo-v-white.png`·`brand-appicon-gradient.png`·`brand/svg/brand-symbol-eye-color.svg`·`brand/svg/brand-wordmark-black.svg`. 전체: `url_map.md`/`manifest.json`. 허브 사본(원 파일명 `BRAND_*`): `context-reference/design/brand-assets/afternoon-digital/`.
 
 ## 11. Figma 변수 컬렉션 매핑 ✅FIG
 | 컬렉션 | 역할 |
@@ -250,3 +250,4 @@ Violet `#440099` · Yellow `#FFC72C` · Ink `#212121` · 틴트 `#8848ED`/`#ADAB
 | v0.1 | 2026-06-24 | CI/BI 정본(색·폰트·서브브랜드)+로고 실측. UI 토큰 초안값. |
 | v0.2 | 2026-06-24 | Figma 설문 프레임 변수 실측(primary·gray·danger·guide·타입 4종). 그라데이션/솔리드 구분 명문화. |
 | v0.3 | 2026-06-24 | **Figma 5개 페이지 변수 33종 실측 병합**. Primary 4단계·Gray 10단계·Sub(error #FF3E3E·violet #881DFF)·Guide(info #0B50D0·navy #223A58)·Kiosk·**인앱/포털어드민 타입 스케일 전체**. 발견: 간격·radius·elevation은 Figma 미토큰화 → 관례화 필요. |
+| v0.3.1 | 2026-09-24 | **라벨 정정(값 불변)**: 각도 135°=Figma 브랜드 애셋 실측 디지털 관례(PDF 인쇄 −60°) · Montserrat=디지털 관례(CI 제목 서체 Mundial) · §8 보이스·§9 로고 금지 규칙=허브 채택 · lime 역할 기재 삭제. **값 결정**: 로고 꼬리·스파클 액센트 `#3AFF71`(brand_extended.green, 구 `#1AE592`) · focus-ring 제안 `#00CE90`→`#009669`. 애프터뷰 개발 중지 표기. 정본 위치 = `context-reference/design/tokens/`(디자인 허브 Q-03·Q-04, 오너 승인). **줄 번호 불변**(doctors 인용 보호) |
