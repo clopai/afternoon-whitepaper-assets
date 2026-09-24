@@ -93,7 +93,7 @@ radius:           # to_confirm — Figma에 radius 변수 없음. 관례 제안�
 
 # AfterNOON Design System (`afternoon-design.md`)
 
-> 🔒 **CLOP 내부 전용 v0.3.1.** 애프터눈 서비스·리서치의 **브랜드·디자인 단일 원천(SSOT)**. Vercel `vercel.com/design.md`(Geist) 패턴. 정본 위치·층 구조·편차·접근성 판정은 디자인 허브 `context-reference/DESIGN.md`.
+> 🔒 **CLOP 내부 전용 v0.3.2.** 애프터눈 서비스·리서치의 **브랜드·디자인 단일 원천(SSOT)**. Vercel `vercel.com/design.md`(Geist) 패턴. 정본 위치·층 구조·편차·접근성 판정은 디자인 허브 `context-reference/DESIGN.md`.
 >
 > **에이전트 사용법**: 인포그래픽·다이어그램·PPT·카드뉴스·웹/화면 제작 시 이 토큰을 그대로 인용한다. 값 추측 금지. 상단 YAML이 토큰 원본.
 >
