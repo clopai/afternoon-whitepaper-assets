@@ -1,9 +1,9 @@
-# AfterNOON 제품 UI 디자인 시스템 — 정본 확장 afternoon-ui-tokens.md v1.0 (2026-09-25)
+# AfterNOON 제품 UI 디자인 시스템 — 정본 확장 afternoon-ui-tokens.md v1.0.1 (2026-09-25)
 
 > **정본 확장**(B-13, 2026-09-25). 원천은 Claude Design R-01 v1.2(허브 `design-handoffs/afternoon_product_ui_design_handoff/`, 수령·검수 2026-09-25)이고, 허브 결정 Q-12~Q-21을 반영했다.
 > - 값의 원천은 `afternoon-ui-tokens.css`다. `afternoon-ui-tokens.json`은 같은 값의 사본이고, 생성 파이프라인(B-17) 전까지는 둘 다 고친다.
 > - 기본 원시값·doctors 계약은 `afternoon-design.md` v0.3.3이 맡는다. 이 문서는 역할·다크·스케일·키오스크·컴포넌트 계약을 맡는다.
-> - 편집은 허브 `design/tokens/`에서만 한다. 아래 본문은 R-01 v1.2 문서이고, 허브에서 고친 곳은 §5 글자 크기 3단계와 손으로 적은 대비 수치 2건이다.
+> - 편집은 허브 `design/tokens/`에서만 한다. 아래 본문은 R-01 v1.2 문서이고, 허브에서 고친 곳은 §5 글자 크기 3단계, 손으로 적은 대비 수치 2건, §9 버튼 [다름] 문구(v1.0.1 — doctors hover는 보더만 바꾼다는 실측 반영)다.
 
 적용 범위: 환자 인앱·웹, 의원 포털·어드민, 키오스크(1280×800), 결과지. 기준 문서 01(✅FIG·v0.3.x 불변) → 03(병원용 확정) → 04(설문 확정) 순으로 흡수했다. 다른 값을 택한 곳은 **[다름]** 표시와 이유를 붙였다. 대비는 WCAG 2.x 상대휘도(02 §4 재현식)로 계산했다.
 
@@ -160,7 +160,7 @@
 
 ## 9. 컴포넌트 계약 요약 (상세 상태는 components.html)
 
-- **버튼** 주(면 `--primary`/hover `--primary-hover`/pressed +2px `--primary-pressed-border`) · 보조(표면 + `--border-strong`, pressed는 `--bg-pressed`(= hover 면) + 2px `--indicator` 보더) · 텍스트(`--link` 밑줄, 44px 터치, pressed는 hover 면 + inset 2px `--border-strong`) · 위험(`--danger`, 흰 라벨) · 초록 면 위 CTA(`--surface-on-primary` + `--on-primary` + 2px 보더). loading은 라벨 유지 + 스피너, disabled와 구별(03). **[다름]** 03 "hover에 primary-strong 면" → hover 면은 `#00AF7A`: `#222222` 라벨이 `#009669` 위 4.22로 미달하기 때문. `#009669`는 pressed 보더로 남긴다.
+- **버튼** 주(면 `--primary`/hover `--primary-hover`/pressed +2px `--primary-pressed-border`) · 보조(표면 + `--border-strong`, pressed는 `--bg-pressed`(= hover 면) + 2px `--indicator` 보더) · 텍스트(`--link` 밑줄, 44px 터치, pressed는 hover 면 + inset 2px `--border-strong`) · 위험(`--danger`, 흰 라벨) · 초록 면 위 CTA(`--surface-on-primary` + `--on-primary` + 2px 보더). loading은 라벨 유지 + 스피너, disabled와 구별(03). **[다름]** hover에서 면을 바꿀 때는 `#00AF7A`를 쓴다(`#009669` 면은 `#222222` 라벨 4.22로 미달). 03(병원용 doctors)은 hover에 보더만 `#009669`로 바꾸고 면 `#00CE90`은 그대로 둔다(라벨 7.75, 2026-09-25 doctors 실측). 이 방식도 허용한다. `#009669`는 hover·pressed 보더로 쓴다.
 - **입력·셀렉트·OTP** 44px, 보더 `--border-strong`, label 500/14 → 8 → hint/error 4(03). placeholder `--text-placeholder`(#757575) + `::placeholder{opacity:1}`; 연한 면 입력은 `--text-placeholder-on-subtle`. error는 `--error` 보더 + `--error-text` 메시지 + `role=alert`. valid는 `--success-border` + 체크 아이콘. **warning 상태 없음**. readonly는 `--bg-subtle` 면·보더 없음·값 유지.
 - **라디오·체크·토글** 표시 20px(대형 24), 빈 테두리 `--border-strong` 2px. 선택: 라디오 점 `--indicator` / 체크 fill `--indicator-fill` + `--on-primary` 체크 / 토글 on 트랙 `--indicator` + 흰 손잡이(3.77).
 - **탭** 44px, 밑줄 2px `--indicator`, 라벨 선택 시 `--text-heading` 600.
