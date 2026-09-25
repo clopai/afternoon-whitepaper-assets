@@ -1,0 +1,67 @@
+{
+  "$meta": {
+    "name": "AfterNOON Product UI Tokens", "canonical": "허브 정본 확장 afternoon-ui-tokens v1.0 (B-13, 2026-09-25) — 원천 R-01 v1.2 + 결정 Q-12~Q-21. 값의 원천은 afternoon-ui-tokens.css, 이 파일은 같은 값 사본", "version": "1.0", "date": "2026-09-24",
+    "structure": "primitive → semantic (2단). 컴포넌트는 semantic만 참조",
+    "themes": ["light", "dark"], "scales": ["default(inapp)", "portal", "large(patient, 크게 — 환자 화면 첫 기본값)", "xl(더 크게 — Q-20 채택)", "kiosk(light-only)"], "version": "1.2",
+    "sources": { "FIG": "01 정본 Figma 실측 — 불변", "D": "03 병원용 확정", "S": "04 설문 확정", "N": "신설(oklch 명도 변형)" },
+    "contrast": "WCAG 2.x 상대휘도. 본문 4.5 · 큰 글자/비텍스트 3.0"
+  },
+  "primitive": {
+    "green": { "50": "#F3FFFB", "300": "#8CE9CD", "500": "#00CE90", "600": "#00AF7A", "700": "#009669", "800": "#00775A", "950": "#00321F" },
+    "gray": { "0": "#FFFFFF", "25": "#FAFAFA", "50": "#F5F5F5", "100": "#EEEEEE", "200": "#E0E0E0", "300": "#BDBDBD", "400": "#9E9E9E", "500": "#757575", "700": "#616161", "800": "#424242", "850": "#2C2C2C", "900": "#222222", "950": "#191919", "1000": "#000000" },
+    "red": { "50": "#FFECEC", "400": "#FF615B", "500": "#FF3E3E", "700": "#CC3232", "800": "#B42318", "950": "#3B0002" },
+    "blue": { "50": "#F0F5FF", "400": "#5790FA", "600": "#0B50D0", "950": "#001B5F" },
+    "navy": { "700": "#223A58" },
+    "yellow": { "50": "#FFF4DD", "400": "#FFC72C", "700": "#B98E0C", "800": "#8C6B06", "950": "#302200" },
+    "violet": { "50": "#F3EFFF", "300": "#A47AFE", "500": "#881DFF", "950": "#2E0060" },
+    "kiosk": { "200": "#BFCEE5" },
+    "$source": { "green.600": "S", "green.800": "N", "green.950": "N", "gray.850": "N", "gray.950": "요청서 §4", "red.700": "D", "red.800": "S", "red.50": "D", "red.950": "N", "red.400": "N (다크 error-text, #FF3E3E oklch L .66→.75)", "blue.400": "N", "blue.50": "N", "blue.950": "N", "yellow.700": "N", "yellow.800": "N", "yellow.50": "N", "yellow.950": "N", "violet.300": "N", "violet.50": "N", "violet.950": "N", "$default": "FIG" }
+  },
+  "semantic": {
+    "bg":       { "canvas": { "light": "{gray.0}", "dark": "{gray.950}" }, "surface": { "light": "{gray.0}", "dark": "{gray.900}" }, "subtle": { "light": "{gray.25}", "dark": "{gray.900}" }, "raised": { "light": "{gray.50}", "dark": "{gray.850}" }, "hover": { "light": "{gray.50}", "dark": "{gray.850}" }, "pressed": { "light": "{gray.50}", "dark": "{gray.850}", "$note": "= hover 면. pressed는 inset 2px border.strong으로 표시" }, "kiosk": { "light": "{kiosk.200}", "dark": "{kiosk.200}" }, "scrim": { "light": "rgba(34,34,34,0.5)", "dark": "rgba(0,0,0,0.6)" } },
+    "text":     { "default": { "light": "{gray.1000}", "dark": "{gray.100}" }, "heading": { "light": "{gray.900}", "dark": "{gray.0}" }, "secondary": { "light": "{gray.700}", "dark": "{gray.300}" }, "placeholder": { "light": "{gray.500}", "dark": "{gray.400}", "$note": "::placeholder{opacity:1} 필수" }, "placeholder-on-subtle": { "light": "{gray.700}", "dark": "{gray.400}" }, "secondary-strong": { "light": "{gray.700}", "dark": "{gray.300}" }, "placeholder": { "light": "{gray.400}", "dark": "{gray.400}" }, "disabled": { "light": "{gray.500}", "dark": "{gray.500}" }, "inverse": { "light": "{gray.0}", "dark": "{gray.900}" } },
+    "border":   { "default": { "light": "{gray.200}", "dark": "{gray.800}" }, "strong": { "light": "{gray.500}", "dark": "{gray.400}" }, "divider": { "light": "{gray.100}", "dark": "{gray.850}" } },
+    "primary":  { "default": { "light": "{green.500}", "dark": "{green.500}" }, "hover": { "light": "{green.600}", "dark": "{green.600}" }, "pressed-border": { "light": "{green.700}", "dark": "{green.300}" }, "light": { "light": "{green.300}", "dark": "{green.300}" }, "subtle": { "light": "{green.50}", "dark": "{green.950}" }, "on-primary": { "light": "{gray.900}", "dark": "{gray.900}" } },
+    "green-text": { "light": "{green.800}", "dark": "{green.300}" },
+    "indicator": { "default": { "light": "{green.700}", "dark": "{green.500}" }, "fill": { "light": "{green.500}", "dark": "{green.500}" } },
+    "toggle-knob": { "light": "{gray.0}", "dark": "{gray.900}" },
+    "focus-ring": { "light": "{green.700}", "dark": "{green.700}", "width": { "default": 2, "large": 3 }, "offset": 2 },
+    "selected": { "bg": { "light": "{green.50}", "dark": "{green.950}" }, "border": { "light": "{green.700}", "dark": "{green.500}" } },
+    "link":     { "light": "{blue.600}", "dark": "{blue.400}", "decoration": "underline" },
+    "info":     { "text": { "light": "{blue.600}", "dark": "{blue.400}" }, "bg": { "light": "{blue.50}", "dark": "{blue.950}" } },
+    "guide":    { "light": "{navy.700}", "dark": "{gray.300}" },
+    "error":    { "border": { "light": "{red.500}", "dark": "{red.500}" }, "text": { "light": "{red.700}", "dark": "{red.400}" }, "bg": { "light": "{red.50}", "dark": "{red.950}" } },
+    "danger":   { "default": { "light": "{red.700}", "dark": "{red.700}" }, "hover": { "light": "{red.800}", "dark": "{red.800}" }, "on-danger": { "light": "{gray.0}", "dark": "{gray.0}" } },
+    "success":  { "face": { "light": "{green.500}", "dark": "{green.500}" }, "border": { "light": "{green.700}", "dark": "{green.500}" }, "bg": { "light": "{green.50}", "dark": "{green.950}" }, "text": { "light": "{green.800}", "dark": "{green.300}" } },
+    "warning":  { "face": { "light": "{yellow.400}", "dark": "{yellow.400}" }, "border": { "light": "{yellow.700}", "dark": "{yellow.400}" }, "text": { "light": "{yellow.800}", "dark": "{yellow.400}" }, "bg": { "light": "{yellow.50}", "dark": "{yellow.950}" }, "on-warning": { "light": "{gray.900}", "dark": "{gray.900}" } },
+    "accent":   { "face": { "light": "{violet.500}", "dark": "{violet.500}" }, "text": { "light": "{violet.500}", "dark": "{violet.300}" }, "bg": { "light": "{violet.50}", "dark": "{violet.950}" }, "on-accent": { "light": "{gray.0}", "dark": "{gray.0}" } },
+    "disabled": { "bg": { "light": "{gray.100}", "dark": "{gray.850}" }, "border": { "light": "{gray.200}", "dark": "{gray.800}" } },
+    "skeleton": { "light": "{gray.100}", "dark": "{gray.850}" },
+    "shadow":   { "1": { "light": "0 4px 12px rgba(0,0,0,.08)", "dark": "0 4px 12px rgba(0,0,0,.5)" }, "2": { "light": "0 8px 24px rgba(0,0,0,.08)", "dark": "0 8px 24px rgba(0,0,0,.6)" }, "3": { "light": "0 -8px 24px rgba(0,0,0,.08)", "dark": "0 -8px 24px rgba(0,0,0,.6)" } },
+    "logo":     { "$rule": "테마가 아니라 배경으로 고른다. R-02 brand_logo_system_handoff/svg 파일명 참조", "on-light": "afternoon-horizontal-ko-color.svg", "on-dark": "afternoon-horizontal-ko-white.svg", "on-primary": "afternoon-horizontal-ko-black.svg", "on-gradient": "afternoon-horizontal-ko-white-accent.svg" },
+    "on-primary-controls": { "surface-on-primary": { "light": "{gray.0}", "dark": "{gray.0}" }, "focus-ring-on-primary": { "light": "{gray.900}", "dark": "{gray.900}", "$note": "2px 링 + 2px 면색 간격(2중 링), #00CE90 위 7.75" } },
+    "result-header": { "screen(A)": { "bg": "{primary}", "ink": "{on-primary}", "band": 0, "logo": "{logo.on-primary}", "deco": "{green.300}" }, "print(B) @media print / [data-print=pdf]": { "bg": "{gray.0}", "ink": "{gray.900}", "band": 8, "logo": "{logo.on-light}", "deco": "transparent" } }
+  },
+  "type": {
+    "family": { "sans": "Pretendard", "display-en": "Montserrat", "weights": [400, 500, 600] },
+    "inapp":  { "h1": "600/28/36/-2", "title": "600/16/24/-1", "title-sm": "600/14/20/0", "title-xs": "600/12/16/0", "body": "400/16/24/0", "body-md": "500/16/24/0", "body-sm": "400/14/20/0", "body-sm-md": "500/14/20/0", "label": "500/14/20/0", "meta": "400/12/16/1", "caption": "400/12/16/0", "caption-10-fig": "400/10/14/0 (✅FIG 기록만 · 사용 금지)", "display": "600/40/36/1 Montserrat" },
+    "portal": { "h1": "600/28/36/-2", "title": "600/16/24/0", "panel-title": "600/20/28/0", "body-lg": "400/18/26/0", "body-lg-md": "600/18/26/0", "body": "400/16/24/0", "body-md": "600/16/24/0", "body-sm": "400/14/20/0", "body-sm-md": "600/14/20/0", "meta": "400/12/16/1", "caption": "600/12/14/0" },
+    "large":  { "$note": "타입·치수만. 색은 테마. 자간은 Figma 단위 확인 필요", "h1": "600/28/36/-1", "title": "500/20/30/0", "title-sm": "600/24/34/0", "title-xs": "500/17/26/0", "body": "400/17/26/0", "body-md": "500/17/26/0", "body-sm": "400/15/22/0", "label": "500/15/22/0", "meta": "400/15/22/0", "caption": "400/15/22/0" },
+    "xl":     { "$status": "adopted (Q-20, 2026-09-25)", "h1": "600/32/42/-1", "title": "500/24/34/0", "title-sm": "600/26/36/0", "title-xs": "500/20/30/0", "body": "400/20/30/0", "body-md": "500/20/30/0", "body-sm": "400/18/28/0", "label": "500/18/28/0", "meta": "400/18/28/0", "caption": "400/18/28/0" },
+    "kiosk":  { "h1": "600/40/52/-1", "title": "600/24/34/0", "body": "400/20/30/0", "body-sm": "400/17/26/0", "label": "500/17/26/0" }
+  },
+  "space": { "1": 4, "2": 8, "3": 12, "4": 16, "5": 20, "6": 24, "8": 32, "10": 40, "16": 64, "24": 96, "$note": "64·96은 마케팅·공개 화면만" },
+  "radius": { "sm": 4, "control": 10, "surface": 12, "pill": 9999 },
+  "size": {
+    "default": { "control-h": 44, "control-h-lg": 48, "touch-min": 44, "control-mark": 20, "toggle": [48, 28], "progress-h": 8, "row-h": 44, "row-h-dense": 40, "row-h-compact": 36 },
+    "large":   { "control-h": 52, "control-h-lg": 52, "touch-min": 48, "control-mark": 24, "toggle": [56, 32] },
+    "xl":      { "$status": "adopted (Q-20)", "control-h": 56, "control-h-lg": 56, "touch-min": 52, "control-mark": 28, "toggle": [60, 34] },
+    "kiosk":   { "control-h": 56, "control-h-lg": 64, "touch-min": 56, "control-mark": 28 }
+  },
+  "layout": {
+    "inapp":  { "frames": [360, 390, 430], "cols": 4, "gutter": 16, "pad": 20, "tablet-content-max": 640 },
+    "portal": { "cols": 12, "gutter": 24, "pad": { "1200-1599": 32, "1600+": 40, "mobile": 16 }, "header": 64, "context-header": 56, "sidebar": [232, 72], "max": { "login": 480, "form": 640, "reading": 720, "panel": 360, "content": 960 }, "breakpoints": ["<768", "768-1199", "1200-1279", "1280-1599", ">=1600"] },
+    "kiosk":  { "frame": [1280, 800], "cols": 12, "gutter": 24, "pad": 48, "theme": "light-only ([data-surface=kiosk]는 라이트 역할 고정 — 캔버스 #BFCEE5 위 흰 글자 1.59 방지)" }
+  },
+  "motion": { "fast": "120ms", "base": "180ms", "slow": "240ms", "ease": "ease-out", "reduced": "0.01ms" }
+}

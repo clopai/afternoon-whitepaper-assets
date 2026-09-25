@@ -78,3 +78,6 @@ diagrams/diag-dm-app-link.png	https://raw.githubusercontent.com/clopai/afternoon
 diagrams/diag-dm-app-link.svg	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-dm-app-link.svg
 diagrams/diag-dm-app-link-transparent.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-dm-app-link-transparent.png
 diagrams/diag-dm-app-link-transparent.svg	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-dm-app-link-transparent.svg
+DESIGN_UI토큰_정본확장_값.css	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/afternoon-ui-tokens.css
+DESIGN_UI토큰_정본확장_값.json	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/afternoon-ui-tokens.json
+DESIGN_UI토큰_정본확장_문서.md	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/afternoon-ui-tokens.md
