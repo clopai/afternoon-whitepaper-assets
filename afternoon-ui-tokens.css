@@ -1,0 +1,382 @@
+/* AfterNOON 제품 UI 디자인 토큰 — 정본 확장 afternoon-ui-tokens.css v1.0 (2026-09-25, B-13)
+   정본: 허브 design/tokens/. 원천은 Claude Design R-01 v1.2(design-handoffs/afternoon_product_ui_design_handoff)이고 허브 결정 Q-12~Q-21을 반영했다.
+   편집은 이 파일에서만 한다(값의 원천). 값을 바꾸면 afternoon-ui-tokens.json도 같은 값으로 고친다(생성 파이프라인 B-17 전까지). 기본 원시값은 afternoon-design.md v0.3.3과 같다.
+   구조: 1) 원시(primitive) --p-*  →  2) 의미 역할(semantic) --*  . 컴포넌트는 의미 역할만 참조한다.
+   출처: ✅FIG = 01 정본 Figma 실측 · D = 03 병원용 확정 · S = 04 설문 확정 · N = 이번 신설(oklch 명도 변형, 대비 수치 병기)
+   테마: :root / [data-theme="light"] = 라이트,  [data-theme="dark"] = 다크,  OS 다크는 prefers-color-scheme 로 자동.
+   스케일: [data-scale="large"] = 환자 대형 스케일(설문 본문 17px 기준, 타입·치수만 바꾸고 색은 테마가 맡는다),  [data-scale="xl"] = "더 크게"(Q-20 채택). 글자 크기 3단계(Q-16 개정): 없음 = 일반 · large = 크게(환자 화면 첫 기본값) · xl = 더 크게 — 사용자가 양방향으로 고르고 기억한다,
+         [data-surface="portal"] = 포털·어드민 타입,  [data-surface="kiosk"] = 키오스크(라이트 역할 고정).
+   로고: 테마가 아니라 배경으로 고른다 — --logo-on-light / --logo-on-dark / --logo-on-primary / --logo-on-gradient (R-02 brand_logo_system_handoff/svg 파일). */
+
+:root {
+  /* ───────── 1. 원시 색 (테마 무관, 값은 바뀌지 않는다) ───────── */
+  --p-green-500: #00CE90; /* ✅FIG primary */
+  --p-green-600: #00AF7A; /* S  설문 눌림 — 면 전용 (#222 라벨과 5.62) */
+  --p-green-700: #009669; /* ✅FIG primary-strong · v0.3.1 focus-ring */
+  --p-green-800: #00775A; /* N  본문용 초록 — 흰 배경 5.55 (oklch L .51, #00CE90 색상 유지) */
+  --p-green-300: #8CE9CD; /* ✅FIG primary-light */
+  --p-green-50:  #F3FFFB; /* ✅FIG primary-subtle */
+  --p-green-950: #00321F; /* N  다크 선택·성공 면 (#00CE90 oklch L .28) */
+  --p-gray-0:    #FFFFFF; /* ✅FIG */
+  --p-gray-25:   #FAFAFA;
+  --p-gray-50:   #F5F5F5;
+  --p-gray-100:  #EEEEEE;
+  --p-gray-200:  #E0E0E0;
+  --p-gray-300:  #BDBDBD;
+  --p-gray-400:  #9E9E9E;
+  --p-gray-500:  #757575;
+  --p-gray-700:  #616161;
+  --p-gray-800:  #424242;
+  --p-gray-850:  #2C2C2C; /* N  다크 raised/hover 면 (#222222 oklch L +0.04) */
+  --p-gray-900:  #222222;
+  --p-gray-950:  #191919; /* BI 모노 다크 배경(요청서 §4) */
+  --p-gray-1000: #000000; /* ✅FIG TEXT */
+  --p-red-500:   #FF3E3E; /* ✅FIG error (보더·아이콘) */
+  --p-red-400:   #FF615B; /* N  다크 error-text — #FF3E3E oklch L .66→.75 (#2C2C2C 위 4.73 · #222222 위 5.39) */
+  --p-red-700:   #CC3232; /* D  error-text (흰 배경 5.16) */
+  --p-red-800:   #B42318; /* S  설문 경고 (흰 배경 6.57) → 위험 버튼 hover 면 */
+  --p-red-50:    #FFECEC; /* D  error 배경 */
+  --p-red-950:   #3B0002; /* N  다크 error 배경 (#FF3E3E oklch L .22) */
+  --p-blue-600:  #0B50D0; /* ✅FIG info · D link */
+  --p-blue-400:  #5790FA; /* N  다크 link/info (#0B50D0 oklch L ↑, #222 위 4.5+) */
+  --p-blue-50:   #F0F5FF; /* N  info 배경 (oklch L .97) */
+  --p-blue-950:  #001B5F; /* N  다크 info 배경 */
+  --p-navy-700:  #223A58; /* ✅FIG guide-navy */
+  --p-yellow-400:#FFC72C; /* ⚠01 warning 후보 → 면·아이콘 전용으로 확정 */
+  --p-yellow-700:#B98E0C; /* N  warning 보더 (흰 배경 3.03) */
+  --p-yellow-800:#8C6B06; /* N  warning 글자 (흰 배경 4.61 · #FFF4DD 위 4.56) */
+  --p-yellow-50: #FFF4DD; /* N  warning 배경 */
+  --p-yellow-950:#302200; /* N  다크 warning 배경 */
+  --p-violet-500:#881DFF; /* ✅FIG accent violet (제품 UI 전용) */
+  --p-violet-300:#A47AFE; /* N  다크 violet 글자 (#222 위 4.52) */
+  --p-violet-50: #F3EFFF; /* N  violet 배경 */
+  --p-violet-950:#2E0060; /* N  다크 violet 배경 */
+  --p-kiosk-200: #BFCEE5; /* ✅FIG Kiosk 면 */
+
+  /* ───────── 2. 서체 · 타입 역할 (인앱 기본 스케일 ✅FIG) ───────── */
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, "Noto Sans KR", sans-serif;
+  --font-display-en: "Montserrat", var(--font-sans);
+  --font-h1:        600 28px/36px var(--font-sans);  --ls-h1: -2px;     /* Title 28 */
+  --font-title:     600 16px/24px var(--font-sans);  --ls-title: -1px;  /* Title 16 */
+  --font-title-sm:  600 14px/20px var(--font-sans);                     /* Title 14 */
+  --font-title-xs:  600 12px/16px var(--font-sans);                     /* Title 12 */
+  --font-body:      400 16px/24px var(--font-sans);
+  --font-body-md:   500 16px/24px var(--font-sans);
+  --font-body-sm:   400 14px/20px var(--font-sans);
+  --font-body-sm-md:500 14px/20px var(--font-sans);
+  --font-label:     500 14px/20px var(--font-sans);                     /* D 입력 label */
+  --font-meta:      400 12px/16px var(--font-sans);  --ls-meta: 1px;    /* Body 12 */
+  --font-caption:   400 12px/16px var(--font-sans);                     /* 인앱 최소 12px (환자 프로필은 대형 스케일 15px) */
+  --font-caption-10-fig: 400 10px/14px var(--font-sans);                /* ✅FIG Caption 10 — 실측 기록만. 사용 금지(법정 표기 포함) */
+  --font-display:   600 40px/36px var(--font-display-en); --ls-display: 1px; /* Title 40 — 마케팅 hero 1곳 */
+
+  /* ───────── 3. 간격 · 모양 · 치수 ───────── */
+  --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px; --space-5: 20px;
+  --space-6: 24px; --space-8: 32px; --space-10: 40px; --space-16: 64px; --space-24: 96px; /* 64·96 = 마케팅·공개 화면만 */
+  --radius-sm: 4px;        /* 체크박스·태그 */
+  --radius-control: 10px;  /* D 버튼·입력 */
+  --radius-surface: 12px;  /* D 카드·모달 */
+  --radius-pill: 9999px;
+  --border-w: 1px;  --border-w-strong: 2px;
+  --control-h: 44px;       /* D 기본 컨트롤 */
+  --control-h-lg: 48px;    /* D 모바일 고정 CTA */
+  --touch-min: 44px;
+  --control-mark: 20px;    /* 라디오·체크 표시 */
+  --toggle-w: 48px; --toggle-h: 28px;
+  --focus-ring-w: 2px; --focus-ring-offset: 2px; /* D */
+  --progress-h: 8px;
+  --row-h: 44px; --row-h-dense: 40px; --row-h-compact: 36px; /* D compact/dense = 비상호작용 행만 */
+  --header-h: 64px; --context-header-h: 56px; --sidebar-w: 232px; --sidebar-w-collapsed: 72px; /* D */
+  --grid-cols: 12; --grid-gutter: 24px; --page-pad: 32px; --page-pad-wide: 40px; --page-pad-mobile: 20px;
+  --max-login: 480px; --max-form: 640px; --max-reading: 720px; --max-panel: 360px; --max-content: 960px; /* D */
+  --kiosk-w: 1280px; --kiosk-h: 800px; --kiosk-pad: 48px; --kiosk-control-h: 56px;
+
+  /* ───────── 4. 모션 ───────── */
+  --motion-fast: 120ms; --motion-base: 180ms; --motion-slow: 240ms; --ease: ease-out;
+
+  /* ───────── 5. 의미 역할 — 라이트 ───────── */
+  color-scheme: light;
+  --bg-canvas: var(--p-gray-0);
+  --bg-surface: var(--p-gray-0);
+  --bg-subtle: var(--p-gray-25);
+  --bg-raised: var(--p-gray-50);
+  --bg-hover: var(--p-gray-50);          /* D 표 행 hover */
+  --bg-pressed: var(--p-gray-50);        /* = hover 면. pressed는 면이 아니라 2px --border-strong 보더·형태로 표시 — #EEEEEE 면은 error-text #CC3232 4.49로 미달 */
+  --bg-kiosk: var(--p-kiosk-200);        /* 캔버스 전용 — 컨트롤은 흰 surface 위에 둔다 */
+  --bg-scrim: rgba(34, 34, 34, 0.5);     /* S */
+  --text: var(--p-gray-1000);            /* 21 */
+  --text-heading: var(--p-gray-900);     /* 15.91 */
+  --text-secondary: var(--p-gray-700);   /* #616161 — 흰 6.19 · #FAFAFA 5.93 · #F5F5F5 5.68 · #F3FFFB 6.05 · #FFECEC 5.44. (#757575는 #F5F5F5 4.23 · #FFECEC 4.05로 연한 면에서 미달 → 입력 보더·비활성에만) */
+  --text-secondary-strong: var(--p-gray-700); /* = --text-secondary (호환용 별칭) */
+  --text-placeholder: var(--p-gray-500); /* #757575 — 흰 입력 면 4.61. ::placeholder{opacity:1} 필수(Firefox 기본 .54, 파일 끝) */
+  --text-placeholder-on-subtle: var(--p-gray-700); /* 연한 면(#FAFAFA·#F5F5F5) 입력의 placeholder — #757575는 4.41·4.23 미달 */
+  --text-disabled: var(--p-gray-500);    /* #EEEEEE 위 3.97 (면제 상태지만 고령 사용자용 여유) — 03의 #BDBDBD(1.88)와 다름 */
+  --text-inverse: var(--p-gray-0);
+  --border: var(--p-gray-200);           /* 장식 테두리 */
+  --border-strong: var(--p-gray-500);    /* D 입력 식별 보더 4.61 */
+  --divider: var(--p-gray-100);
+  --primary: var(--p-green-500);         /* 면 전용 */
+  --primary-hover: var(--p-green-600);   /* 면 — #222 라벨 5.62 (#009669 면은 4.22로 미달) */
+  --primary-pressed-border: var(--p-green-700);
+  --primary-light: var(--p-green-300);
+  --primary-subtle: var(--p-green-50);
+  --on-primary: var(--p-gray-900);       /* 7.75 — 초록 면 위 유일한 잉크 */
+  --green-text: var(--p-green-800);      /* 5.55 — 흰 배경 본문용 초록 */
+  --indicator: var(--p-green-700);       /* 3.77 — 라디오 점·탭 밑줄·진행 fill·토글 on·선택 보더 */
+  --indicator-fill: var(--p-green-500);  /* 체크박스 fill (표시는 --on-primary 체크) */
+  --toggle-knob: var(--p-gray-0);        /* on 트랙 #009669 위 3.77 */
+  --focus-ring: var(--p-green-700);      /* v0.3.1 확정 — 3.77 */
+  --selected-bg: var(--p-green-50);
+  --selected-border: var(--p-green-700); /* #F3FFFB 위 3.68 */
+  --link: var(--p-blue-600);             /* 6.83 · 밑줄 필수 */
+  --info: var(--p-blue-600);
+  --info-bg: var(--p-blue-50);
+  --guide: var(--p-navy-700);            /* 11.58 */
+  --error: var(--p-red-500);             /* 보더·아이콘 3.49 */
+  --error-text: var(--p-red-700);        /* 5.16 · #FFECEC 위 4.54 */
+  --error-bg: var(--p-red-50);
+  --danger: var(--p-red-700);            /* 위험 버튼 면 — 흰 라벨 5.16 */
+  --danger-hover: var(--p-red-800);      /* 흰 라벨 6.57 */
+  --on-danger: var(--p-gray-0);
+  --success: var(--p-green-500);         /* 면 */
+  --success-border: var(--p-green-700);
+  --success-bg: var(--p-green-50);
+  --success-text: var(--p-green-800);    /* #F3FFFB 위 5.42 */
+  --warning: var(--p-yellow-400);        /* 면·아이콘 */
+  --warning-border: var(--p-yellow-700); /* 3.03 */
+  --warning-text: var(--p-yellow-800);   /* 4.61 */
+  --warning-bg: var(--p-yellow-50);
+  --on-warning: var(--p-gray-900);       /* 10.2 */
+  --accent: var(--p-violet-500);
+  --accent-text: var(--p-violet-500);    /* 5.73 */
+  --accent-bg: var(--p-violet-50);
+  --on-accent: var(--p-gray-0);          /* 5.73 */
+  --disabled-bg: var(--p-gray-100);
+  --disabled-border: var(--p-gray-200);
+  --skeleton: var(--p-gray-100);
+  --shadow-1: 0 4px 12px rgba(0, 0, 0, 0.08);   /* 팝오버·드롭다운 */
+  --shadow-2: 0 8px 24px rgba(0, 0, 0, 0.08);   /* D 모달·드로어 */
+  --shadow-3: 0 -8px 24px rgba(0, 0, 0, 0.08);  /* 바텀시트 */
+  --surface-on-primary: var(--p-gray-0);   /* 초록 면 위 CTA·컨트롤의 면 — 라벨 --on-primary 15.91, 2px --on-primary 보더 */
+  --focus-ring-on-primary: var(--p-gray-900); /* 초록 면 위 요소의 포커스 링 — #009669는 #00CE90 위 1.84로 미달. 2px #222222 링 + 2px 면색 간격(2중 링), 7.75 */
+  /* 로고는 테마가 아니라 배경으로 고른다(테마 블록에서 덮어쓰지 않음). R-02 세트 파일명 참조 */
+  --logo-on-light: url("../design-handoffs/brand_logo_system_handoff/svg/afternoon-horizontal-ko-color.svg");   /* 흰·연한 면: 컬러 심볼 + 검정 워드마크 */
+  --logo-on-dark: url("../design-handoffs/brand_logo_system_handoff/svg/afternoon-horizontal-ko-white.svg");    /* #191919·#222222 면: 흰 단색판 */
+  --logo-on-primary: url("../design-handoffs/brand_logo_system_handoff/svg/afternoon-horizontal-ko-black.svg"); /* #00CE90 면: 검정 단색판만. 컬러 심볼 양끝은 1.35·1.06, 흰판 2.05 → 금지 */
+  --logo-on-gradient: url("../design-handoffs/brand_logo_system_handoff/svg/afternoon-horizontal-ko-white-accent.svg"); /* 브랜드 그라데이션 위(마케팅 전용) */
+  /* 결과지 헤더 — 기본 A(초록 면). 인쇄·공유 PDF는 아래 @media print / [data-print="pdf"]에서 B로 바뀐다 */
+  --result-header-bg: var(--primary); --result-header-ink: var(--on-primary); --result-header-band: 0px; --result-header-logo: var(--logo-on-primary); --result-header-deco: var(--primary-light);
+}
+
+/* ───────── 6. 의미 역할 — 다크 ───────── */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg-canvas: var(--p-gray-950);
+  --bg-surface: var(--p-gray-900);
+  --bg-subtle: var(--p-gray-900);
+  --bg-raised: var(--p-gray-850);
+  --bg-hover: var(--p-gray-850);
+  --bg-pressed: var(--p-gray-850);       /* = hover 면. #424242 면은 링크 3.24·accent 3.25·error-text 3.40 미달 → pressed는 보더·형태로 */
+  --bg-scrim: rgba(0, 0, 0, 0.6);
+  --text: var(--p-gray-100);             /* #222 위 13.71 */
+  --text-heading: var(--p-gray-0);       /* 15.91 */
+  --text-secondary: var(--p-gray-300);   /* 8.47 */
+  --text-secondary-strong: var(--p-gray-300);
+  --text-placeholder: var(--p-gray-400); /* 5.94 */
+  --text-placeholder-on-subtle: var(--p-gray-400); /* 다크 subtle = #222222, 5.94 */
+  --text-disabled: var(--p-gray-500);    /* #2C2C2C 위 3.03 */
+  --text-inverse: var(--p-gray-900);
+  --border: var(--p-gray-800);           /* 1.58 장식 */
+  --border-strong: var(--p-gray-400);    /* 5.94 */
+  --divider: var(--p-gray-850);
+  --primary: var(--p-green-500);         /* #191919 위 8.57 */
+  --primary-hover: var(--p-green-600);
+  --primary-pressed-border: var(--p-green-300);
+  --primary-subtle: var(--p-green-950);
+  --on-primary: var(--p-gray-900);       /* 7.75 (동일) */
+  --green-text: var(--p-green-300);      /* 11.1 */
+  --indicator: var(--p-green-500);       /* 7.75 */
+  --indicator-fill: var(--p-green-500);
+  --toggle-knob: var(--p-gray-900);      /* on 트랙 #00CE90 위 7.75 (흰 손잡이는 2.05) */
+  --focus-ring: var(--p-green-700);      /* 확정값 유지 — #222 위 4.22 · #191919 위 4.66 */
+  --selected-bg: var(--p-green-950);
+  --selected-border: var(--p-green-500); /* #00321F 위 6.93 */
+  --link: var(--p-blue-400);             /* 4.51 · #191919 위 5.67 */
+  --info: var(--p-blue-400);
+  --info-bg: var(--p-blue-950);
+  --guide: var(--p-gray-300);
+  --error: var(--p-red-500);             /* 4.55 */
+  --error-text: var(--p-red-400);        /* #FF615B — #222222 위 5.39 · #2C2C2C 위 4.73 · #3B0002 위 5.99 (#FF3E3E는 #2C2C2C 위 4.00 미달) */
+  --error-bg: var(--p-red-950);
+  --danger: var(--p-red-700);
+  --danger-hover: var(--p-red-800);
+  --on-danger: var(--p-gray-0);
+  --success-border: var(--p-green-500);
+  --success-bg: var(--p-green-950);
+  --success-text: var(--p-green-300);
+  --warning-border: var(--p-yellow-400); /* 10.2 */
+  --warning-text: var(--p-yellow-400);   /* 10.2 · #302200 위 9.94 */
+  --warning-bg: var(--p-yellow-950);
+  --accent-text: var(--p-violet-300);    /* 4.52 · #2E0060 위 5.29 */
+  --accent-bg: var(--p-violet-950);
+  --disabled-bg: var(--p-gray-850);
+  --disabled-border: var(--p-gray-800);
+  --skeleton: var(--p-gray-850);
+  --shadow-1: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-2: 0 8px 24px rgba(0, 0, 0, 0.6);
+  --shadow-3: 0 -8px 24px rgba(0, 0, 0, 0.6);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg-canvas: var(--p-gray-950); --bg-surface: var(--p-gray-900); --bg-subtle: var(--p-gray-900); --bg-raised: var(--p-gray-850); --bg-hover: var(--p-gray-850); --bg-pressed: var(--p-gray-850); --bg-scrim: rgba(0,0,0,0.6);
+    --text: var(--p-gray-100); --text-heading: var(--p-gray-0); --text-secondary: var(--p-gray-300); --text-placeholder: var(--p-gray-400); --text-placeholder-on-subtle: var(--p-gray-400); --text-disabled: var(--p-gray-500); --text-inverse: var(--p-gray-900); --text-secondary-strong: var(--p-gray-300); --toggle-knob: var(--p-gray-900);
+    --border: var(--p-gray-800); --border-strong: var(--p-gray-400); --divider: var(--p-gray-850);
+    --primary-pressed-border: var(--p-green-300); --primary-subtle: var(--p-green-950); --green-text: var(--p-green-300); --indicator: var(--p-green-500); --selected-bg: var(--p-green-950); --selected-border: var(--p-green-500);
+    --primary: var(--p-green-500); --primary-hover: var(--p-green-600); --on-primary: var(--p-gray-900); --indicator-fill: var(--p-green-500); --focus-ring: var(--p-green-700); --error: var(--p-red-500); --danger: var(--p-red-700); --danger-hover: var(--p-red-800); --on-danger: var(--p-gray-0); /* 두 테마 공통값 — 다크 블록과 역할 목록을 같게 유지 */
+    --link: var(--p-blue-400); --info: var(--p-blue-400); --info-bg: var(--p-blue-950); --guide: var(--p-gray-300);
+    --error-text: var(--p-red-400); --error-bg: var(--p-red-950);
+    --success-border: var(--p-green-500); --success-bg: var(--p-green-950); --success-text: var(--p-green-300);
+    --warning-border: var(--p-yellow-400); --warning-text: var(--p-yellow-400); --warning-bg: var(--p-yellow-950);
+    --accent-text: var(--p-violet-300); --accent-bg: var(--p-violet-950);
+    --disabled-bg: var(--p-gray-850); --disabled-border: var(--p-gray-800); --skeleton: var(--p-gray-850);
+    --shadow-1: 0 4px 12px rgba(0,0,0,0.5); --shadow-2: 0 8px 24px rgba(0,0,0,0.6); --shadow-3: 0 -8px 24px rgba(0,0,0,0.6);
+  }
+}
+
+/* ───────── 7. 표면 스케일 — 포털·어드민 (✅FIG 포털,어드민/) ───────── */
+[data-surface="portal"] {
+  --font-h1: 600 28px/36px var(--font-sans); --ls-h1: -2px;      /* D 앱 H1 */
+  --font-title: 600 16px/24px var(--font-sans); --ls-title: 0;
+  --font-panel-title: 600 20px/28px var(--font-sans);           /* D 신설 */
+  --font-body-lg: 400 18px/26px var(--font-sans); --font-body-lg-md: 600 18px/26px var(--font-sans);
+  --font-body: 400 16px/24px var(--font-sans); --font-body-md: 600 16px/24px var(--font-sans);
+  --font-body-sm: 400 14px/20px var(--font-sans); --font-body-sm-md: 600 14px/20px var(--font-sans);
+  --font-meta: 400 12px/16px var(--font-sans); --ls-meta: 1px;
+  --font-caption: 600 12px/14px var(--font-sans);               /* Caption 12 bold */
+  --page-pad-mobile: 16px;                                      /* D <768 좌우 16 */
+}
+
+/* ───────── 8. 환자 대형 스케일 (S 설문 확정: 본문 17 · 문항 20 · 보조 15) — 타입·치수만. 색은 테마 블록이 맡는다 ─────────
+   h1은 인앱 기본(28)보다 작아지지 않는다. 설문 화면 제목 24는 --font-title-sm 역할로 흡수. 자간 -1px은 Figma 단위(px/%) 확인 전까지 "확인 필요". */
+[data-scale="large"] {
+  --font-h1: 600 28px/36px var(--font-sans); --ls-h1: -1px;      /* 화면 제목 — 인앱 기본과 같은 28 (24는 title-sm) */
+  --font-title: 500 20px/30px var(--font-sans); --ls-title: 0;   /* 문항 20 */
+  --font-title-sm: 600 24px/34px var(--font-sans);              /* 설문 화면 제목 24 · 상태·시트 제목(22→24) */
+  --font-title-xs: 500 17px/26px var(--font-sans);
+  --font-body: 400 17px/26px var(--font-sans);
+  --font-body-md: 500 17px/26px var(--font-sans);
+  --font-body-sm: 400 15px/22px var(--font-sans);
+  --font-body-sm-md: 500 15px/22px var(--font-sans);
+  --font-label: 500 15px/22px var(--font-sans);
+  --font-meta: 400 15px/22px var(--font-sans); --ls-meta: 0;     /* 15px 미만 글자 없음(환자 프로필 최소 15) */
+  --font-caption: 400 15px/22px var(--font-sans);
+  --control-h: 52px; --control-h-lg: 52px; --touch-min: 48px; --control-mark: 24px;
+  --toggle-w: 56px; --toggle-h: 32px;
+  --focus-ring-w: 3px;                                          /* S */
+  /* 색 선언 없음 — 04의 본문 #222222·보조 #616161·빈 테두리 #616161은 라이트 테마 값(#000000·#616161·#757575 4.61)으로 흡수. 스케일 블록이 색을 바꾸면 OS 다크 + data-theme 없는 루트에서 #222222 on #222222(1.00)가 생긴다 */
+}
+
+/* ───────── 8-1. "더 크게" [data-scale="xl"] — Q-20 채택(2026-09-25) ─────────
+   글자 크기 3단계(Q-16 개정): 일반(data-scale 없음) · 크게(large, 환자 화면 첫 기본값) · 더 크게(xl). 설정에서 양방향으로 고르고 기억한다. 값은 고령 환자 사용성 확인으로 다듬을 수 있다. */
+[data-scale="xl"] {
+  --font-h1: 600 32px/42px var(--font-sans); --ls-h1: -1px;
+  --font-title: 500 24px/34px var(--font-sans); --ls-title: 0;
+  --font-title-sm: 600 26px/36px var(--font-sans);
+  --font-title-xs: 500 20px/30px var(--font-sans);
+  --font-body: 400 20px/30px var(--font-sans);
+  --font-body-md: 500 20px/30px var(--font-sans);
+  --font-body-sm: 400 18px/28px var(--font-sans);
+  --font-body-sm-md: 500 18px/28px var(--font-sans);
+  --font-label: 500 18px/28px var(--font-sans);
+  --font-meta: 400 18px/28px var(--font-sans); --ls-meta: 0;
+  --font-caption: 400 18px/28px var(--font-sans);
+  --control-h: 56px; --control-h-lg: 56px; --touch-min: 52px; --control-mark: 28px;
+  --toggle-w: 60px; --toggle-h: 34px;
+  --focus-ring-w: 3px;
+}
+
+/* ───────── 9. 키오스크 1280×800 — 라이트 역할 고정 ─────────
+   선택자에 :root[data-surface="kiosk"](0,2,0)·[data-theme="dark"][data-surface="kiosk"]를 더해 OS 다크의 :root:not([data-theme="light"])(0,2,0)와 명시 다크 아래에서도 이 블록이 이긴다(파일 뒤쪽 = 같은 명시도에서 우선).
+   아래 역할 목록은 다크 블록이 바꾸는 역할 전체(54개)와 같다 — 보드 §15 검수 스크립트가 tokens.css를 읽어 두 목록을 대조한다. */
+[data-surface="kiosk"], :root[data-surface="kiosk"], [data-theme="dark"][data-surface="kiosk"], [data-theme="dark"] [data-surface="kiosk"] {
+  --control-h: 56px; --control-h-lg: 64px; --touch-min: 56px; --control-mark: 28px;
+  --font-h1: 600 40px/52px var(--font-sans); --ls-h1: -1px;
+  --font-title: 600 24px/34px var(--font-sans); --ls-title: 0;
+  --font-body: 400 20px/30px var(--font-sans); --font-body-md: 500 20px/30px var(--font-sans);
+  --font-body-sm: 400 17px/26px var(--font-sans); --font-body-sm-md: 500 17px/26px var(--font-sans);
+  --font-label: 500 17px/26px var(--font-sans); --font-meta: 400 17px/26px var(--font-sans); --ls-meta: 0;
+  --page-pad: var(--kiosk-pad);
+  color-scheme: light;
+  /* — 다크 블록 역할 전체를 라이트 값으로 — */
+  --bg-canvas: var(--p-gray-0);
+  --bg-surface: var(--p-gray-0);
+  --bg-subtle: var(--p-gray-25);
+  --bg-raised: var(--p-gray-50);
+  --bg-hover: var(--p-gray-50);
+  --bg-pressed: var(--p-gray-50);
+  --bg-scrim: rgba(34, 34, 34, 0.5);
+  --text: var(--p-gray-1000);
+  --text-heading: var(--p-gray-900);
+  --text-secondary: var(--p-gray-700);
+  --text-secondary-strong: var(--p-gray-700);
+  --text-placeholder: var(--p-gray-500);
+  --text-placeholder-on-subtle: var(--p-gray-700);
+  --text-disabled: var(--p-gray-500);
+  --text-inverse: var(--p-gray-0);
+  --border: var(--p-gray-200);
+  --border-strong: var(--p-gray-500);
+  --divider: var(--p-gray-100);
+  --primary: var(--p-green-500);
+  --primary-hover: var(--p-green-600);
+  --primary-pressed-border: var(--p-green-700);
+  --primary-subtle: var(--p-green-50);
+  --on-primary: var(--p-gray-900);
+  --green-text: var(--p-green-800);
+  --indicator: var(--p-green-700);
+  --indicator-fill: var(--p-green-500);
+  --toggle-knob: var(--p-gray-0);
+  --focus-ring: var(--p-green-700);
+  --selected-bg: var(--p-green-50);
+  --selected-border: var(--p-green-700);
+  --link: var(--p-blue-600);
+  --info: var(--p-blue-600);
+  --info-bg: var(--p-blue-50);
+  --guide: var(--p-navy-700);
+  --error: var(--p-red-500);
+  --error-text: var(--p-red-700);
+  --error-bg: var(--p-red-50);
+  --danger: var(--p-red-700);
+  --danger-hover: var(--p-red-800);
+  --on-danger: var(--p-gray-0);
+  --success-border: var(--p-green-700);
+  --success-bg: var(--p-green-50);
+  --success-text: var(--p-green-800);
+  --warning-border: var(--p-yellow-700);
+  --warning-text: var(--p-yellow-800);
+  --warning-bg: var(--p-yellow-50);
+  --accent-text: var(--p-violet-500);
+  --accent-bg: var(--p-violet-50);
+  --disabled-bg: var(--p-gray-100);
+  --disabled-border: var(--p-gray-200);
+  --skeleton: var(--p-gray-100);
+  --shadow-1: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-2: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-3: 0 -8px 24px rgba(0, 0, 0, 0.08);
+  --bg-canvas: var(--p-kiosk-200);      /* 캔버스만(위 --bg-canvas 흰 값을 덮는다). 컨트롤·텍스트·로고는 --bg-surface 흰 카드 위 → 로고는 --logo-on-light */
+}
+
+/* ───────── 10. 모션 축소 ───────── */
+@media (prefers-reduced-motion: reduce) {
+  :root { --motion-fast: 0.01ms; --motion-base: 0.01ms; --motion-slow: 0.01ms; }
+}
+
+/* ───────── 11. 기본 규칙 (토큰을 쓰는 최소 셀렉터) ───────── */
+::placeholder { color: var(--text-placeholder); opacity: 1; }   /* Firefox 기본 opacity .54 → #757575가 2.5 수준으로 떨어지는 것을 막는다 */
+[data-surface-subtle] ::placeholder { color: var(--text-placeholder-on-subtle); }
+
+/* ───────── 12. 결과지 헤더 — 인쇄·공유 PDF는 대안 B (흰 헤더 + 8px 초록 띠) ───────── */
+@media print {
+  :root, [data-theme="dark"] { --result-header-bg: var(--p-gray-0); --result-header-ink: var(--p-gray-900); --result-header-band: 8px; --result-header-logo: var(--logo-on-light); --result-header-deco: transparent; }
+}
+[data-print="pdf"] { --result-header-bg: var(--p-gray-0); --result-header-ink: var(--p-gray-900); --result-header-band: 8px; --result-header-logo: var(--logo-on-light); --result-header-deco: transparent; }
