@@ -1,12 +1,12 @@
 ---
 name: AfterNOON Design System
-version: 0.3.2-draft
+version: 0.3.3-draft
 updated: 2026-09-24
 owner: CLOP Inc. (clop.ai)
 status: internal-draft
 source_of_truth:
   brand_ci: "Dropbox/[00] CLOP/[11] Branding (허브 사본 context-reference/design/brand-assets · 판독 결과 DESIGN 01)"
-  ui_tokens: "Figma Dev Mode variables (애프터눈 제품 파일). v0.3 = 인앱·포털·어드민·커넥트·설문 페이지 변수 33종 실측 (2026-06-24)"
+  ui_tokens: "Figma Dev Mode variables (애프터눈 제품 파일). v0.3 = 인앱·포털·어드민·커넥트·설문 페이지 변수 33종 실측 (2026-06-24) — 관찰 출처. 사용 승인값의 정본은 이 파일(판정 규칙은 허브 02 §5)"
 confidence_legend:
   confirmed_ci: "CI/BI PDF 인쇄값·로고 실측"
   confirmed_figma: "Figma 제품 변수 실측"
@@ -18,7 +18,7 @@ colors:
   # 제품 UI 주색 (confirmed_figma: Primary/*)
   primary:
     base:   "#00CE90"   # 기본 액션·강조·success
-    strong: "#009669"   # hover/active/pressed
+    strong: "#009669"   # pressed 보더·표시선·포커스 링 — 버튼 hover 면은 #00AF7A(Q-13, 2026-09-24)
     light:  "#8CE9CD"   # 연한 강조·뱃지
     subtle: "#F3FFFB"   # 선택 배경·연한 면
   # 중립 (confirmed_figma: Gray/* + White + TEXT) — 밝음→어두움
@@ -28,9 +28,9 @@ colors:
     "50":  "#F5F5F5"
     "100": "#EEEEEE"
     "200": "#E0E0E0"   # border 기본
-    "300": "#BDBDBD"   # disabled
-    "400": "#9E9E9E"   # placeholder
-    "500": "#757575"   # secondary text
+    "300": "#BDBDBD"   # disabled 장식(비활성 글자는 #757575, Q-15)
+    "400": "#9E9E9E"   # 라이트 글자 금지 — placeholder도 #757575(Q-12). 다크 placeholder만
+    "500": "#757575"   # secondary text(흰 배경) · placeholder(Q-12) · 비활성 글자(Q-15)
     "700": "#616161"
     "800": "#424242"
     "900": "#222222"   # heading
@@ -41,7 +41,7 @@ colors:
     error:   "#FF3E3E"   # Sub (alt 변형 #CC3232 설문에서 관찰)
     info:    "#0B50D0"   # Guide (링크·안내 블루)
     guide-navy: "#223A58" # Guide (짙은 안내 텍스트, 설문에서 관찰)
-    warning: "#FFC72C"   # to_confirm (CLOP yellow 차용 제안 — Figma 미관찰)
+    warning: "#FFC72C"   # 면·아이콘 전용, 조건부 허용(Q-14, 2026-09-24) — 글자 #8C6B06·배경 #FFF4DD, 포털·어드민 업무 상태부터. Figma 미관찰
     focus-ring: "#009669" # 제안 — 비텍스트 3:1 충족(흰 배경 3.77:1). 구 제안 #00CE90은 2.05:1로 미달 (v0.3.1)
   # 보조 액센트 (confirmed_figma)
   accent:
@@ -93,7 +93,7 @@ radius:           # to_confirm — Figma에 radius 변수 없음. 관례 제안�
 
 # AfterNOON Design System (`afternoon-design.md`)
 
-> 🔒 **CLOP 내부 전용 v0.3.2.** 애프터눈 서비스·리서치의 **브랜드·디자인 단일 원천(SSOT)**. Vercel `vercel.com/design.md`(Geist) 패턴. 정본 위치·층 구조·편차·접근성 판정은 디자인 허브 `context-reference/DESIGN.md`.
+> 🔒 **CLOP 내부 전용 v0.3.3.** 애프터눈 서비스·리서치의 **브랜드·디자인 단일 원천(SSOT)**. Vercel `vercel.com/design.md`(Geist) 패턴. 정본 위치·층 구조·편차·접근성 판정은 디자인 허브 `context-reference/DESIGN.md`.
 >
 > **에이전트 사용법**: 인포그래픽·다이어그램·PPT·카드뉴스·웹/화면 제작 시 이 토큰을 그대로 인용한다. 값 추측 금지. 상단 YAML이 토큰 원본.
 >
@@ -133,9 +133,9 @@ radius:           # to_confirm — Figma에 radius 변수 없음. 관례 제안�
 | `#FAFAFA` · `#F5F5F5` | 연한 면 |
 | `#EEEEEE` | 구분 면 |
 | `#E0E0E0` | border 기본 |
-| `#BDBDBD` | disabled |
-| `#9E9E9E` | placeholder |
-| `#757575` | 보조 텍스트 |
+| `#BDBDBD` | disabled 장식(비활성 글자는 `#757575`, Q-15) |
+| `#9E9E9E` | 라이트 글자 금지(placeholder도 `#757575`, Q-12) |
+| `#757575` | 보조 텍스트(흰 배경) · placeholder · 비활성 글자 |
 | `#616161` · `#424242` | 강한 텍스트 |
 | `#222222` | 헤딩 |
 | `#000000` | 본문 텍스트 |
@@ -203,8 +203,8 @@ Violet `#440099` · Yellow `#FFC72C` · Ink `#212121` · 틴트 `#8848ED`/`#ADAB
 ---
 
 ## 7. 접근성 ✅ (의료·고령 사용자 — 강제 규칙)
-- 본문 대비 **4.5:1 이상**(WCAG AA). 보조 텍스트 `#757575`=흰 배경 4.6:1(충족), `#9E9E9E`는 3:1 미만이므로 **본문 금지·placeholder 한정**.
-- 모든 인터랙티브 요소 **`:focus-visible` 링**(`#009669` — 비텍스트 3:1, v0.3.1). 터치 타깃 **44×44pt** 이상.
+- 본문 대비 **4.5:1 이상**(WCAG AA, 반올림 전 값으로 판정). 보조 텍스트 `#757575`=흰 배경 4.6:1(충족, 연한 면 위는 `#616161`), `#9E9E9E`는 3:1 미만이므로 **라이트에서 글자 금지 — placeholder도 `#757575`(흰 입력 면, `::placeholder{opacity:1}`)**(Q-12, 2026-09-24).
+- 모든 인터랙티브 요소 **`:focus-visible` 링**(`#009669` — 비텍스트 3:1, v0.3.1). 초록 면 위에서는 `#222222` 2중 링. 터치 타깃 **44×44pt(iOS)·44 CSS px(웹)** 이상, 환자 표면 48·주요 컨트롤 52(Q-16).
 - 색 단독 정보전달 금지(아이콘·라벨 병기). 동작 최소화 존중, 깜빡임 금지.
 
 ## 8. 보이스 & 카피 (허브 채택 — PDF 미기재)
@@ -252,3 +252,4 @@ Violet `#440099` · Yellow `#FFC72C` · Ink `#212121` · 틴트 `#8848ED`/`#ADAB
 | v0.3 | 2026-06-24 | **Figma 5개 페이지 변수 33종 실측 병합**. Primary 4단계·Gray 10단계·Sub(error #FF3E3E·violet #881DFF)·Guide(info #0B50D0·navy #223A58)·Kiosk·**인앱/포털어드민 타입 스케일 전체**. 발견: 간격·radius·elevation은 Figma 미토큰화 → 관례화 필요. |
 | v0.3.1 | 2026-09-24 | **라벨 정정(값 불변)**: 각도 135°=Figma 브랜드 애셋 실측 디지털 관례(PDF 인쇄 −60°) · Montserrat=디지털 관례(CI 제목 서체 Mundial) · §8 보이스·§9 로고 금지 규칙=허브 채택 · lime 역할 기재 삭제. **값 결정**: 로고 꼬리·스파클 액센트 `#3AFF71`(brand_extended.green, 구 `#1AE592`) · focus-ring 제안 `#00CE90`→`#009669`. 애프터뷰 개발 중지 표기. 정본 위치 = `context-reference/design/tokens/`(디자인 허브 Q-03·Q-04, 오너 승인). **줄 번호 불변**(doctors 인용 보호) |
 | v0.3.2 | 2026-09-24 | **오너 결정 반영**: violet 분리 — 제품 UI `#881DFF`(accent.violet·Figma Sub 변수) / 인쇄·브랜드·시각화 `#8B1DFF`(brand_extended.violet, BI PDF 인쇄값). 서체 — CI 영문 제목 서체 Mundial 대신 Montserrat, 디지털 서체는 Pretendard·Montserrat·Google Fonts에서 고른다(나눔스퀘어 네오는 기존 사용처 유지). 줄 번호 불변 |
+| v0.3.3 | 2026-09-24 | **오너 위임 결정 반영**(Q-12·Q-13·Q-14·Q-15·Q-16 일부 — astra 제안·Fable 상의): §7 `#9E9E9E` 라이트 글자 금지·placeholder `#757575`(`::placeholder{opacity:1}`)·반올림 전 판정·초록 면 위 2중 포커스 링·터치 타깃 단위와 환자 48/52 · §1.4 역할 문구 · YAML 주석(strong·neutral·warning)과 `ui_tokens`=관찰 출처. 표 HEX·헤딩·줄 번호 불변. §1.2 122행(hover)은 doctors 인용 줄이라 유지(허브 D-39) |
