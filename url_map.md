@@ -1,8 +1,8 @@
 P04_모바일결과지_당뇨_REAL_데모.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/screens/p04-mobile-result-dm.png
 P05_종이결과지_당뇨_REAL_데모.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/screens/p05-paper-result-dm.png
-P06_진료실앞QR_모바일결과지_포천p28_DEMO.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/screens/p06-qr-mobile-result.png
-P01_키오스크예약_포천p19_DEMO.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/screens/p01-kiosk-booking.png
-P04_05_결과지_알림톡모바일종이_포천p22_DEMO.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/screens/p04-05-result-alimtalk.png
+P06_진료실앞QR_결과확인_포천p25_DEMO_마스킹.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/screens/p06-qr-mobile-result.png
+P01_키오스크예약5단계_JKD부록1_DEMO.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/screens/p01-kiosk-booking.png
+P04_05_결과알림톡_모바일종이결과지_포천p19_DEMO_마스킹.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/screens/p04-05-result-alimtalk.png
 P10_드림렌즈결과지_REAL_데모.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/screens/p10-dreamlens-result.png
 P11_소청시력결과지_REAL_데모.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/screens/p11-pediatric-vision-result.png
 P14_안축장_결과지_단건_REAL_데모.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/screens/p14-axl-result-single.png
