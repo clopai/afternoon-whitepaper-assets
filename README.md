@@ -41,7 +41,7 @@ Notion 등 외부 임베드용 공개 이미지 호스팅. 원본 관리는 afte
 | `diagrams/diag-connection-layer.png` | 개념도: 연결 계층(닫힌 고리) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer.png |
 | `diagrams/diag-bigpicture.png` | 개념도: 큰 그림 | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-bigpicture.png |
 | `diagrams/diag-measure-connect-use.png` | 개념도: 측정·연결·활용 | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-measure-connect-use.png |
-| `diagrams/diag-screening-gap.png` | 개념도: 검진율 격차 | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.png |
+| `diagrams/diag-screening-gap.png` | 개념도: 당뇨병 눈검사율 최근 1년 지표 2개(직접 비교하지 않음) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.png |
 | `diagrams/diag-lineup.png` | 개념도: 검사 라인업 | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-lineup.png |
 | `diagrams/research-data-flow.png` | 리서치 데이터플로우(원내망 EDC→비식별 통계자료 전송) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/research-data-flow.png |
 | `diagrams/research-ecosystem.png` | 리서치 생태계(CRC·CRO·Pharma·스폰서 EDC·애프터눈 리서치 허브·전국 안과·환자) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/research-ecosystem.png |
@@ -52,7 +52,7 @@ Notion 등 외부 임베드용 공개 이미지 호스팅. 원본 관리는 afte
 | `diagrams/diag-connection-layer.svg` | 개념도: 연결 계층(벡터) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer.svg |
 | `diagrams/diag-bigpicture.svg` | 개념도: 큰 그림(벡터) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-bigpicture.svg |
 | `diagrams/diag-measure-connect-use.svg` | 개념도: 측정·연결·활용(벡터) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-measure-connect-use.svg |
-| `diagrams/diag-screening-gap.svg` | 개념도: 검진율 격차(벡터) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.svg |
+| `diagrams/diag-screening-gap.svg` | 개념도: 당뇨병 눈검사율 최근 1년 지표 2개(직접 비교하지 않음)(벡터) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.svg |
 | `diagrams/diag-lineup.svg` | 개념도: 라인업(벡터) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-lineup.svg |
 | `curves/p13-axl-curve-male.svg` | 안축장 백분위 곡선(남) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/curves/p13-axl-curve-male.svg |
 | `curves/p13-axl-curve-female.svg` | 안축장 백분위 곡선(여) | https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/curves/p13-axl-curve-female.svg |

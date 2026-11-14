@@ -35,7 +35,7 @@ diagrams/FLOW_안과중심_v1.png	https://raw.githubusercontent.com/clopai/after
 diagrams/DIAG_연결계층_v1.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer.png
 diagrams/DIAG_큰그림_v1.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-bigpicture.png
 diagrams/DIAG_측정연결활용_v1.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-measure-connect-use.png
-diagrams/DIAG_검진율격차_v1.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.png
+diagrams/DIAG_검진율지표_v2.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.png
 diagrams/DIAG_라인업_v1.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-lineup.png
 diagrams/DIAG_리서치데이터플로우_v1.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/research-data-flow.png
 diagrams/DIAG_리서치생태계_v1.png	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/research-ecosystem.png
@@ -46,7 +46,7 @@ diagrams/FLOW_안과중심_v1.svg	https://raw.githubusercontent.com/clopai/after
 diagrams/DIAG_연결계층_v1.svg	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-connection-layer.svg
 diagrams/DIAG_큰그림_v1.svg	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-bigpicture.svg
 diagrams/DIAG_측정연결활용_v1.svg	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-measure-connect-use.svg
-diagrams/DIAG_검진율격차_v1.svg	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.svg
+diagrams/DIAG_검진율지표_v2.svg	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.svg
 diagrams/DIAG_라인업_v1.svg	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-lineup.svg
 P13_안축장곡선_남_v1.0.svg	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/curves/p13-axl-curve-male.svg
 P13_안축장곡선_여_v1.0.svg	https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/curves/p13-axl-curve-female.svg

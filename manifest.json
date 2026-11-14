@@ -222,10 +222,10 @@
     "desc": "개념도: 측정·연결·활용"
   },
   {
-    "original": "diagrams/DIAG_검진율격차_v1.png",
+    "original": "diagrams/DIAG_검진율지표_v2.png",
     "slug": "diagrams/diag-screening-gap.png",
     "url": "https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.png",
-    "desc": "개념도: 검진율 격차"
+    "desc": "개념도: 당뇨병 눈검사율 최근 1년 지표 2개(직접 비교하지 않음)"
   },
   {
     "original": "diagrams/DIAG_라인업_v1.png",
@@ -288,10 +288,10 @@
     "desc": "개념도: 측정·연결·활용(벡터)"
   },
   {
-    "original": "diagrams/DIAG_검진율격차_v1.svg",
+    "original": "diagrams/DIAG_검진율지표_v2.svg",
     "slug": "diagrams/diag-screening-gap.svg",
     "url": "https://raw.githubusercontent.com/clopai/afternoon-whitepaper-assets/main/diagrams/diag-screening-gap.svg",
-    "desc": "개념도: 검진율 격차(벡터)"
+    "desc": "개념도: 당뇨병 눈검사율 최근 1년 지표 2개(직접 비교하지 않음)(벡터)"
   },
   {
     "original": "diagrams/DIAG_라인업_v1.svg",
